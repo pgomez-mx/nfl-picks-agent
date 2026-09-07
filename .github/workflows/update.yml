@@ -1,0 +1,32 @@
+name: Actualizar datos NFL
+
+on:
+  schedule:
+    # Todos los dias a las 13:00 UTC (~10am Argentina) durante la temporada.
+    # Los partes de lesiones se confirman jueves/viernes, por eso corre a diario.
+    - cron: "0 13 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Descargar datos y calcular ranking
+        run: python3 fetch.py
+
+      - name: Commit si hay cambios
+        run: |
+          git config user.name "nfl-picks-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/latest.json
+          git diff --cached --quiet || git commit -m "Actualizar datos NFL $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
