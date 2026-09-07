@@ -83,10 +83,43 @@
   .game-injuries { margin-top: 8px; font-size: 0.78rem; }
   footer { text-align: center; color: var(--muted); font-size: 0.75rem; margin-top: 48px; }
   #error { display:none; background:#3a1414; border:1px solid var(--warn); color:#ffb4b4; padding:14px; border-radius:10px; margin-bottom: 20px; }
+
+  #lock-screen {
+    position: fixed; inset: 0; background: var(--bg); display: flex;
+    align-items: center; justify-content: center; z-index: 1000; padding: 16px;
+  }
+  #lock-box {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 14px;
+    padding: 32px; width: 100%; max-width: 320px; text-align: center;
+  }
+  #lock-box h2 { margin: 0 0 6px; font-size: 1.2rem; }
+  #lock-box p { color: var(--muted); font-size: 0.82rem; margin: 0 0 20px; }
+  #lock-box input {
+    width: 100%; box-sizing: border-box; background: var(--panel-2); border: 1px solid var(--border);
+    color: var(--text); padding: 10px 12px; border-radius: 8px; margin-bottom: 10px; font-size: 0.95rem;
+  }
+  #lock-box button {
+    width: 100%; background: var(--accent); color: #071018; border: none; font-weight: 700;
+    padding: 11px; border-radius: 8px; cursor: pointer; font-size: 0.95rem;
+  }
+  #lock-error { color: var(--warn); font-size: 0.8rem; min-height: 1.2em; margin-top: 10px; }
+  #app { display: none; }
 </style>
 </head>
 <body>
-<div class="wrap">
+<div id="lock-screen">
+  <div id="lock-box">
+    <h2>🏈 NFL Picks Agent</h2>
+    <p>Ingresá usuario y contraseña para ver el dashboard</p>
+    <form id="lock-form">
+      <input type="text" id="lock-user" placeholder="Usuario" autocomplete="username">
+      <input type="password" id="lock-pass" placeholder="Contraseña" autocomplete="current-password">
+      <button type="submit">Entrar</button>
+      <div id="lock-error"></div>
+    </form>
+  </div>
+</div>
+<div class="wrap" id="app">
   <header>
     <h1>🏈 NFL Picks Agent</h1>
     <p>Proyección de victoria por equipo combinando modelo estadístico ESPN + líneas de mercado (DraftKings) + lesiones clave</p>
@@ -112,6 +145,34 @@
 </div>
 
 <script>
+const LOCK_USER = "admin";
+const LOCK_PASS = "nfl2026";
+const LOCK_STORAGE_KEY = "nfl_agent_authed";
+
+function showApp() {
+  document.getElementById('lock-screen').style.display = 'none';
+  document.getElementById('app').style.display = 'block';
+  load();
+}
+
+function initLock() {
+  if (localStorage.getItem(LOCK_STORAGE_KEY) === '1') {
+    showApp();
+    return;
+  }
+  document.getElementById('lock-form').addEventListener('submit', (e) => {
+    e.preventDefault();
+    const user = document.getElementById('lock-user').value.trim();
+    const pass = document.getElementById('lock-pass').value;
+    if (user === LOCK_USER && pass === LOCK_PASS) {
+      localStorage.setItem(LOCK_STORAGE_KEY, '1');
+      showApp();
+    } else {
+      document.getElementById('lock-error').textContent = 'Usuario o contraseña incorrectos';
+    }
+  });
+}
+
 async function load() {
   try {
     const res = await fetch('data/latest.json?_=' + Date.now());
@@ -193,7 +254,7 @@ function render(data) {
     'Fuente: ESPN (predictor + pickcenter + injuries), sin costo. Se actualiza automáticamente por GitHub Actions.';
 }
 
-load();
+initLock();
 </script>
 </body>
 </html>
