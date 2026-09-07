@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T22:06:40.459961+00:00",
+  "generated_at": "2026-09-07T22:25:13.830138+00:00",
   "week_number": 1,
   "season_type": "reg",
   "games": [
@@ -65,6 +65,11 @@
             "name": "Ben Brown",
             "position": "C",
             "status": "Out"
+          },
+          {
+            "name": "Christian Barmore",
+            "position": "DT",
+            "status": "Questionable"
           }
         ]
       }
@@ -1239,6 +1244,11 @@
           "name": "Ben Brown",
           "position": "C",
           "status": "Out"
+        },
+        {
+          "name": "Christian Barmore",
+          "position": "DT",
+          "status": "Questionable"
         }
       ],
       "game_date": "2026-09-10T00:20Z"
@@ -1996,6 +2006,11 @@
           "name": "Ben Brown",
           "position": "C",
           "status": "Out"
+        },
+        {
+          "name": "Christian Barmore",
+          "position": "DT",
+          "status": "Questionable"
         }
       ],
       "opponent_injuries": [
