@@ -19,8 +19,27 @@ públicos de `site.api.espn.com`.
 - `index.html` es un dashboard estático que lee ese JSON y lo muestra
   (top 3, ranking completo de la semana, partidos con lesiones clave).
 - `.github/workflows/update.yml` corre `fetch.py` **todos los días a las
-  13:00 UTC** durante toda la temporada y commitea `data/latest.json` si
-  cambió. Así el dashboard queda al día sin que nadie tenga que tocar nada.
+  13:00 UTC** durante toda la temporada y commitea `data/latest.json` y
+  `data/history.json` si cambiaron. Así el dashboard queda al día sin que
+  nadie tenga que tocar nada.
+
+## Tracker de resultados (`data/history.json`)
+
+Cada vez que `fetch.py` ve una semana nueva, guarda una "foto" de los picks
+de esa semana (favoritos y top 3) — esa foto queda fija, no se pisa después
+aunque cambien las lesiones o las cuotas. Cuando **todos** los partidos de
+esa semana ya están `Final` según ESPN, el script compara los picks contra
+quién ganó de verdad y calcula:
+
+- % de favoritos acertados (de los 16 partidos de la semana).
+- % del top 3 que efectivamente ganó.
+
+Eso se acumula semana a semana en `data/history.json` y se muestra en la
+sección **"Resultados y precisión histórica"** del dashboard. No hay
+aprendizaje automático acá — el cálculo (promedio modelo + mercado) es
+fijo — pero con varias semanas de historial se puede ver si conviene
+pesarlo distinto (por ejemplo, darle más peso al mercado si resulta ser
+más preciso que el modelo de ESPN).
 
 ## Puesta en marcha (una sola vez)
 

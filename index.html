@@ -84,6 +84,15 @@
   footer { text-align: center; color: var(--muted); font-size: 0.75rem; margin-top: 48px; }
   #error { display:none; background:#3a1414; border:1px solid var(--warn); color:#ffb4b4; padding:14px; border-radius:10px; margin-bottom: 20px; }
 
+  .stat-row { display: flex; gap: 14px; flex-wrap: wrap; }
+  .stat-card {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
+    padding: 16px 20px; flex: 1; min-width: 160px;
+  }
+  .stat-card .stat-value { font-size: 1.6rem; font-weight: 800; color: var(--accent); }
+  .stat-card .stat-label { color: var(--muted); font-size: 0.78rem; margin-top: 4px; }
+  .pending-note { color: var(--muted); font-size: 0.78rem; margin-top: 10px; }
+
   #lock-screen {
     position: fixed; inset: 0; background: var(--bg); display: flex;
     align-items: center; justify-content: center; z-index: 1000; padding: 16px;
@@ -141,6 +150,15 @@
   <h2 class="section">Partidos de la semana y lesiones clave</h2>
   <div id="games"></div>
 
+  <h2 class="section">Resultados y precisión histórica</h2>
+  <div id="history-summary"></div>
+  <table id="history-table" style="margin-top:14px;">
+    <thead>
+      <tr><th>Semana</th><th>Favoritos acertados</th><th>Top 3 acertados</th></tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
   <footer id="footer"></footer>
 </div>
 
@@ -183,6 +201,47 @@ async function load() {
     document.getElementById('error').style.display = 'block';
     console.error(e);
   }
+  try {
+    const res = await fetch('data/history.json?_=' + Date.now());
+    if (res.ok) renderHistory(await res.json());
+  } catch (e) {
+    console.error(e);
+  }
+}
+
+function renderHistory(hist) {
+  const s = hist.summary || {};
+  const summaryEl = document.getElementById('history-summary');
+  if (!s.weeks_resolved) {
+    summaryEl.innerHTML = '<p class="muted">Todavía no se cerró ninguna semana completa. Los datos van a aparecer acá apenas terminen todos los partidos de la semana 1.</p>';
+  } else {
+    summaryEl.innerHTML = `
+      <div class="stat-row">
+        <div class="stat-card">
+          <div class="stat-value">${(s.favorite_accuracy * 100).toFixed(1)}%</div>
+          <div class="stat-label">Favoritos acertados (${s.favorites_correct}/${s.favorites_total} partidos, ${s.weeks_resolved} semana${s.weeks_resolved === 1 ? '' : 's'})</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">${(s.top3_accuracy * 100).toFixed(1)}%</div>
+          <div class="stat-label">Top 3 acertado (${s.top3_hits}/${s.top3_total} picks)</div>
+        </div>
+      </div>`;
+  }
+
+  const pending = Object.values(hist.weeks || {}).filter(w => !w.resolved);
+  if (pending.length) {
+    summaryEl.innerHTML += `<div class="pending-note">Semana${pending.length > 1 ? 's' : ''} en curso (todavía sin cerrar): ${pending.map(w => w.week_number).join(', ')}</div>`;
+  }
+
+  const tbody = document.querySelector('#history-table tbody');
+  const resolvedWeeks = Object.values(hist.weeks || {}).filter(w => w.resolved).sort((a, b) => a.week_number - b.week_number);
+  tbody.innerHTML = resolvedWeeks.map(w => `
+    <tr>
+      <td>Semana ${w.week_number}</td>
+      <td>${w.results.favorites_correct}/${w.results.favorites_total}</td>
+      <td>${w.results.top3_hits}/${w.results.top3_total}</td>
+    </tr>
+  `).join('') || '<tr><td colspan="3" class="muted">Sin semanas cerradas todavía</td></tr>';
 }
 
 function pct(x) {

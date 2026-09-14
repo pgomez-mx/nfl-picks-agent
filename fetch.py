@@ -69,6 +69,8 @@ def build_week():
     scoreboard = fetch_json(SCOREBOARD_URL)
     week_label = scoreboard.get("leagues", [{}])[0].get("season", {}).get("type", {}).get("abbreviation", "")
     week_number = scoreboard.get("week", {}).get("number")
+    season_type_num = scoreboard.get("season", {}).get("type")
+    season_year = scoreboard.get("season", {}).get("year")
 
     games = []
     for event in scoreboard.get("events", []):
@@ -168,9 +170,148 @@ def build_week():
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "week_number": week_number,
         "season_type": week_label,
+        "season_type_num": season_type_num,
+        "season_year": season_year,
         "games": games,
         "ranking": team_rows,
         "top3": top3,
+    }
+
+
+HISTORY_PATH = "data/history.json"
+
+
+def load_history():
+    try:
+        with open(HISTORY_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return {"weeks": {}, "summary": {}}
+
+
+def save_history(history):
+    with open(HISTORY_PATH, "w", encoding="utf-8") as f:
+        json.dump(history, f, ensure_ascii=False, indent=2)
+
+
+def snapshot_current_week(history, data):
+    """Guarda el pick de la semana la primera vez que se la ve. No se
+    vuelve a pisar despues: es la prediccion 'oficial' que se va a
+    comparar contra el resultado real."""
+    key = str(data["week_number"])
+    if key in history["weeks"]:
+        return
+    picks = [
+        {
+            "abbr": row["abbr"],
+            "team": row["team"],
+            "opponent_abbr": row["opponent_abbr"],
+            "is_home": row["is_home"],
+            "combined_prob": row["combined_prob"],
+        }
+        for row in data["ranking"]
+        if row["combined_prob"] is not None and row["combined_prob"] > 0.5
+    ]
+    top3 = [
+        {"abbr": t["abbr"], "team": t["team"], "combined_prob": t["combined_prob"]}
+        for t in data["top3"]
+    ]
+    history["weeks"][key] = {
+        "week_number": data["week_number"],
+        "season_type_num": data["season_type_num"],
+        "season_year": data["season_year"],
+        "snapshot_at": data["generated_at"],
+        "picks": picks,
+        "top3": top3,
+        "resolved": False,
+        "resolved_at": None,
+        "results": None,
+    }
+
+
+def resolve_pending_weeks(history):
+    for wk in history["weeks"].values():
+        if wk["resolved"]:
+            continue
+        url = (f"{SCOREBOARD_URL}?week={wk['week_number']}"
+               f"&seasontype={wk['season_type_num']}&year={wk['season_year']}")
+        try:
+            scoreboard = fetch_json(url)
+        except Exception as exc:  # noqa: BLE001
+            print(f"WARN: no se pudo revisar resultados de la semana {wk['week_number']}: {exc}")
+            continue
+
+        events = scoreboard.get("events", [])
+        if not events:
+            continue
+        all_final = all(
+            e["competitions"][0]["status"]["type"].get("completed") for e in events
+        )
+        if not all_final:
+            continue
+
+        winners = {}
+        for e in events:
+            for c in e["competitions"][0]["competitors"]:
+                winners[c["team"]["abbreviation"]] = bool(c.get("winner"))
+
+        def grade(entries):
+            correct = 0
+            total = 0
+            graded = []
+            for entry in entries:
+                won = winners.get(entry["abbr"])
+                if won is None:
+                    continue
+                total += 1
+                correct += 1 if won else 0
+                graded.append({**entry, "won": won})
+            return graded, correct, total
+
+        graded_picks, fav_correct, fav_total = grade(wk["picks"])
+        graded_top3, top3_hits, top3_total = grade(wk["top3"])
+
+        wk["resolved"] = True
+        wk["resolved_at"] = datetime.now(timezone.utc).isoformat()
+        wk["results"] = {
+            "favorites_correct": fav_correct,
+            "favorites_total": fav_total,
+            "top3_hits": top3_hits,
+            "top3_total": top3_total,
+            "picks_graded": graded_picks,
+            "top3_graded": graded_top3,
+        }
+        print(f"OK: semana {wk['week_number']} resuelta -> favoritos {fav_correct}/{fav_total}, "
+              f"top3 {top3_hits}/{top3_total}")
+
+
+def recompute_summary(history):
+    fav_correct = fav_total = top3_hits = top3_total = 0
+    weekly = []
+    for wk in sorted(history["weeks"].values(), key=lambda w: w["week_number"]):
+        if not wk["resolved"]:
+            continue
+        r = wk["results"]
+        fav_correct += r["favorites_correct"]
+        fav_total += r["favorites_total"]
+        top3_hits += r["top3_hits"]
+        top3_total += r["top3_total"]
+        weekly.append({
+            "week_number": wk["week_number"],
+            "favorites_correct": r["favorites_correct"],
+            "favorites_total": r["favorites_total"],
+            "top3_hits": r["top3_hits"],
+            "top3_total": r["top3_total"],
+        })
+    history["summary"] = {
+        "weeks_resolved": len(weekly),
+        "favorites_correct": fav_correct,
+        "favorites_total": fav_total,
+        "favorite_accuracy": (fav_correct / fav_total) if fav_total else None,
+        "top3_hits": top3_hits,
+        "top3_total": top3_total,
+        "top3_accuracy": (top3_hits / top3_total) if top3_total else None,
+        "weekly": weekly,
     }
 
 
@@ -180,3 +321,14 @@ if __name__ == "__main__":
         json.dump(data, f, ensure_ascii=False, indent=2)
     print(f"OK: semana {data['week_number']} -> {len(data['games'])} partidos, top3: "
           + ", ".join(t['abbr'] for t in data['top3']))
+
+    history = load_history()
+    snapshot_current_week(history, data)
+    resolve_pending_weeks(history)
+    recompute_summary(history)
+    save_history(history)
+    s = history["summary"]
+    if s.get("favorites_total"):
+        print(f"Historial: favoritos {s['favorites_correct']}/{s['favorites_total']} "
+              f"({s['favorite_accuracy']*100:.1f}%), top3 {s['top3_hits']}/{s['top3_total']} "
+              f"({s['top3_accuracy']*100:.1f}%) en {s['weeks_resolved']} semana(s)")
