@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T20:26:42.359462+00:00",
+  "generated_at": "2026-09-14T20:27:06.049258+00:00",
   "week_number": 1,
   "season_type": "reg",
   "season_type_num": 2,
@@ -9,7 +9,7 @@
       "event_id": "401872931",
       "date": "2026-09-15T00:15Z",
       "status": "9/14 - 8:15 PM EDT",
-      "book": "Draft Kings",
+      "book": "DraftKings",
       "spread_details": "KC -2.5",
       "home": {
         "id": "12",
@@ -65,7 +65,7 @@
       "event_id": "401872656",
       "date": "2026-09-10T00:20Z",
       "status": "Final",
-      "book": "Draft Kings",
+      "book": "DraftKings",
       "spread_details": "SEA -3",
       "home": {
         "id": "26",
@@ -136,7 +136,7 @@
       "event_id": "401872657",
       "date": "2026-09-11T00:35Z",
       "status": "Final",
-      "book": "Draft Kings",
+      "book": "DraftKings",
       "spread_details": "LAR -3.5",
       "home": {
         "id": "14",
@@ -202,7 +202,7 @@
       "event_id": "401872925",
       "date": "2026-09-13T17:00Z",
       "status": "Final",
-      "book": "Draft Kings",
+      "book": "DraftKings",
       "spread_details": "CIN -3.5",
       "home": {
         "id": "4",
@@ -258,7 +258,7 @@
       "event_id": "401872923",
       "date": "2026-09-13T17:00Z",
       "status": "Final/OT",
-      "book": "Draft Kings",
+      "book": "DraftKings",
       "spread_details": "DET -7",
       "home": {
         "id": "8",
@@ -271,9 +271,14 @@
         "combined_prob": 0.740871613663133,
         "key_injuries": [
           {
-            "name": "Christian Izien",
-            "position": "S",
-            "status": "Out"
+            "name": "Blake Miller",
+            "position": "OT",
+            "status": "Questionable"
+          },
+          {
+            "name": "Juice Scruggs",
+            "position": "G",
+            "status": "Questionable"
           },
           {
             "name": "Christian Mahogany",
@@ -314,7 +319,7 @@
       "event_id": "401872924",
       "date": "2026-09-13T17:00Z",
       "status": "Final",
-      "book": "Draft Kings",
+      "book": "DraftKings",
       "spread_details": "TEN -1.5",
       "home": {
         "id": "10",
@@ -380,7 +385,7 @@
       "event_id": "401872659",
       "date": "2026-09-13T17:00Z",
       "status": "Final",
-      "book": "Draft Kings",
+      "book": "DraftKings",
       "spread_details": "BAL -3",
       "home": {
         "id": "11",
@@ -451,7 +456,7 @@
       "event_id": "401872658",
       "date": "2026-09-13T17:00Z",
       "status": "Final",
-      "book": "Draft Kings",
+      "book": "DraftKings",
       "spread_details": "PIT -6.5",
       "home": {
         "id": "23",
@@ -517,7 +522,7 @@
       "event_id": "401872661",
       "date": "2026-09-13T17:00Z",
       "status": "Final",
-      "book": "Draft Kings",
+      "book": "DraftKings",
       "spread_details": "CHI -3",
       "home": {
         "id": "29",
@@ -583,7 +588,7 @@
       "event_id": "401872922",
       "date": "2026-09-13T17:00Z",
       "status": "Final",
-      "book": "Draft Kings",
+      "book": "DraftKings",
       "spread_details": "JAX -8.5",
       "home": {
         "id": "30",
@@ -644,7 +649,7 @@
       "event_id": "401872660",
       "date": "2026-09-13T17:00Z",
       "status": "Final",
-      "book": "Draft Kings",
+      "book": "DraftKings",
       "spread_details": "BUF -1.5",
       "home": {
         "id": "34",
@@ -710,7 +715,7 @@
       "event_id": "401872928",
       "date": "2026-09-13T20:25Z",
       "status": "Final",
-      "book": "Draft Kings",
+      "book": "DraftKings",
       "spread_details": "LV -3",
       "home": {
         "id": "13",
@@ -766,7 +771,7 @@
       "event_id": "401872927",
       "date": "2026-09-13T20:25Z",
       "status": "Final",
-      "book": "Draft Kings",
+      "book": "DraftKings",
       "spread_details": "MIN -2.5",
       "home": {
         "id": "16",
@@ -832,7 +837,7 @@
       "event_id": "401872929",
       "date": "2026-09-13T20:25Z",
       "status": "Final",
-      "book": "Draft Kings",
+      "book": "DraftKings",
       "spread_details": "PHI -6",
       "home": {
         "id": "21",
@@ -888,7 +893,7 @@
       "event_id": "401872926",
       "date": "2026-09-13T20:25Z",
       "status": "Final",
-      "book": "Draft Kings",
+      "book": "DraftKings",
       "spread_details": "LAC -8.5",
       "home": {
         "id": "24",
@@ -964,7 +969,7 @@
       "event_id": "401872930",
       "date": "2026-09-14T00:20Z",
       "status": "Final",
-      "book": "Draft Kings",
+      "book": "DraftKings",
       "spread_details": "DAL -3",
       "home": {
         "id": "19",
@@ -1124,9 +1129,14 @@
       "moneyline": -340,
       "own_injuries": [
         {
-          "name": "Christian Izien",
-          "position": "S",
-          "status": "Out"
+          "name": "Blake Miller",
+          "position": "OT",
+          "status": "Questionable"
+        },
+        {
+          "name": "Juice Scruggs",
+          "position": "G",
+          "status": "Questionable"
         },
         {
           "name": "Christian Mahogany",
@@ -2423,9 +2433,14 @@
       ],
       "opponent_injuries": [
         {
-          "name": "Christian Izien",
-          "position": "S",
-          "status": "Out"
+          "name": "Blake Miller",
+          "position": "OT",
+          "status": "Questionable"
+        },
+        {
+          "name": "Juice Scruggs",
+          "position": "G",
+          "status": "Questionable"
         },
         {
           "name": "Christian Mahogany",
@@ -2668,9 +2683,14 @@
       "moneyline": -340,
       "own_injuries": [
         {
-          "name": "Christian Izien",
-          "position": "S",
-          "status": "Out"
+          "name": "Blake Miller",
+          "position": "OT",
+          "status": "Questionable"
+        },
+        {
+          "name": "Juice Scruggs",
+          "position": "G",
+          "status": "Questionable"
         },
         {
           "name": "Christian Mahogany",
