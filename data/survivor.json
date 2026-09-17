@@ -1,0 +1,5960 @@
+{
+  "generated_at": "2026-09-17T23:40:04.691380+00:00",
+  "current_week": 2,
+  "save_threshold": 0.12,
+  "safe_enough": 0.55,
+  "teams": {
+    "ARI": {
+      "id": "22",
+      "name": "Arizona Cardinals",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+      "bye_week": 14,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "LAC",
+          "opponent_name": "Los Angeles Chargers",
+          "is_home": false,
+          "date": "2026-09-13T20:25Z",
+          "completed": true,
+          "won": true,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "SEA",
+          "opponent_name": "Seattle Seahawks",
+          "is_home": true,
+          "date": "2026-09-20T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.442175937904269
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "SF",
+          "opponent_name": "San Francisco 49ers",
+          "is_home": false,
+          "date": "2026-09-27T20:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.18961206144178738
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "NYG",
+          "opponent_name": "New York Giants",
+          "is_home": false,
+          "date": "2026-10-04T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.30272884012539186
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "DET",
+          "opponent_name": "Detroit Lions",
+          "is_home": true,
+          "date": "2026-10-11T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.31054894774178293
+        },
+        {
+          "week": 6,
+          "opponent_abbr": "LAR",
+          "opponent_name": "Los Angeles Rams",
+          "is_home": false,
+          "date": "2026-10-18T20:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.20074943566591424
+        },
+        {
+          "week": 7,
+          "opponent_abbr": "DEN",
+          "opponent_name": "Denver Broncos",
+          "is_home": true,
+          "date": "2026-10-25T20:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.36990575079872207
+        },
+        {
+          "week": 8,
+          "opponent_abbr": "DAL",
+          "opponent_name": "Dallas Cowboys",
+          "is_home": false,
+          "date": "2026-11-01T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.2424214501510574
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "SEA",
+          "opponent_name": "Seattle Seahawks",
+          "is_home": false,
+          "date": "2026-11-08T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.19977049180327872
+        },
+        {
+          "week": 10,
+          "opponent_abbr": "LAR",
+          "opponent_name": "Los Angeles Rams",
+          "is_home": true,
+          "date": "2026-11-15T21:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.2698191800878477
+        },
+        {
+          "week": 11,
+          "opponent_abbr": "KC",
+          "opponent_name": "Kansas City Chiefs",
+          "is_home": false,
+          "date": "2026-11-22T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.19833248730964465
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "WSH",
+          "opponent_name": "Washington Commanders",
+          "is_home": true,
+          "date": "2026-11-29T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.40226238690219734
+        },
+        {
+          "week": 13,
+          "opponent_abbr": "PHI",
+          "opponent_name": "Philadelphia Eagles",
+          "is_home": true,
+          "date": "2026-12-06T21:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.30654894774178293
+        },
+        {
+          "week": 14,
+          "bye": true
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "NYJ",
+          "opponent_name": "New York Jets",
+          "is_home": true,
+          "date": "2026-12-20T21:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5395
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "NO",
+          "opponent_name": "New Orleans Saints",
+          "is_home": false,
+          "date": "2026-12-27T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.36472222222222217
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "LV",
+          "opponent_name": "Las Vegas Raiders",
+          "is_home": true,
+          "date": "2027-01-03T21:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5161282306163022
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "SF",
+          "opponent_name": "San Francisco 49ers",
+          "is_home": true,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.24674731182795698
+        }
+      ],
+      "this_week_prob": 0.442175937904269,
+      "best_future_week": 15,
+      "best_future_prob": 0.5395,
+      "save_for_later": false
+    },
+    "ATL": {
+      "id": "1",
+      "name": "Atlanta Falcons",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+      "bye_week": 5,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "PIT",
+          "opponent_name": "Pittsburgh Steelers",
+          "is_home": false,
+          "date": "2026-09-13T17:00Z",
+          "completed": true,
+          "won": false,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "CAR",
+          "opponent_name": "Carolina Panthers",
+          "is_home": true,
+          "date": "2026-09-20T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5019701822197681
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "GB",
+          "opponent_name": "Green Bay Packers",
+          "is_home": false,
+          "date": "2026-09-25T00:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.294123745819398
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "NO",
+          "opponent_name": "New Orleans Saints",
+          "is_home": false,
+          "date": "2026-10-06T00:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4407794426417255
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "BAL",
+          "opponent_name": "Baltimore Ravens",
+          "is_home": true,
+          "date": "2026-10-12T00:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3280479091529389
+        },
+        {
+          "week": 5,
+          "bye": true
+        },
+        {
+          "week": 6,
+          "opponent_abbr": "CHI",
+          "opponent_name": "Chicago Bears",
+          "is_home": true,
+          "date": "2026-10-18T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.38700367947669667
+        },
+        {
+          "week": 7,
+          "opponent_abbr": "SF",
+          "opponent_name": "San Francisco 49ers",
+          "is_home": true,
+          "date": "2026-10-25T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.30149648946840524
+        },
+        {
+          "week": 8,
+          "opponent_abbr": "TB",
+          "opponent_name": "Tampa Bay Buccaneers",
+          "is_home": false,
+          "date": "2026-11-01T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.35426238690219736
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "CIN",
+          "opponent_name": "Cincinnati Bengals",
+          "is_home": true,
+          "date": "2026-11-08T14:30Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3389964894684052
+        },
+        {
+          "week": 10,
+          "opponent_abbr": "KC",
+          "opponent_name": "Kansas City Chiefs",
+          "is_home": true,
+          "date": "2026-11-15T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3351354105998835
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "MIN",
+          "opponent_name": "Minnesota Vikings",
+          "is_home": false,
+          "date": "2026-11-29T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3327623869021973
+        },
+        {
+          "week": 13,
+          "opponent_abbr": "DET",
+          "opponent_name": "Detroit Lions",
+          "is_home": true,
+          "date": "2026-12-06T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3982667240694132
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "CLE",
+          "opponent_name": "Cleveland Browns",
+          "is_home": false,
+          "date": "2026-12-13T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5457662337662338
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "WSH",
+          "opponent_name": "Washington Commanders",
+          "is_home": false,
+          "date": "2026-12-20T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3807667240694132
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "TB",
+          "opponent_name": "Tampa Bay Buccaneers",
+          "is_home": true,
+          "date": "2026-12-27T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4732662337662338
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "NO",
+          "opponent_name": "New Orleans Saints",
+          "is_home": true,
+          "date": "2027-01-03T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5220432926308598
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "CAR",
+          "opponent_name": "Carolina Panthers",
+          "is_home": false,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4602794426417255
+        }
+      ],
+      "this_week_prob": 0.5019701822197681,
+      "best_future_week": 14,
+      "best_future_prob": 0.5457662337662338,
+      "save_for_later": false
+    },
+    "BAL": {
+      "id": "33",
+      "name": "Baltimore Ravens",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+      "bye_week": 13,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "IND",
+          "opponent_name": "Indianapolis Colts",
+          "is_home": false,
+          "date": "2026-09-13T17:00Z",
+          "completed": true,
+          "won": true,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "NO",
+          "opponent_name": "New Orleans Saints",
+          "is_home": true,
+          "date": "2026-09-20T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7585942492012779
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "DAL",
+          "opponent_name": "Dallas Cowboys",
+          "is_home": false,
+          "date": "2026-09-27T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5949963205233033
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "TEN",
+          "opponent_name": "Tennessee Titans",
+          "is_home": true,
+          "date": "2026-10-04T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.806
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "ATL",
+          "opponent_name": "Atlanta Falcons",
+          "is_home": false,
+          "date": "2026-10-12T00:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6704520908470613
+        },
+        {
+          "week": 6,
+          "opponent_abbr": "CLE",
+          "opponent_name": "Cleveland Browns",
+          "is_home": false,
+          "date": "2026-10-18T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7571966292134832
+        },
+        {
+          "week": 7,
+          "opponent_abbr": "CIN",
+          "opponent_name": "Cincinnati Bengals",
+          "is_home": true,
+          "date": "2026-10-25T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6352332759305869
+        },
+        {
+          "week": 8,
+          "opponent_abbr": "BUF",
+          "opponent_name": "Buffalo Bills",
+          "is_home": false,
+          "date": "2026-11-01T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4407794426417255
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "JAX",
+          "opponent_name": "Jacksonville Jaguars",
+          "is_home": true,
+          "date": "2026-11-06T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6238645894001165
+        },
+        {
+          "week": 10,
+          "opponent_abbr": "LAC",
+          "opponent_name": "Los Angeles Chargers",
+          "is_home": true,
+          "date": "2026-11-17T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6577191780821918
+        },
+        {
+          "week": 11,
+          "opponent_abbr": "CAR",
+          "opponent_name": "Carolina Panthers",
+          "is_home": false,
+          "date": "2026-11-22T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6822376130978027
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "HOU",
+          "opponent_name": "Houston Texans",
+          "is_home": false,
+          "date": "2026-11-29T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5099567073691401
+        },
+        {
+          "week": 13,
+          "bye": true
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "TB",
+          "opponent_name": "Tampa Bay Buccaneers",
+          "is_home": true,
+          "date": "2026-12-13T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7038964415270341
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "PIT",
+          "opponent_name": "Pittsburgh Steelers",
+          "is_home": false,
+          "date": "2026-12-20T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6110298177802319
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "CLE",
+          "opponent_name": "Cleveland Browns",
+          "is_home": true,
+          "date": "2026-12-27T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.8247526881720431
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "CIN",
+          "opponent_name": "Cincinnati Bengals",
+          "is_home": false,
+          "date": "2027-01-01T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5042794426417255
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "PIT",
+          "opponent_name": "Pittsburgh Steelers",
+          "is_home": true,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6953240620957308
+        }
+      ],
+      "this_week_prob": 0.7585942492012779,
+      "best_future_week": 16,
+      "best_future_prob": 0.8247526881720431,
+      "save_for_later": false
+    },
+    "BUF": {
+      "id": "2",
+      "name": "Buffalo Bills",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+      "bye_week": 5,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "HOU",
+          "opponent_name": "Houston Texans",
+          "is_home": false,
+          "date": "2026-09-13T17:00Z",
+          "completed": true,
+          "won": true,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "DET",
+          "opponent_name": "Detroit Lions",
+          "is_home": true,
+          "date": "2026-09-18T00:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6710156234977407
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "LAC",
+          "opponent_name": "Los Angeles Chargers",
+          "is_home": true,
+          "date": "2026-09-27T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6858240620957309
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "NE",
+          "opponent_name": "New England Patriots",
+          "is_home": true,
+          "date": "2026-10-04T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6331848770797119
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "LAR",
+          "opponent_name": "Los Angeles Rams",
+          "is_home": false,
+          "date": "2026-10-13T00:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4496215145289111
+        },
+        {
+          "week": 5,
+          "bye": true
+        },
+        {
+          "week": 6,
+          "opponent_abbr": "LV",
+          "opponent_name": "Las Vegas Raiders",
+          "is_home": false,
+          "date": "2026-10-18T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7200810372771475
+        },
+        {
+          "week": 8,
+          "opponent_abbr": "BAL",
+          "opponent_name": "Baltimore Ravens",
+          "is_home": true,
+          "date": "2026-11-01T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5577205573582744
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "MIN",
+          "opponent_name": "Minnesota Vikings",
+          "is_home": false,
+          "date": "2026-11-10T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5891181172291297
+        },
+        {
+          "week": 10,
+          "opponent_abbr": "NYJ",
+          "opponent_name": "New York Jets",
+          "is_home": false,
+          "date": "2026-11-15T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7349358068315666
+        },
+        {
+          "week": 11,
+          "opponent_abbr": "MIA",
+          "opponent_name": "Miami Dolphins",
+          "is_home": true,
+          "date": "2026-11-22T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.8570618479880775
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "KC",
+          "opponent_name": "Kansas City Chiefs",
+          "is_home": true,
+          "date": "2026-11-27T01:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.569029817780232
+        },
+        {
+          "week": 13,
+          "opponent_abbr": "NE",
+          "opponent_name": "New England Patriots",
+          "is_home": false,
+          "date": "2026-12-06T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5289567073691401
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "GB",
+          "opponent_name": "Green Bay Packers",
+          "is_home": false,
+          "date": "2026-12-14T01:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5167662337662338
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "CHI",
+          "opponent_name": "Chicago Bears",
+          "is_home": true,
+          "date": "2026-12-20T01:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6282332759305869
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "DEN",
+          "opponent_name": "Denver Broncos",
+          "is_home": false,
+          "date": "2026-12-25T21:30Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6038717693836979
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "MIA",
+          "opponent_name": "Miami Dolphins",
+          "is_home": false,
+          "date": "2027-01-03T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7975000000000001
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "NYJ",
+          "opponent_name": "New York Jets",
+          "is_home": true,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7971808199121522
+        }
+      ],
+      "this_week_prob": 0.6710156234977407,
+      "best_future_week": 11,
+      "best_future_prob": 0.8570618479880775,
+      "save_for_later": true
+    },
+    "CAR": {
+      "id": "29",
+      "name": "Carolina Panthers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+      "bye_week": 5,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "CHI",
+          "opponent_name": "Chicago Bears",
+          "is_home": true,
+          "date": "2026-09-13T17:00Z",
+          "completed": true,
+          "won": false,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "ATL",
+          "opponent_name": "Atlanta Falcons",
+          "is_home": false,
+          "date": "2026-09-20T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4965298177802319
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "CLE",
+          "opponent_name": "Cleveland Browns",
+          "is_home": false,
+          "date": "2026-09-27T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5887460317460318
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "DET",
+          "opponent_name": "Detroit Lions",
+          "is_home": true,
+          "date": "2026-10-05T00:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3958151229202881
+        },
+        {
+          "week": 5,
+          "bye": true
+        },
+        {
+          "week": 6,
+          "opponent_abbr": "PHI",
+          "opponent_name": "Philadelphia Eagles",
+          "is_home": false,
+          "date": "2026-10-18T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3034834178696839
+        },
+        {
+          "week": 7,
+          "opponent_abbr": "TB",
+          "opponent_name": "Tampa Bay Buccaneers",
+          "is_home": true,
+          "date": "2026-10-25T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.45476623376623376
+        },
+        {
+          "week": 8,
+          "opponent_abbr": "GB",
+          "opponent_name": "Green Bay Packers",
+          "is_home": false,
+          "date": "2026-10-30T00:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.28656419316843346
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "DEN",
+          "opponent_name": "Denver Broncos",
+          "is_home": true,
+          "date": "2026-11-08T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.45481512292028803
+        },
+        {
+          "week": 10,
+          "opponent_abbr": "NO",
+          "opponent_name": "New Orleans Saints",
+          "is_home": false,
+          "date": "2026-11-15T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4401304347826087
+        },
+        {
+          "week": 11,
+          "opponent_abbr": "BAL",
+          "opponent_name": "Baltimore Ravens",
+          "is_home": true,
+          "date": "2026-11-22T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3167623869021974
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "TB",
+          "opponent_name": "Tampa Bay Buccaneers",
+          "is_home": false,
+          "date": "2026-12-01T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3595479091529389
+        },
+        {
+          "week": 13,
+          "opponent_abbr": "MIN",
+          "opponent_name": "Minnesota Vikings",
+          "is_home": false,
+          "date": "2026-12-06T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3320479091529389
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "NO",
+          "opponent_name": "New Orleans Saints",
+          "is_home": true,
+          "date": "2026-12-13T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5237205573582745
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "CIN",
+          "opponent_name": "Cincinnati Bengals",
+          "is_home": true,
+          "date": "2026-12-20T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.41047018221976805
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "PIT",
+          "opponent_name": "Pittsburgh Steelers",
+          "is_home": false,
+          "date": "2026-12-27T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3685298281092012
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "SEA",
+          "opponent_name": "Seattle Seahawks",
+          "is_home": true,
+          "date": "2027-01-03T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3332222222222222
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "ATL",
+          "opponent_name": "Atlanta Falcons",
+          "is_home": true,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5382205573582746
+        }
+      ],
+      "this_week_prob": 0.4965298177802319,
+      "best_future_week": 3,
+      "best_future_prob": 0.5887460317460318,
+      "save_for_later": false
+    },
+    "CHI": {
+      "id": "3",
+      "name": "Chicago Bears",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+      "bye_week": 7,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "CAR",
+          "opponent_name": "Carolina Panthers",
+          "is_home": false,
+          "date": "2026-09-13T17:00Z",
+          "completed": true,
+          "won": true,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "MIN",
+          "opponent_name": "Minnesota Vikings",
+          "is_home": true,
+          "date": "2026-09-20T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6464520908470611
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "PHI",
+          "opponent_name": "Philadelphia Eagles",
+          "is_home": true,
+          "date": "2026-09-29T00:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.550682062858135
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "NYJ",
+          "opponent_name": "New York Jets",
+          "is_home": true,
+          "date": "2026-10-04T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.761752688172043
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "GB",
+          "opponent_name": "Green Bay Packers",
+          "is_home": false,
+          "date": "2026-10-11T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4486806140878989
+        },
+        {
+          "week": 6,
+          "opponent_abbr": "ATL",
+          "opponent_name": "Atlanta Falcons",
+          "is_home": false,
+          "date": "2026-10-18T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6114963205233033
+        },
+        {
+          "week": 7,
+          "opponent_abbr": "NE",
+          "opponent_name": "New England Patriots",
+          "is_home": true,
+          "date": "2026-10-23T00:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5615432926308599
+        },
+        {
+          "week": 7,
+          "bye": true
+        },
+        {
+          "week": 8,
+          "opponent_abbr": "SEA",
+          "opponent_name": "Seattle Seahawks",
+          "is_home": false,
+          "date": "2026-11-03T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.37917593790426907
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "TB",
+          "opponent_name": "Tampa Bay Buccaneers",
+          "is_home": true,
+          "date": "2026-11-09T01:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6389520908470612
+        },
+        {
+          "week": 11,
+          "opponent_abbr": "NO",
+          "opponent_name": "New Orleans Saints",
+          "is_home": true,
+          "date": "2026-11-22T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7067717842323651
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "DET",
+          "opponent_name": "Detroit Lions",
+          "is_home": false,
+          "date": "2026-11-26T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.46225396825396825
+        },
+        {
+          "week": 13,
+          "opponent_abbr": "JAX",
+          "opponent_name": "Jacksonville Jaguars",
+          "is_home": true,
+          "date": "2026-12-06T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5529963205233033
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "MIA",
+          "opponent_name": "Miami Dolphins",
+          "is_home": false,
+          "date": "2026-12-13T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7366966292134831
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "BUF",
+          "opponent_name": "Buffalo Bills",
+          "is_home": false,
+          "date": "2026-12-20T01:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3702667240694132
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "GB",
+          "opponent_name": "Green Bay Packers",
+          "is_home": true,
+          "date": "2026-12-25T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.565682062858135
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "DET",
+          "opponent_name": "Detroit Lions",
+          "is_home": true,
+          "date": "2027-01-03T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5667337662337663
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "MIN",
+          "opponent_name": "Minnesota Vikings",
+          "is_home": false,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4772662337662338
+        }
+      ],
+      "this_week_prob": 0.6464520908470611,
+      "best_future_week": 4,
+      "best_future_prob": 0.761752688172043,
+      "save_for_later": false
+    },
+    "CIN": {
+      "id": "4",
+      "name": "Cincinnati Bengals",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+      "bye_week": 6,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "TB",
+          "opponent_name": "Tampa Bay Buccaneers",
+          "is_home": true,
+          "date": "2026-09-13T17:00Z",
+          "completed": true,
+          "won": true,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "HOU",
+          "opponent_name": "Houston Texans",
+          "is_home": false,
+          "date": "2026-09-20T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.43725396825396823
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "PIT",
+          "opponent_name": "Pittsburgh Steelers",
+          "is_home": false,
+          "date": "2026-09-27T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5492205573582745
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "JAX",
+          "opponent_name": "Jacksonville Jaguars",
+          "is_home": true,
+          "date": "2026-10-04T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5152205573582744
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "MIA",
+          "opponent_name": "Miami Dolphins",
+          "is_home": false,
+          "date": "2026-10-11T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7315810372771474
+        },
+        {
+          "week": 6,
+          "bye": true
+        },
+        {
+          "week": 7,
+          "opponent_abbr": "BAL",
+          "opponent_name": "Baltimore Ravens",
+          "is_home": false,
+          "date": "2026-10-25T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3632667240694132
+        },
+        {
+          "week": 8,
+          "opponent_abbr": "TEN",
+          "opponent_name": "Tennessee Titans",
+          "is_home": true,
+          "date": "2026-11-01T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7397756151303709
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "ATL",
+          "opponent_name": "Atlanta Falcons",
+          "is_home": false,
+          "date": "2026-11-08T14:30Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6600035105315947
+        },
+        {
+          "week": 10,
+          "opponent_abbr": "PIT",
+          "opponent_name": "Pittsburgh Steelers",
+          "is_home": true,
+          "date": "2026-11-16T01:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6334520908470611
+        },
+        {
+          "week": 11,
+          "opponent_abbr": "WSH",
+          "opponent_name": "Washington Commanders",
+          "is_home": false,
+          "date": "2026-11-24T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5212337662337663
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "NO",
+          "opponent_name": "New Orleans Saints",
+          "is_home": true,
+          "date": "2026-11-29T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6797717842323652
+        },
+        {
+          "week": 13,
+          "opponent_abbr": "CLE",
+          "opponent_name": "Cleveland Browns",
+          "is_home": false,
+          "date": "2026-12-06T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7033240620957308
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "KC",
+          "opponent_name": "Kansas City Chiefs",
+          "is_home": true,
+          "date": "2026-12-13T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.49123376623376624
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "CAR",
+          "opponent_name": "Carolina Panthers",
+          "is_home": false,
+          "date": "2026-12-20T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5880298177802319
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "IND",
+          "opponent_name": "Indianapolis Colts",
+          "is_home": false,
+          "date": "2026-12-27T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5475432926308599
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "BAL",
+          "opponent_name": "Baltimore Ravens",
+          "is_home": true,
+          "date": "2027-01-01T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.49372055735827447
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "CLE",
+          "opponent_name": "Cleveland Browns",
+          "is_home": true,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7783913525498891
+        }
+      ],
+      "this_week_prob": 0.43725396825396823,
+      "best_future_week": 18,
+      "best_future_prob": 0.7783913525498891,
+      "save_for_later": false
+    },
+    "CLE": {
+      "id": "5",
+      "name": "Cleveland Browns",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+      "bye_week": 11,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "JAX",
+          "opponent_name": "Jacksonville Jaguars",
+          "is_home": false,
+          "date": "2026-09-13T17:00Z",
+          "completed": true,
+          "won": false,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "TB",
+          "opponent_name": "Tampa Bay Buccaneers",
+          "is_home": false,
+          "date": "2026-09-20T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.21262824207492795
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "CAR",
+          "opponent_name": "Carolina Panthers",
+          "is_home": true,
+          "date": "2026-09-27T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4097539682539682
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "PIT",
+          "opponent_name": "Pittsburgh Steelers",
+          "is_home": true,
+          "date": "2026-10-02T00:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.39227944264172554
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "NYJ",
+          "opponent_name": "New York Jets",
+          "is_home": false,
+          "date": "2026-10-11T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3861282306163022
+        },
+        {
+          "week": 6,
+          "opponent_abbr": "BAL",
+          "opponent_name": "Baltimore Ravens",
+          "is_home": true,
+          "date": "2026-10-18T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.2418033707865168
+        },
+        {
+          "week": 7,
+          "opponent_abbr": "TEN",
+          "opponent_name": "Tennessee Titans",
+          "is_home": false,
+          "date": "2026-10-25T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.41327944264172545
+        },
+        {
+          "week": 8,
+          "opponent_abbr": "PIT",
+          "opponent_name": "Pittsburgh Steelers",
+          "is_home": false,
+          "date": "2026-11-01T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.27510355847296597
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "NO",
+          "opponent_name": "New Orleans Saints",
+          "is_home": false,
+          "date": "2026-11-08T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3080298281092012
+        },
+        {
+          "week": 10,
+          "opponent_abbr": "HOU",
+          "opponent_name": "Houston Texans",
+          "is_home": true,
+          "date": "2026-11-15T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3006354105998835
+        },
+        {
+          "week": 11,
+          "bye": true
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "LV",
+          "opponent_name": "Las Vegas Raiders",
+          "is_home": true,
+          "date": "2026-11-29T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4795432926308598
+        },
+        {
+          "week": 13,
+          "opponent_abbr": "CIN",
+          "opponent_name": "Cincinnati Bengals",
+          "is_home": true,
+          "date": "2026-12-06T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.29567593790426905
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "ATL",
+          "opponent_name": "Atlanta Falcons",
+          "is_home": true,
+          "date": "2026-12-13T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.45273376623376627
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "NYG",
+          "opponent_name": "New York Giants",
+          "is_home": false,
+          "date": "2026-12-20T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.2916354105998835
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "BAL",
+          "opponent_name": "Baltimore Ravens",
+          "is_home": false,
+          "date": "2026-12-27T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.17474731182795697
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "IND",
+          "opponent_name": "Indianapolis Colts",
+          "is_home": true,
+          "date": "2027-01-03T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4072794426417255
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "CIN",
+          "opponent_name": "Cincinnati Bengals",
+          "is_home": false,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.22110864745011086
+        }
+      ],
+      "this_week_prob": 0.21262824207492795,
+      "best_future_week": 12,
+      "best_future_prob": 0.4795432926308598,
+      "save_for_later": false
+    },
+    "DAL": {
+      "id": "6",
+      "name": "Dallas Cowboys",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+      "bye_week": 14,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "NYG",
+          "opponent_name": "New York Giants",
+          "is_home": false,
+          "date": "2026-09-14T00:20Z",
+          "completed": true,
+          "won": false,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "WSH",
+          "opponent_name": "Washington Commanders",
+          "is_home": true,
+          "date": "2026-09-20T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6492376130978026
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "BAL",
+          "opponent_name": "Baltimore Ravens",
+          "is_home": true,
+          "date": "2026-09-27T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.40350367947669663
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "HOU",
+          "opponent_name": "Houston Texans",
+          "is_home": false,
+          "date": "2026-10-04T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4502794426417255
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "TB",
+          "opponent_name": "Tampa Bay Buccaneers",
+          "is_home": true,
+          "date": "2026-10-09T00:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6283645894001164
+        },
+        {
+          "week": 6,
+          "opponent_abbr": "GB",
+          "opponent_name": "Green Bay Packers",
+          "is_home": false,
+          "date": "2026-10-19T00:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.43862151452891107
+        },
+        {
+          "week": 7,
+          "opponent_abbr": "PHI",
+          "opponent_name": "Philadelphia Eagles",
+          "is_home": false,
+          "date": "2026-10-27T00:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.43831512292028807
+        },
+        {
+          "week": 8,
+          "opponent_abbr": "ARI",
+          "opponent_name": "Arizona Cardinals",
+          "is_home": true,
+          "date": "2026-11-01T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7565785498489426
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "IND",
+          "opponent_name": "Indianapolis Colts",
+          "is_home": false,
+          "date": "2026-11-08T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5577337662337662
+        },
+        {
+          "week": 10,
+          "opponent_abbr": "SF",
+          "opponent_name": "San Francisco 49ers",
+          "is_home": true,
+          "date": "2026-11-15T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4688695652173913
+        },
+        {
+          "week": 11,
+          "opponent_abbr": "TEN",
+          "opponent_name": "Tennessee Titans",
+          "is_home": true,
+          "date": "2026-11-22T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7367756151303709
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "PHI",
+          "opponent_name": "Philadelphia Eagles",
+          "is_home": true,
+          "date": "2026-11-26T21:30Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5387337662337663
+        },
+        {
+          "week": 13,
+          "opponent_abbr": "SEA",
+          "opponent_name": "Seattle Seahawks",
+          "is_home": false,
+          "date": "2026-12-08T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3766759379042691
+        },
+        {
+          "week": 14,
+          "bye": true
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "LAR",
+          "opponent_name": "Los Angeles Rams",
+          "is_home": false,
+          "date": "2026-12-20T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.36822222222222223
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "JAX",
+          "opponent_name": "Jacksonville Jaguars",
+          "is_home": true,
+          "date": "2026-12-28T01:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5386848770797119
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "NYG",
+          "opponent_name": "New York Giants",
+          "is_home": true,
+          "date": "2027-01-03T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6367376130978026
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "WSH",
+          "opponent_name": "Washington Commanders",
+          "is_home": false,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5270432926308599
+        }
+      ],
+      "this_week_prob": 0.6492376130978026,
+      "best_future_week": 8,
+      "best_future_prob": 0.7565785498489426,
+      "save_for_later": false
+    },
+    "DEN": {
+      "id": "7",
+      "name": "Denver Broncos",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+      "bye_week": 10,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "KC",
+          "opponent_name": "Kansas City Chiefs",
+          "is_home": false,
+          "date": "2026-09-15T00:15Z",
+          "completed": true,
+          "won": false,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "JAX",
+          "opponent_name": "Jacksonville Jaguars",
+          "is_home": true,
+          "date": "2026-09-20T20:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4690298177802319
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "LAR",
+          "opponent_name": "Los Angeles Rams",
+          "is_home": true,
+          "date": "2026-09-28T00:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.41027944264172556
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "SF",
+          "opponent_name": "San Francisco 49ers",
+          "is_home": false,
+          "date": "2026-10-04T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.32675396825396824
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "LAC",
+          "opponent_name": "Los Angeles Chargers",
+          "is_home": false,
+          "date": "2026-10-11T20:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4052539682539682
+        },
+        {
+          "week": 6,
+          "opponent_abbr": "SEA",
+          "opponent_name": "Seattle Seahawks",
+          "is_home": true,
+          "date": "2026-10-16T00:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4446282306163022
+        },
+        {
+          "week": 7,
+          "opponent_abbr": "ARI",
+          "opponent_name": "Arizona Cardinals",
+          "is_home": false,
+          "date": "2026-10-25T20:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.628094249201278
+        },
+        {
+          "week": 8,
+          "opponent_abbr": "KC",
+          "opponent_name": "Kansas City Chiefs",
+          "is_home": true,
+          "date": "2026-11-01T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.43873376623376625
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "CAR",
+          "opponent_name": "Carolina Panthers",
+          "is_home": false,
+          "date": "2026-11-08T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.543184877079712
+        },
+        {
+          "week": 10,
+          "bye": true
+        },
+        {
+          "week": 11,
+          "opponent_abbr": "LV",
+          "opponent_name": "Las Vegas Raiders",
+          "is_home": true,
+          "date": "2026-11-22T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6849358068315665
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "PIT",
+          "opponent_name": "Pittsburgh Steelers",
+          "is_home": false,
+          "date": "2026-11-27T20:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.47704329263085987
+        },
+        {
+          "week": 13,
+          "opponent_abbr": "MIA",
+          "opponent_name": "Miami Dolphins",
+          "is_home": true,
+          "date": "2026-12-06T21:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7786808199121522
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "NYJ",
+          "opponent_name": "New York Jets",
+          "is_home": false,
+          "date": "2026-12-13T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5960035105315948
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "LV",
+          "opponent_name": "Las Vegas Raiders",
+          "is_home": false,
+          "date": "2026-12-20T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5883645894001165
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "BUF",
+          "opponent_name": "Buffalo Bills",
+          "is_home": true,
+          "date": "2026-12-25T21:30Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3946282306163022
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "NE",
+          "opponent_name": "New England Patriots",
+          "is_home": false,
+          "date": "2027-01-03T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.40527944264172555
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "LAC",
+          "opponent_name": "Los Angeles Chargers",
+          "is_home": true,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5065432926308598
+        }
+      ],
+      "this_week_prob": 0.4690298177802319,
+      "best_future_week": 13,
+      "best_future_prob": 0.7786808199121522,
+      "save_for_later": false
+    },
+    "DET": {
+      "id": "8",
+      "name": "Detroit Lions",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+      "bye_week": 6,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "NO",
+          "opponent_name": "New Orleans Saints",
+          "is_home": true,
+          "date": "2026-09-13T17:00Z",
+          "completed": true,
+          "won": true,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "BUF",
+          "opponent_name": "Buffalo Bills",
+          "is_home": false,
+          "date": "2026-09-18T00:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3279843765022594
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "NYJ",
+          "opponent_name": "New York Jets",
+          "is_home": true,
+          "date": "2026-09-27T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7335345075485262
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "CAR",
+          "opponent_name": "Carolina Panthers",
+          "is_home": false,
+          "date": "2026-10-05T00:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.602684877079712
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "ARI",
+          "opponent_name": "Arizona Cardinals",
+          "is_home": false,
+          "date": "2026-10-11T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6879510522582171
+        },
+        {
+          "week": 6,
+          "bye": true
+        },
+        {
+          "week": 7,
+          "opponent_abbr": "GB",
+          "opponent_name": "Green Bay Packers",
+          "is_home": true,
+          "date": "2026-10-25T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5677460317460318
+        },
+        {
+          "week": 8,
+          "opponent_abbr": "MIN",
+          "opponent_name": "Minnesota Vikings",
+          "is_home": true,
+          "date": "2026-11-01T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6012376130978028
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "MIA",
+          "opponent_name": "Miami Dolphins",
+          "is_home": false,
+          "date": "2026-11-08T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.730016582130316
+        },
+        {
+          "week": 10,
+          "opponent_abbr": "NE",
+          "opponent_name": "New England Patriots",
+          "is_home": true,
+          "date": "2026-11-15T14:30Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5222337662337663
+        },
+        {
+          "week": 11,
+          "opponent_abbr": "TB",
+          "opponent_name": "Tampa Bay Buccaneers",
+          "is_home": true,
+          "date": "2026-11-22T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6303240620957309
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "CHI",
+          "opponent_name": "Chicago Bears",
+          "is_home": true,
+          "date": "2026-11-26T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5357460317460317
+        },
+        {
+          "week": 13,
+          "opponent_abbr": "ATL",
+          "opponent_name": "Atlanta Falcons",
+          "is_home": false,
+          "date": "2026-12-06T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5997332759305869
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "TEN",
+          "opponent_name": "Tennessee Titans",
+          "is_home": true,
+          "date": "2026-12-13T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.750906283856988
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "MIN",
+          "opponent_name": "Minnesota Vikings",
+          "is_home": false,
+          "date": "2026-12-21T01:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4857337662337663
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "NYG",
+          "opponent_name": "New York Giants",
+          "is_home": true,
+          "date": "2026-12-29T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6218645894001165
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "CHI",
+          "opponent_name": "Chicago Bears",
+          "is_home": false,
+          "date": "2027-01-03T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4317662337662338
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "GB",
+          "opponent_name": "Green Bay Packers",
+          "is_home": false,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4557794426417255
+        }
+      ],
+      "this_week_prob": 0.3279843765022594,
+      "best_future_week": 14,
+      "best_future_prob": 0.750906283856988,
+      "save_for_later": false
+    },
+    "GB": {
+      "id": "9",
+      "name": "Green Bay Packers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+      "bye_week": 11,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "MIN",
+          "opponent_name": "Minnesota Vikings",
+          "is_home": false,
+          "date": "2026-09-13T20:25Z",
+          "completed": true,
+          "won": false,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "NYJ",
+          "opponent_name": "New York Jets",
+          "is_home": false,
+          "date": "2026-09-20T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6314520908470611
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "ATL",
+          "opponent_name": "Atlanta Falcons",
+          "is_home": true,
+          "date": "2026-09-25T00:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.704876254180602
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "TB",
+          "opponent_name": "Tampa Bay Buccaneers",
+          "is_home": false,
+          "date": "2026-10-04T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5167337662337663
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "CHI",
+          "opponent_name": "Chicago Bears",
+          "is_home": true,
+          "date": "2026-10-11T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5493193859121012
+        },
+        {
+          "week": 6,
+          "opponent_abbr": "DAL",
+          "opponent_name": "Dallas Cowboys",
+          "is_home": true,
+          "date": "2026-10-19T00:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5593784854710889
+        },
+        {
+          "week": 7,
+          "opponent_abbr": "DET",
+          "opponent_name": "Detroit Lions",
+          "is_home": false,
+          "date": "2026-10-25T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4302539682539682
+        },
+        {
+          "week": 8,
+          "opponent_abbr": "CAR",
+          "opponent_name": "Carolina Panthers",
+          "is_home": true,
+          "date": "2026-10-30T00:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7124358068315666
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "NE",
+          "opponent_name": "New England Patriots",
+          "is_home": false,
+          "date": "2026-11-08T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.45876623376623377
+        },
+        {
+          "week": 10,
+          "opponent_abbr": "MIN",
+          "opponent_name": "Minnesota Vikings",
+          "is_home": true,
+          "date": "2026-11-15T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6077777777777778
+        },
+        {
+          "week": 11,
+          "bye": true
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "LAR",
+          "opponent_name": "Los Angeles Rams",
+          "is_home": false,
+          "date": "2026-11-26T01:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3546759379042691
+        },
+        {
+          "week": 13,
+          "opponent_abbr": "NO",
+          "opponent_name": "New Orleans Saints",
+          "is_home": false,
+          "date": "2026-12-06T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6058240620957309
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "BUF",
+          "opponent_name": "Buffalo Bills",
+          "is_home": true,
+          "date": "2026-12-14T01:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.48123376623376624
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "MIA",
+          "opponent_name": "Miami Dolphins",
+          "is_home": true,
+          "date": "2026-12-20T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.8218249158249158
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "CHI",
+          "opponent_name": "Chicago Bears",
+          "is_home": false,
+          "date": "2026-12-25T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4323179371418649
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "HOU",
+          "opponent_name": "Houston Texans",
+          "is_home": true,
+          "date": "2027-01-05T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5322205573582746
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "DET",
+          "opponent_name": "Detroit Lions",
+          "is_home": true,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5422205573582745
+        }
+      ],
+      "this_week_prob": 0.6314520908470611,
+      "best_future_week": 15,
+      "best_future_prob": 0.8218249158249158,
+      "save_for_later": true
+    },
+    "HOU": {
+      "id": "34",
+      "name": "Houston Texans",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+      "bye_week": 8,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "BUF",
+          "opponent_name": "Buffalo Bills",
+          "is_home": true,
+          "date": "2026-09-13T17:00Z",
+          "completed": true,
+          "won": false,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "CIN",
+          "opponent_name": "Cincinnati Bengals",
+          "is_home": true,
+          "date": "2026-09-20T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5612460317460317
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "IND",
+          "opponent_name": "Indianapolis Colts",
+          "is_home": false,
+          "date": "2026-09-27T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5657205573582744
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "DAL",
+          "opponent_name": "Dallas Cowboys",
+          "is_home": true,
+          "date": "2026-10-04T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5477205573582745
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "TEN",
+          "opponent_name": "Tennessee Titans",
+          "is_home": false,
+          "date": "2026-10-11T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6637332759305868
+        },
+        {
+          "week": 6,
+          "opponent_abbr": "JAX",
+          "opponent_name": "Jacksonville Jaguars",
+          "is_home": false,
+          "date": "2026-10-18T13:30Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4638351229650156
+        },
+        {
+          "week": 7,
+          "opponent_abbr": "NYG",
+          "opponent_name": "New York Giants",
+          "is_home": true,
+          "date": "2026-10-25T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6445156234977406
+        },
+        {
+          "week": 8,
+          "bye": true
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "LAC",
+          "opponent_name": "Los Angeles Chargers",
+          "is_home": false,
+          "date": "2026-11-08T21:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4822794426417255
+        },
+        {
+          "week": 10,
+          "opponent_abbr": "CLE",
+          "opponent_name": "Cleveland Browns",
+          "is_home": false,
+          "date": "2026-11-15T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6983645894001165
+        },
+        {
+          "week": 11,
+          "opponent_abbr": "IND",
+          "opponent_name": "Indianapolis Colts",
+          "is_home": true,
+          "date": "2026-11-20T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6780156234977406
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "BAL",
+          "opponent_name": "Baltimore Ravens",
+          "is_home": true,
+          "date": "2026-11-29T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4880432926308599
+        },
+        {
+          "week": 13,
+          "opponent_abbr": "PIT",
+          "opponent_name": "Pittsburgh Steelers",
+          "is_home": false,
+          "date": "2026-12-07T01:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5330432926308599
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "WSH",
+          "opponent_name": "Washington Commanders",
+          "is_home": false,
+          "date": "2026-12-13T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5250432926308599
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "JAX",
+          "opponent_name": "Jacksonville Jaguars",
+          "is_home": true,
+          "date": "2026-12-20T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5414963205233033
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "PHI",
+          "opponent_name": "Philadelphia Eagles",
+          "is_home": false,
+          "date": "2026-12-25T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4502794426417255
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "GB",
+          "opponent_name": "Green Bay Packers",
+          "is_home": false,
+          "date": "2027-01-05T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4657794426417255
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "TEN",
+          "opponent_name": "Tennessee Titans",
+          "is_home": true,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.734485260770975
+        }
+      ],
+      "this_week_prob": 0.5612460317460317,
+      "best_future_week": 18,
+      "best_future_prob": 0.734485260770975,
+      "save_for_later": true
+    },
+    "IND": {
+      "id": "11",
+      "name": "Indianapolis Colts",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+      "bye_week": 13,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "BAL",
+          "opponent_name": "Baltimore Ravens",
+          "is_home": true,
+          "date": "2026-09-13T17:00Z",
+          "completed": true,
+          "won": false,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "KC",
+          "opponent_name": "Kansas City Chiefs",
+          "is_home": false,
+          "date": "2026-09-21T00:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.26472438486962907
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "HOU",
+          "opponent_name": "Houston Texans",
+          "is_home": true,
+          "date": "2026-09-27T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4322794426417255
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "WSH",
+          "opponent_name": "Washington Commanders",
+          "is_home": false,
+          "date": "2026-10-04T13:30Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4618179371418649
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "PIT",
+          "opponent_name": "Pittsburgh Steelers",
+          "is_home": false,
+          "date": "2026-10-11T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4327539682539682
+        },
+        {
+          "week": 6,
+          "opponent_abbr": "TEN",
+          "opponent_name": "Tennessee Titans",
+          "is_home": true,
+          "date": "2026-10-18T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6519701718907988
+        },
+        {
+          "week": 7,
+          "opponent_abbr": "MIN",
+          "opponent_name": "Minnesota Vikings",
+          "is_home": false,
+          "date": "2026-10-25T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.38125396825396823
+        },
+        {
+          "week": 8,
+          "opponent_abbr": "JAX",
+          "opponent_name": "Jacksonville Jaguars",
+          "is_home": false,
+          "date": "2026-11-01T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.2992623869021973
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "DAL",
+          "opponent_name": "Dallas Cowboys",
+          "is_home": true,
+          "date": "2026-11-08T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.44026623376623375
+        },
+        {
+          "week": 10,
+          "opponent_abbr": "MIA",
+          "opponent_name": "Miami Dolphins",
+          "is_home": true,
+          "date": "2026-11-15T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7400396294390119
+        },
+        {
+          "week": 11,
+          "opponent_abbr": "HOU",
+          "opponent_name": "Houston Texans",
+          "is_home": false,
+          "date": "2026-11-20T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3209843765022594
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "NYG",
+          "opponent_name": "New York Giants",
+          "is_home": true,
+          "date": "2026-11-29T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5242205573582746
+        },
+        {
+          "week": 13,
+          "bye": true
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "PHI",
+          "opponent_name": "Philadelphia Eagles",
+          "is_home": false,
+          "date": "2026-12-13T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.33130337078651684
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "TEN",
+          "opponent_name": "Tennessee Titans",
+          "is_home": false,
+          "date": "2026-12-20T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5467337662337663
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "CIN",
+          "opponent_name": "Cincinnati Bengals",
+          "is_home": true,
+          "date": "2026-12-27T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.45095670736914006
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "CLE",
+          "opponent_name": "Cleveland Browns",
+          "is_home": false,
+          "date": "2027-01-03T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5912205573582745
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "JAX",
+          "opponent_name": "Jacksonville Jaguars",
+          "is_home": true,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.44554329263085984
+        }
+      ],
+      "this_week_prob": 0.26472438486962907,
+      "best_future_week": 10,
+      "best_future_prob": 0.7400396294390119,
+      "save_for_later": false
+    },
+    "JAX": {
+      "id": "30",
+      "name": "Jacksonville Jaguars",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+      "bye_week": 7,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "CLE",
+          "opponent_name": "Cleveland Browns",
+          "is_home": true,
+          "date": "2026-09-13T17:00Z",
+          "completed": true,
+          "won": true,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "DEN",
+          "opponent_name": "Denver Broncos",
+          "is_home": false,
+          "date": "2026-09-20T20:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.529470182219768
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "NE",
+          "opponent_name": "New England Patriots",
+          "is_home": true,
+          "date": "2026-09-27T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.621
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "CIN",
+          "opponent_name": "Cincinnati Bengals",
+          "is_home": false,
+          "date": "2026-10-04T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4827794426417255
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "PHI",
+          "opponent_name": "Philadelphia Eagles",
+          "is_home": true,
+          "date": "2026-10-11T13:30Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5182662337662337
+        },
+        {
+          "week": 6,
+          "opponent_abbr": "HOU",
+          "opponent_name": "Houston Texans",
+          "is_home": true,
+          "date": "2026-10-18T13:30Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5341648770349844
+        },
+        {
+          "week": 7,
+          "bye": true
+        },
+        {
+          "week": 8,
+          "opponent_abbr": "IND",
+          "opponent_name": "Indianapolis Colts",
+          "is_home": true,
+          "date": "2026-11-01T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6997376130978027
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "BAL",
+          "opponent_name": "Baltimore Ravens",
+          "is_home": false,
+          "date": "2026-11-06T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3746354105998835
+        },
+        {
+          "week": 10,
+          "opponent_abbr": "TEN",
+          "opponent_name": "Tennessee Titans",
+          "is_home": false,
+          "date": "2026-11-15T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6442205573582744
+        },
+        {
+          "week": 11,
+          "opponent_abbr": "NYG",
+          "opponent_name": "New York Giants",
+          "is_home": false,
+          "date": "2026-11-22T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5567337662337662
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "TEN",
+          "opponent_name": "Tennessee Titans",
+          "is_home": true,
+          "date": "2026-11-29T21:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7435156234977407
+        },
+        {
+          "week": 13,
+          "opponent_abbr": "CHI",
+          "opponent_name": "Chicago Bears",
+          "is_home": false,
+          "date": "2026-12-06T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4450036794766966
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "PIT",
+          "opponent_name": "Pittsburgh Steelers",
+          "is_home": true,
+          "date": "2026-12-15T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.642684877079712
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "HOU",
+          "opponent_name": "Houston Texans",
+          "is_home": false,
+          "date": "2026-12-20T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4565036794766967
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "DAL",
+          "opponent_name": "Dallas Cowboys",
+          "is_home": false,
+          "date": "2026-12-28T01:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4593151229202881
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "WSH",
+          "opponent_name": "Washington Commanders",
+          "is_home": true,
+          "date": "2027-01-03T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6477332759305868
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "IND",
+          "opponent_name": "Indianapolis Colts",
+          "is_home": false,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5529567073691402
+        }
+      ],
+      "this_week_prob": 0.529470182219768,
+      "best_future_week": 12,
+      "best_future_prob": 0.7435156234977407,
+      "save_for_later": false
+    },
+    "KC": {
+      "id": "12",
+      "name": "Kansas City Chiefs",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+      "bye_week": 5,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "DEN",
+          "opponent_name": "Denver Broncos",
+          "is_home": true,
+          "date": "2026-09-15T00:15Z",
+          "completed": true,
+          "won": true,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "IND",
+          "opponent_name": "Indianapolis Colts",
+          "is_home": true,
+          "date": "2026-09-21T00:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7342756151303709
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "MIA",
+          "opponent_name": "Miami Dolphins",
+          "is_home": false,
+          "date": "2026-09-27T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.8093717579250721
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "LV",
+          "opponent_name": "Las Vegas Raiders",
+          "is_home": false,
+          "date": "2026-10-04T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7025035105315948
+        },
+        {
+          "week": 5,
+          "bye": true
+        },
+        {
+          "week": 6,
+          "opponent_abbr": "LAC",
+          "opponent_name": "Los Angeles Chargers",
+          "is_home": true,
+          "date": "2026-10-18T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6297460317460317
+        },
+        {
+          "week": 7,
+          "opponent_abbr": "SEA",
+          "opponent_name": "Seattle Seahawks",
+          "is_home": false,
+          "date": "2026-10-26T00:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.438121514528911
+        },
+        {
+          "week": 8,
+          "opponent_abbr": "DEN",
+          "opponent_name": "Denver Broncos",
+          "is_home": false,
+          "date": "2026-11-01T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5597662337662338
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "NYJ",
+          "opponent_name": "New York Jets",
+          "is_home": true,
+          "date": "2026-11-08T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7951625615763547
+        },
+        {
+          "week": 10,
+          "opponent_abbr": "ATL",
+          "opponent_name": "Atlanta Falcons",
+          "is_home": false,
+          "date": "2026-11-15T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6638645894001165
+        },
+        {
+          "week": 11,
+          "opponent_abbr": "ARI",
+          "opponent_name": "Arizona Cardinals",
+          "is_home": true,
+          "date": "2026-11-22T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.8006675126903553
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "BUF",
+          "opponent_name": "Buffalo Bills",
+          "is_home": false,
+          "date": "2026-11-27T01:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.42947018221976807
+        },
+        {
+          "week": 13,
+          "opponent_abbr": "LAR",
+          "opponent_name": "Los Angeles Rams",
+          "is_home": false,
+          "date": "2026-12-04T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4186354105998835
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "CIN",
+          "opponent_name": "Cincinnati Bengals",
+          "is_home": false,
+          "date": "2026-12-13T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5072662337662338
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "NE",
+          "opponent_name": "New England Patriots",
+          "is_home": true,
+          "date": "2026-12-22T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6087460317460318
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "SF",
+          "opponent_name": "San Francisco 49ers",
+          "is_home": true,
+          "date": "2026-12-27T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5454963205233033
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "LAC",
+          "opponent_name": "Los Angeles Chargers",
+          "is_home": false,
+          "date": "2027-01-03T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5327662337662338
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "LV",
+          "opponent_name": "Las Vegas Raiders",
+          "is_home": true,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.773
+        }
+      ],
+      "this_week_prob": 0.7342756151303709,
+      "best_future_week": 3,
+      "best_future_prob": 0.8093717579250721,
+      "save_for_later": false
+    },
+    "LV": {
+      "id": "13",
+      "name": "Las Vegas Raiders",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+      "bye_week": 13,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "MIA",
+          "opponent_name": "Miami Dolphins",
+          "is_home": true,
+          "date": "2026-09-13T20:25Z",
+          "completed": true,
+          "won": true,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "LAC",
+          "opponent_name": "Los Angeles Chargers",
+          "is_home": false,
+          "date": "2026-09-20T20:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.28646037056098816
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "NO",
+          "opponent_name": "New Orleans Saints",
+          "is_home": false,
+          "date": "2026-09-27T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.388315122920288
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "KC",
+          "opponent_name": "Kansas City Chiefs",
+          "is_home": true,
+          "date": "2026-10-04T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.29649648946840523
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "NE",
+          "opponent_name": "New England Patriots",
+          "is_home": false,
+          "date": "2026-10-11T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.25304894774178294
+        },
+        {
+          "week": 6,
+          "opponent_abbr": "BUF",
+          "opponent_name": "Buffalo Bills",
+          "is_home": true,
+          "date": "2026-10-18T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.2789189627228525
+        },
+        {
+          "week": 7,
+          "opponent_abbr": "LAR",
+          "opponent_name": "Los Angeles Rams",
+          "is_home": true,
+          "date": "2026-10-25T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.2739654924514737
+        },
+        {
+          "week": 8,
+          "opponent_abbr": "NYJ",
+          "opponent_name": "New York Jets",
+          "is_home": false,
+          "date": "2026-11-01T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.45626623376623376
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "SF",
+          "opponent_name": "San Francisco 49ers",
+          "is_home": false,
+          "date": "2026-11-08T21:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.18708342189160468
+        },
+        {
+          "week": 10,
+          "opponent_abbr": "SEA",
+          "opponent_name": "Seattle Seahawks",
+          "is_home": true,
+          "date": "2026-11-15T21:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.29122884012539185
+        },
+        {
+          "week": 11,
+          "opponent_abbr": "DEN",
+          "opponent_name": "Denver Broncos",
+          "is_home": false,
+          "date": "2026-11-22T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3135641931684334
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "CLE",
+          "opponent_name": "Cleveland Browns",
+          "is_home": false,
+          "date": "2026-11-29T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5189567073691401
+        },
+        {
+          "week": 13,
+          "bye": true
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "LAC",
+          "opponent_name": "Los Angeles Chargers",
+          "is_home": true,
+          "date": "2026-12-13T21:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3736759379042691
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "DEN",
+          "opponent_name": "Denver Broncos",
+          "is_home": true,
+          "date": "2026-12-20T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4096354105998835
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "TEN",
+          "opponent_name": "Tennessee Titans",
+          "is_home": true,
+          "date": "2026-12-27T21:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5570432926308598
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "ARI",
+          "opponent_name": "Arizona Cardinals",
+          "is_home": false,
+          "date": "2027-01-03T21:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.48237176938369786
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "KC",
+          "opponent_name": "Kansas City Chiefs",
+          "is_home": false,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.22600000000000003
+        }
+      ],
+      "this_week_prob": 0.28646037056098816,
+      "best_future_week": 16,
+      "best_future_prob": 0.5570432926308598,
+      "save_for_later": false
+    },
+    "LAC": {
+      "id": "24",
+      "name": "Los Angeles Chargers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+      "bye_week": 7,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "ARI",
+          "opponent_name": "Arizona Cardinals",
+          "is_home": true,
+          "date": "2026-09-13T20:25Z",
+          "completed": true,
+          "won": false,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "LV",
+          "opponent_name": "Las Vegas Raiders",
+          "is_home": true,
+          "date": "2026-09-20T20:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7120396294390119
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "BUF",
+          "opponent_name": "Buffalo Bills",
+          "is_home": false,
+          "date": "2026-09-27T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.31317593790426906
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "SEA",
+          "opponent_name": "Seattle Seahawks",
+          "is_home": false,
+          "date": "2026-10-04T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.42688188277087036
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "DEN",
+          "opponent_name": "Denver Broncos",
+          "is_home": true,
+          "date": "2026-10-11T20:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5932460317460317
+        },
+        {
+          "week": 6,
+          "opponent_abbr": "KC",
+          "opponent_name": "Kansas City Chiefs",
+          "is_home": false,
+          "date": "2026-10-18T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3687539682539682
+        },
+        {
+          "week": 7,
+          "bye": true
+        },
+        {
+          "week": 8,
+          "opponent_abbr": "LAR",
+          "opponent_name": "Los Angeles Rams",
+          "is_home": false,
+          "date": "2026-11-01T21:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3625479091529389
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "HOU",
+          "opponent_name": "Houston Texans",
+          "is_home": true,
+          "date": "2026-11-08T21:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5157205573582745
+        },
+        {
+          "week": 10,
+          "opponent_abbr": "BAL",
+          "opponent_name": "Baltimore Ravens",
+          "is_home": false,
+          "date": "2026-11-17T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.34078082191780823
+        },
+        {
+          "week": 11,
+          "opponent_abbr": "NYJ",
+          "opponent_name": "New York Jets",
+          "is_home": true,
+          "date": "2026-11-22T21:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7264165781083953
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "NE",
+          "opponent_name": "New England Patriots",
+          "is_home": true,
+          "date": "2026-11-30T01:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5147337662337663
+        },
+        {
+          "week": 13,
+          "opponent_abbr": "TB",
+          "opponent_name": "Tampa Bay Buccaneers",
+          "is_home": false,
+          "date": "2026-12-06T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5127205573582745
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "LV",
+          "opponent_name": "Las Vegas Raiders",
+          "is_home": false,
+          "date": "2026-12-13T21:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6243240620957309
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "SF",
+          "opponent_name": "San Francisco 49ers",
+          "is_home": true,
+          "date": "2026-12-18T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4597460317460318
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "MIA",
+          "opponent_name": "Miami Dolphins",
+          "is_home": false,
+          "date": "2026-12-27T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.741094249201278
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "KC",
+          "opponent_name": "Kansas City Chiefs",
+          "is_home": true,
+          "date": "2027-01-03T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4657337662337663
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "DEN",
+          "opponent_name": "Denver Broncos",
+          "is_home": false,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4914567073691401
+        }
+      ],
+      "this_week_prob": 0.7120396294390119,
+      "best_future_week": 16,
+      "best_future_prob": 0.741094249201278,
+      "save_for_later": false
+    },
+    "LAR": {
+      "id": "14",
+      "name": "Los Angeles Rams",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+      "bye_week": 11,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "SF",
+          "opponent_name": "San Francisco 49ers",
+          "is_home": true,
+          "date": "2026-09-11T00:35Z",
+          "completed": true,
+          "won": false,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "NYG",
+          "opponent_name": "New York Giants",
+          "is_home": true,
+          "date": "2026-09-22T00:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.718094249201278
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "DEN",
+          "opponent_name": "Denver Broncos",
+          "is_home": false,
+          "date": "2026-09-28T00:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5882205573582745
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "PHI",
+          "opponent_name": "Philadelphia Eagles",
+          "is_home": false,
+          "date": "2026-10-04T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5175432926308599
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "BUF",
+          "opponent_name": "Buffalo Bills",
+          "is_home": true,
+          "date": "2026-10-13T00:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5483784854710889
+        },
+        {
+          "week": 6,
+          "opponent_abbr": "ARI",
+          "opponent_name": "Arizona Cardinals",
+          "is_home": true,
+          "date": "2026-10-18T20:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7982505643340858
+        },
+        {
+          "week": 7,
+          "opponent_abbr": "LV",
+          "opponent_name": "Las Vegas Raiders",
+          "is_home": false,
+          "date": "2026-10-25T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7250345075485263
+        },
+        {
+          "week": 8,
+          "opponent_abbr": "LAC",
+          "opponent_name": "Los Angeles Chargers",
+          "is_home": true,
+          "date": "2026-11-01T21:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6359520908470612
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "WSH",
+          "opponent_name": "Washington Commanders",
+          "is_home": false,
+          "date": "2026-11-08T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6213240620957309
+        },
+        {
+          "week": 10,
+          "opponent_abbr": "ARI",
+          "opponent_name": "Arizona Cardinals",
+          "is_home": false,
+          "date": "2026-11-15T21:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7286808199121522
+        },
+        {
+          "week": 11,
+          "bye": true
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "GB",
+          "opponent_name": "Green Bay Packers",
+          "is_home": true,
+          "date": "2026-11-26T01:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.643824062095731
+        },
+        {
+          "week": 13,
+          "opponent_abbr": "KC",
+          "opponent_name": "Kansas City Chiefs",
+          "is_home": true,
+          "date": "2026-12-04T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5793645894001165
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "SF",
+          "opponent_name": "San Francisco 49ers",
+          "is_home": false,
+          "date": "2026-12-13T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4498717693836979
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "DAL",
+          "opponent_name": "Dallas Cowboys",
+          "is_home": true,
+          "date": "2026-12-20T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6297777777777778
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "SEA",
+          "opponent_name": "Seattle Seahawks",
+          "is_home": false,
+          "date": "2026-12-26T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4521282306163022
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "TB",
+          "opponent_name": "Tampa Bay Buccaneers",
+          "is_home": false,
+          "date": "2027-01-03T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6043645894001164
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "SEA",
+          "opponent_name": "Seattle Seahawks",
+          "is_home": true,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5756848770797119
+        }
+      ],
+      "this_week_prob": 0.718094249201278,
+      "best_future_week": 6,
+      "best_future_prob": 0.7982505643340858,
+      "save_for_later": false
+    },
+    "MIA": {
+      "id": "15",
+      "name": "Miami Dolphins",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+      "bye_week": 6,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "LV",
+          "opponent_name": "Las Vegas Raiders",
+          "is_home": false,
+          "date": "2026-09-13T20:25Z",
+          "completed": true,
+          "won": false,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "SF",
+          "opponent_name": "San Francisco 49ers",
+          "is_home": false,
+          "date": "2026-09-20T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.10749315068493151
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "KC",
+          "opponent_name": "Kansas City Chiefs",
+          "is_home": true,
+          "date": "2026-09-27T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.19012824207492796
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "MIN",
+          "opponent_name": "Minnesota Vikings",
+          "is_home": false,
+          "date": "2026-10-04T20:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.19724731182795696
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "CIN",
+          "opponent_name": "Cincinnati Bengals",
+          "is_home": true,
+          "date": "2026-10-11T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.2674189627228525
+        },
+        {
+          "week": 6,
+          "bye": true
+        },
+        {
+          "week": 7,
+          "opponent_abbr": "NYJ",
+          "opponent_name": "New York Jets",
+          "is_home": false,
+          "date": "2026-10-25T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.37675396825396823
+        },
+        {
+          "week": 8,
+          "opponent_abbr": "NE",
+          "opponent_name": "New England Patriots",
+          "is_home": true,
+          "date": "2026-11-01T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.25060864745011086
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "DET",
+          "opponent_name": "Detroit Lions",
+          "is_home": true,
+          "date": "2026-11-08T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.26898341786968394
+        },
+        {
+          "week": 10,
+          "opponent_abbr": "IND",
+          "opponent_name": "Indianapolis Colts",
+          "is_home": false,
+          "date": "2026-11-15T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.2589603705609882
+        },
+        {
+          "week": 11,
+          "opponent_abbr": "BUF",
+          "opponent_name": "Buffalo Bills",
+          "is_home": false,
+          "date": "2026-11-22T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.1424381520119225
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "NYJ",
+          "opponent_name": "New York Jets",
+          "is_home": true,
+          "date": "2026-11-29T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4617337662337663
+        },
+        {
+          "week": 13,
+          "opponent_abbr": "DEN",
+          "opponent_name": "Denver Broncos",
+          "is_home": false,
+          "date": "2026-12-06T21:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.22031918008784773
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "CHI",
+          "opponent_name": "Chicago Bears",
+          "is_home": true,
+          "date": "2026-12-13T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.26230337078651683
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "GB",
+          "opponent_name": "Green Bay Packers",
+          "is_home": false,
+          "date": "2026-12-20T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.17717508417508418
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "LAC",
+          "opponent_name": "Los Angeles Chargers",
+          "is_home": true,
+          "date": "2026-12-27T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.2579057507987221
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "BUF",
+          "opponent_name": "Buffalo Bills",
+          "is_home": true,
+          "date": "2027-01-03T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.202
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "NE",
+          "opponent_name": "New England Patriots",
+          "is_home": false,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.18037055837563454
+        }
+      ],
+      "this_week_prob": 0.10749315068493151,
+      "best_future_week": 12,
+      "best_future_prob": 0.4617337662337663,
+      "save_for_later": false
+    },
+    "MIN": {
+      "id": "16",
+      "name": "Minnesota Vikings",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+      "bye_week": 6,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "GB",
+          "opponent_name": "Green Bay Packers",
+          "is_home": true,
+          "date": "2026-09-13T20:25Z",
+          "completed": true,
+          "won": true,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "CHI",
+          "opponent_name": "Chicago Bears",
+          "is_home": false,
+          "date": "2026-09-20T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.35204790915293893
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "TB",
+          "opponent_name": "Tampa Bay Buccaneers",
+          "is_home": false,
+          "date": "2026-09-27T20:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4842662337662338
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "MIA",
+          "opponent_name": "Miami Dolphins",
+          "is_home": true,
+          "date": "2026-10-04T20:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.802252688172043
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "NO",
+          "opponent_name": "New Orleans Saints",
+          "is_home": false,
+          "date": "2026-10-11T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5482337662337662
+        },
+        {
+          "week": 6,
+          "bye": true
+        },
+        {
+          "week": 7,
+          "opponent_abbr": "IND",
+          "opponent_name": "Indianapolis Colts",
+          "is_home": true,
+          "date": "2026-10-25T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6177460317460317
+        },
+        {
+          "week": 8,
+          "opponent_abbr": "DET",
+          "opponent_name": "Detroit Lions",
+          "is_home": false,
+          "date": "2026-11-01T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.39676238690219734
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "BUF",
+          "opponent_name": "Buffalo Bills",
+          "is_home": true,
+          "date": "2026-11-10T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4093818827708704
+        },
+        {
+          "week": 10,
+          "opponent_abbr": "GB",
+          "opponent_name": "Green Bay Packers",
+          "is_home": false,
+          "date": "2026-11-15T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.39022222222222225
+        },
+        {
+          "week": 11,
+          "opponent_abbr": "SF",
+          "opponent_name": "San Francisco 49ers",
+          "is_home": false,
+          "date": "2026-11-23T01:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.35802982810920125
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "ATL",
+          "opponent_name": "Atlanta Falcons",
+          "is_home": true,
+          "date": "2026-11-29T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6657376130978028
+        },
+        {
+          "week": 13,
+          "opponent_abbr": "CAR",
+          "opponent_name": "Carolina Panthers",
+          "is_home": true,
+          "date": "2026-12-06T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6664520908470611
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "NE",
+          "opponent_name": "New England Patriots",
+          "is_home": false,
+          "date": "2026-12-11T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.40426238690219735
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "DET",
+          "opponent_name": "Detroit Lions",
+          "is_home": true,
+          "date": "2026-12-21T01:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5122662337662338
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "WSH",
+          "opponent_name": "Washington Commanders",
+          "is_home": true,
+          "date": "2026-12-27T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5812205573582745
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "NYJ",
+          "opponent_name": "New York Jets",
+          "is_home": false,
+          "date": "2027-01-03T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6202332759305869
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "CHI",
+          "opponent_name": "Chicago Bears",
+          "is_home": true,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5207337662337663
+        }
+      ],
+      "this_week_prob": 0.35204790915293893,
+      "best_future_week": 4,
+      "best_future_prob": 0.802252688172043,
+      "save_for_later": false
+    },
+    "NE": {
+      "id": "17",
+      "name": "New England Patriots",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+      "bye_week": 11,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "SEA",
+          "opponent_name": "Seattle Seahawks",
+          "is_home": false,
+          "date": "2026-09-10T00:20Z",
+          "completed": true,
+          "won": false,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "PIT",
+          "opponent_name": "Pittsburgh Steelers",
+          "is_home": true,
+          "date": "2026-09-20T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6592376130978026
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "JAX",
+          "opponent_name": "Jacksonville Jaguars",
+          "is_home": false,
+          "date": "2026-09-27T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.376
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "BUF",
+          "opponent_name": "Buffalo Bills",
+          "is_home": false,
+          "date": "2026-10-04T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.36581512292028806
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "LV",
+          "opponent_name": "Las Vegas Raiders",
+          "is_home": true,
+          "date": "2026-10-11T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7459510522582171
+        },
+        {
+          "week": 6,
+          "opponent_abbr": "NYJ",
+          "opponent_name": "New York Jets",
+          "is_home": true,
+          "date": "2026-10-18T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7484531502423264
+        },
+        {
+          "week": 7,
+          "opponent_abbr": "CHI",
+          "opponent_name": "Chicago Bears",
+          "is_home": false,
+          "date": "2026-10-23T00:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4369567073691401
+        },
+        {
+          "week": 8,
+          "opponent_abbr": "MIA",
+          "opponent_name": "Miami Dolphins",
+          "is_home": false,
+          "date": "2026-11-01T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7483913525498892
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "GB",
+          "opponent_name": "Green Bay Packers",
+          "is_home": true,
+          "date": "2026-11-08T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5392337662337663
+        },
+        {
+          "week": 10,
+          "opponent_abbr": "DET",
+          "opponent_name": "Detroit Lions",
+          "is_home": false,
+          "date": "2026-11-15T14:30Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4757662337662337
+        },
+        {
+          "week": 11,
+          "bye": true
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "LAC",
+          "opponent_name": "Los Angeles Chargers",
+          "is_home": false,
+          "date": "2026-11-30T01:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4832662337662338
+        },
+        {
+          "week": 13,
+          "opponent_abbr": "BUF",
+          "opponent_name": "Buffalo Bills",
+          "is_home": true,
+          "date": "2026-12-06T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.46904329263085986
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "MIN",
+          "opponent_name": "Minnesota Vikings",
+          "is_home": true,
+          "date": "2026-12-11T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5942376130978027
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "KC",
+          "opponent_name": "Kansas City Chiefs",
+          "is_home": false,
+          "date": "2026-12-22T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.38975396825396824
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "NYJ",
+          "opponent_name": "New York Jets",
+          "is_home": false,
+          "date": "2026-12-27T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6540810372771475
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "DEN",
+          "opponent_name": "Denver Broncos",
+          "is_home": true,
+          "date": "2027-01-03T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5932205573582745
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "MIA",
+          "opponent_name": "Miami Dolphins",
+          "is_home": true,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.8191294416243655
+        }
+      ],
+      "this_week_prob": 0.6592376130978026,
+      "best_future_week": 18,
+      "best_future_prob": 0.8191294416243655,
+      "save_for_later": true
+    },
+    "NO": {
+      "id": "18",
+      "name": "New Orleans Saints",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+      "bye_week": 8,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "DET",
+          "opponent_name": "Detroit Lions",
+          "is_home": false,
+          "date": "2026-09-13T17:00Z",
+          "completed": true,
+          "won": false,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "BAL",
+          "opponent_name": "Baltimore Ravens",
+          "is_home": false,
+          "date": "2026-09-20T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.24040575079872206
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "LV",
+          "opponent_name": "Las Vegas Raiders",
+          "is_home": true,
+          "date": "2026-09-27T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.610184877079712
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "ATL",
+          "opponent_name": "Atlanta Falcons",
+          "is_home": true,
+          "date": "2026-10-06T00:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5577205573582744
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "MIN",
+          "opponent_name": "Minnesota Vikings",
+          "is_home": true,
+          "date": "2026-10-11T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4497662337662338
+        },
+        {
+          "week": 6,
+          "opponent_abbr": "NYG",
+          "opponent_name": "New York Giants",
+          "is_home": false,
+          "date": "2026-10-18T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4142539682539682
+        },
+        {
+          "week": 7,
+          "opponent_abbr": "PIT",
+          "opponent_name": "Pittsburgh Steelers",
+          "is_home": true,
+          "date": "2026-10-25T13:30Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.45625396825396825
+        },
+        {
+          "week": 8,
+          "bye": true
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "CLE",
+          "opponent_name": "Cleveland Browns",
+          "is_home": true,
+          "date": "2026-11-08T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6909701718907988
+        },
+        {
+          "week": 10,
+          "opponent_abbr": "CAR",
+          "opponent_name": "Carolina Panthers",
+          "is_home": true,
+          "date": "2026-11-15T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5583695652173912
+        },
+        {
+          "week": 11,
+          "opponent_abbr": "CHI",
+          "opponent_name": "Chicago Bears",
+          "is_home": false,
+          "date": "2026-11-22T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.2922282157676348
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "CIN",
+          "opponent_name": "Cincinnati Bengals",
+          "is_home": false,
+          "date": "2026-11-29T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3187282157676349
+        },
+        {
+          "week": 13,
+          "opponent_abbr": "GB",
+          "opponent_name": "Green Bay Packers",
+          "is_home": true,
+          "date": "2026-12-06T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3921759379042691
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "CAR",
+          "opponent_name": "Carolina Panthers",
+          "is_home": false,
+          "date": "2026-12-13T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4742794426417255
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "TB",
+          "opponent_name": "Tampa Bay Buccaneers",
+          "is_home": false,
+          "date": "2026-12-20T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3865479091529389
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "ARI",
+          "opponent_name": "Arizona Cardinals",
+          "is_home": true,
+          "date": "2026-12-27T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6337777777777778
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "ATL",
+          "opponent_name": "Atlanta Falcons",
+          "is_home": false,
+          "date": "2027-01-03T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4759567073691401
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "TB",
+          "opponent_name": "Tampa Bay Buccaneers",
+          "is_home": true,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4822662337662338
+        }
+      ],
+      "this_week_prob": 0.24040575079872206,
+      "best_future_week": 9,
+      "best_future_prob": 0.6909701718907988,
+      "save_for_later": false
+    },
+    "NYG": {
+      "id": "19",
+      "name": "New York Giants",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+      "bye_week": 8,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "DAL",
+          "opponent_name": "Dallas Cowboys",
+          "is_home": true,
+          "date": "2026-09-14T00:20Z",
+          "completed": true,
+          "won": true,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "LAR",
+          "opponent_name": "Los Angeles Rams",
+          "is_home": false,
+          "date": "2026-09-22T00:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.28090575079872204
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "TEN",
+          "opponent_name": "Tennessee Titans",
+          "is_home": true,
+          "date": "2026-09-27T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7031966292134831
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "ARI",
+          "opponent_name": "Arizona Cardinals",
+          "is_home": true,
+          "date": "2026-10-04T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6957711598746081
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "WSH",
+          "opponent_name": "Washington Commanders",
+          "is_home": false,
+          "date": "2026-10-11T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4576282306163022
+        },
+        {
+          "week": 6,
+          "opponent_abbr": "NO",
+          "opponent_name": "New Orleans Saints",
+          "is_home": true,
+          "date": "2026-10-18T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5837460317460317
+        },
+        {
+          "week": 7,
+          "opponent_abbr": "HOU",
+          "opponent_name": "Houston Texans",
+          "is_home": false,
+          "date": "2026-10-25T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.35398437650225933
+        },
+        {
+          "week": 8,
+          "bye": true
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "PHI",
+          "opponent_name": "Philadelphia Eagles",
+          "is_home": false,
+          "date": "2026-11-08T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3624843765022594
+        },
+        {
+          "week": 10,
+          "opponent_abbr": "WSH",
+          "opponent_name": "Washington Commanders",
+          "is_home": true,
+          "date": "2026-11-13T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5505432926308598
+        },
+        {
+          "week": 11,
+          "opponent_abbr": "JAX",
+          "opponent_name": "Jacksonville Jaguars",
+          "is_home": true,
+          "date": "2026-11-22T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4417662337662338
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "IND",
+          "opponent_name": "Indianapolis Colts",
+          "is_home": false,
+          "date": "2026-11-29T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4737794426417255
+        },
+        {
+          "week": 13,
+          "opponent_abbr": "SF",
+          "opponent_name": "San Francisco 49ers",
+          "is_home": true,
+          "date": "2026-12-06T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3756806140878989
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "SEA",
+          "opponent_name": "Seattle Seahawks",
+          "is_home": false,
+          "date": "2026-12-13T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.28940575079872205
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "CLE",
+          "opponent_name": "Cleveland Browns",
+          "is_home": true,
+          "date": "2026-12-20T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7073645894001165
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "DET",
+          "opponent_name": "Detroit Lions",
+          "is_home": false,
+          "date": "2026-12-29T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3766354105998835
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "DAL",
+          "opponent_name": "Dallas Cowboys",
+          "is_home": false,
+          "date": "2027-01-03T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3617623869021973
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "PHI",
+          "opponent_name": "Philadelphia Eagles",
+          "is_home": true,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4453151229202881
+        }
+      ],
+      "this_week_prob": 0.28090575079872204,
+      "best_future_week": 15,
+      "best_future_prob": 0.7073645894001165,
+      "save_for_later": false
+    },
+    "NYJ": {
+      "id": "20",
+      "name": "New York Jets",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+      "bye_week": 13,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "TEN",
+          "opponent_name": "Tennessee Titans",
+          "is_home": false,
+          "date": "2026-09-13T17:00Z",
+          "completed": true,
+          "won": true,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "GB",
+          "opponent_name": "Green Bay Packers",
+          "is_home": true,
+          "date": "2026-09-20T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3670479091529389
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "DET",
+          "opponent_name": "Detroit Lions",
+          "is_home": false,
+          "date": "2026-09-27T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.2649654924514737
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "CHI",
+          "opponent_name": "Chicago Bears",
+          "is_home": false,
+          "date": "2026-10-04T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.237247311827957
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "CLE",
+          "opponent_name": "Cleveland Browns",
+          "is_home": true,
+          "date": "2026-10-11T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6123717693836979
+        },
+        {
+          "week": 6,
+          "opponent_abbr": "NE",
+          "opponent_name": "New England Patriots",
+          "is_home": false,
+          "date": "2026-10-18T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.2505468497576737
+        },
+        {
+          "week": 7,
+          "opponent_abbr": "MIA",
+          "opponent_name": "Miami Dolphins",
+          "is_home": true,
+          "date": "2026-10-25T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6217460317460317
+        },
+        {
+          "week": 8,
+          "opponent_abbr": "LV",
+          "opponent_name": "Las Vegas Raiders",
+          "is_home": true,
+          "date": "2026-11-01T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5417337662337662
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "KC",
+          "opponent_name": "Kansas City Chiefs",
+          "is_home": false,
+          "date": "2026-11-08T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.20433743842364532
+        },
+        {
+          "week": 10,
+          "opponent_abbr": "BUF",
+          "opponent_name": "Buffalo Bills",
+          "is_home": true,
+          "date": "2026-11-15T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.26406419316843344
+        },
+        {
+          "week": 11,
+          "opponent_abbr": "LAC",
+          "opponent_name": "Los Angeles Chargers",
+          "is_home": false,
+          "date": "2026-11-22T21:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.27208342189160467
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "MIA",
+          "opponent_name": "Miami Dolphins",
+          "is_home": false,
+          "date": "2026-11-29T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5367662337662338
+        },
+        {
+          "week": 13,
+          "bye": true
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "DEN",
+          "opponent_name": "Denver Broncos",
+          "is_home": true,
+          "date": "2026-12-13T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4024964894684052
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "ARI",
+          "opponent_name": "Arizona Cardinals",
+          "is_home": false,
+          "date": "2026-12-20T21:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4585
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "NE",
+          "opponent_name": "New England Patriots",
+          "is_home": true,
+          "date": "2026-12-27T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3444189627228525
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "MIN",
+          "opponent_name": "Minnesota Vikings",
+          "is_home": true,
+          "date": "2027-01-03T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3782667240694132
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "BUF",
+          "opponent_name": "Buffalo Bills",
+          "is_home": false,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.20231918008784772
+        }
+      ],
+      "this_week_prob": 0.3670479091529389,
+      "best_future_week": 7,
+      "best_future_prob": 0.6217460317460317,
+      "save_for_later": false
+    },
+    "PHI": {
+      "id": "21",
+      "name": "Philadelphia Eagles",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+      "bye_week": 10,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "WSH",
+          "opponent_name": "Washington Commanders",
+          "is_home": true,
+          "date": "2026-09-13T20:25Z",
+          "completed": true,
+          "won": true,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "TEN",
+          "opponent_name": "Tennessee Titans",
+          "is_home": false,
+          "date": "2026-09-20T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.711376254180602
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "CHI",
+          "opponent_name": "Chicago Bears",
+          "is_home": false,
+          "date": "2026-09-29T00:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4478179371418649
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "LAR",
+          "opponent_name": "Los Angeles Rams",
+          "is_home": true,
+          "date": "2026-10-04T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.48045670736914015
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "JAX",
+          "opponent_name": "Jacksonville Jaguars",
+          "is_home": false,
+          "date": "2026-10-11T13:30Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.48023376623376623
+        },
+        {
+          "week": 6,
+          "opponent_abbr": "CAR",
+          "opponent_name": "Carolina Panthers",
+          "is_home": true,
+          "date": "2026-10-18T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.695516582130316
+        },
+        {
+          "week": 7,
+          "opponent_abbr": "DAL",
+          "opponent_name": "Dallas Cowboys",
+          "is_home": true,
+          "date": "2026-10-27T00:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.559684877079712
+        },
+        {
+          "week": 8,
+          "opponent_abbr": "WSH",
+          "opponent_name": "Washington Commanders",
+          "is_home": false,
+          "date": "2026-11-02T01:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5182337662337663
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "NYG",
+          "opponent_name": "New York Giants",
+          "is_home": true,
+          "date": "2026-11-08T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6360156234977405
+        },
+        {
+          "week": 10,
+          "bye": true
+        },
+        {
+          "week": 11,
+          "opponent_abbr": "PIT",
+          "opponent_name": "Pittsburgh Steelers",
+          "is_home": true,
+          "date": "2026-11-22T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6660156234977406
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "DAL",
+          "opponent_name": "Dallas Cowboys",
+          "is_home": false,
+          "date": "2026-11-26T21:30Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.45976623376623377
+        },
+        {
+          "week": 13,
+          "opponent_abbr": "ARI",
+          "opponent_name": "Arizona Cardinals",
+          "is_home": false,
+          "date": "2026-12-06T21:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6919510522582171
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "IND",
+          "opponent_name": "Indianapolis Colts",
+          "is_home": true,
+          "date": "2026-12-13T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6671966292134832
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "SEA",
+          "opponent_name": "Seattle Seahawks",
+          "is_home": true,
+          "date": "2026-12-19T22:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5187337662337663
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "HOU",
+          "opponent_name": "Houston Texans",
+          "is_home": true,
+          "date": "2026-12-25T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5482205573582746
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "SF",
+          "opponent_name": "San Francisco 49ers",
+          "is_home": false,
+          "date": "2027-01-04T01:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.39476623376623377
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "NYG",
+          "opponent_name": "New York Giants",
+          "is_home": false,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5526848770797119
+        }
+      ],
+      "this_week_prob": 0.711376254180602,
+      "best_future_week": 6,
+      "best_future_prob": 0.695516582130316,
+      "save_for_later": false
+    },
+    "PIT": {
+      "id": "23",
+      "name": "Pittsburgh Steelers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+      "bye_week": 9,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "ATL",
+          "opponent_name": "Atlanta Falcons",
+          "is_home": true,
+          "date": "2026-09-13T17:00Z",
+          "completed": true,
+          "won": true,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "NE",
+          "opponent_name": "New England Patriots",
+          "is_home": false,
+          "date": "2026-09-20T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.33976238690219734
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "CIN",
+          "opponent_name": "Cincinnati Bengals",
+          "is_home": true,
+          "date": "2026-09-27T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4492794426417255
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "CLE",
+          "opponent_name": "Cleveland Browns",
+          "is_home": false,
+          "date": "2026-10-02T00:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6062205573582744
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "IND",
+          "opponent_name": "Indianapolis Colts",
+          "is_home": true,
+          "date": "2026-10-11T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5657460317460317
+        },
+        {
+          "week": 6,
+          "opponent_abbr": "TB",
+          "opponent_name": "Tampa Bay Buccaneers",
+          "is_home": false,
+          "date": "2026-10-18T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.43276623376623374
+        },
+        {
+          "week": 7,
+          "opponent_abbr": "NO",
+          "opponent_name": "New Orleans Saints",
+          "is_home": false,
+          "date": "2026-10-25T13:30Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5417460317460318
+        },
+        {
+          "week": 8,
+          "opponent_abbr": "CLE",
+          "opponent_name": "Cleveland Browns",
+          "is_home": true,
+          "date": "2026-11-01T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.723896441527034
+        },
+        {
+          "week": 9,
+          "bye": true
+        },
+        {
+          "week": 10,
+          "opponent_abbr": "CIN",
+          "opponent_name": "Cincinnati Bengals",
+          "is_home": false,
+          "date": "2026-11-16T01:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.36504790915293894
+        },
+        {
+          "week": 11,
+          "opponent_abbr": "PHI",
+          "opponent_name": "Philadelphia Eagles",
+          "is_home": false,
+          "date": "2026-11-22T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3329843765022594
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "DEN",
+          "opponent_name": "Denver Broncos",
+          "is_home": true,
+          "date": "2026-11-27T20:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5209567073691401
+        },
+        {
+          "week": 13,
+          "opponent_abbr": "HOU",
+          "opponent_name": "Houston Texans",
+          "is_home": true,
+          "date": "2026-12-07T01:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4649567073691401
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "JAX",
+          "opponent_name": "Jacksonville Jaguars",
+          "is_home": false,
+          "date": "2026-12-15T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.35631512292028805
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "BAL",
+          "opponent_name": "Baltimore Ravens",
+          "is_home": true,
+          "date": "2026-12-20T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3879701822197681
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "CAR",
+          "opponent_name": "Carolina Panthers",
+          "is_home": true,
+          "date": "2026-12-27T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6299701718907988
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "TEN",
+          "opponent_name": "Tennessee Titans",
+          "is_home": false,
+          "date": "2027-01-03T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5600432926308598
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "BAL",
+          "opponent_name": "Baltimore Ravens",
+          "is_home": false,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.30367593790426906
+        }
+      ],
+      "this_week_prob": 0.33976238690219734,
+      "best_future_week": 8,
+      "best_future_prob": 0.723896441527034,
+      "save_for_later": false
+    },
+    "SF": {
+      "id": "25",
+      "name": "San Francisco 49ers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+      "bye_week": 8,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "LAR",
+          "opponent_name": "Los Angeles Rams",
+          "is_home": false,
+          "date": "2026-09-11T00:35Z",
+          "completed": true,
+          "won": true,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "MIA",
+          "opponent_name": "Miami Dolphins",
+          "is_home": true,
+          "date": "2026-09-20T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.8920068493150685
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "ARI",
+          "opponent_name": "Arizona Cardinals",
+          "is_home": true,
+          "date": "2026-09-27T20:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.8098879385582127
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "DEN",
+          "opponent_name": "Denver Broncos",
+          "is_home": true,
+          "date": "2026-10-04T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6722460317460317
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "SEA",
+          "opponent_name": "Seattle Seahawks",
+          "is_home": false,
+          "date": "2026-10-11T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4696354105998835
+        },
+        {
+          "week": 6,
+          "opponent_abbr": "WSH",
+          "opponent_name": "Washington Commanders",
+          "is_home": true,
+          "date": "2026-10-20T00:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7211966292134832
+        },
+        {
+          "week": 7,
+          "opponent_abbr": "ATL",
+          "opponent_name": "Atlanta Falcons",
+          "is_home": false,
+          "date": "2026-10-25T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6975035105315948
+        },
+        {
+          "week": 8,
+          "bye": true
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "LV",
+          "opponent_name": "Las Vegas Raiders",
+          "is_home": true,
+          "date": "2026-11-08T21:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.8124165781083954
+        },
+        {
+          "week": 10,
+          "opponent_abbr": "DAL",
+          "opponent_name": "Dallas Cowboys",
+          "is_home": false,
+          "date": "2026-11-15T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5296304347826086
+        },
+        {
+          "week": 11,
+          "opponent_abbr": "MIN",
+          "opponent_name": "Minnesota Vikings",
+          "is_home": true,
+          "date": "2026-11-23T01:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6404701718907988
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "SEA",
+          "opponent_name": "Seattle Seahawks",
+          "is_home": true,
+          "date": "2026-11-29T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5635
+        },
+        {
+          "week": 13,
+          "opponent_abbr": "NYG",
+          "opponent_name": "New York Giants",
+          "is_home": false,
+          "date": "2026-12-06T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6233193859121011
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "LAR",
+          "opponent_name": "Los Angeles Rams",
+          "is_home": true,
+          "date": "2026-12-13T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5486282306163022
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "LAC",
+          "opponent_name": "Los Angeles Chargers",
+          "is_home": false,
+          "date": "2026-12-18T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5392539682539682
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "KC",
+          "opponent_name": "Kansas City Chiefs",
+          "is_home": false,
+          "date": "2026-12-27T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4525036794766967
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "PHI",
+          "opponent_name": "Philadelphia Eagles",
+          "is_home": true,
+          "date": "2027-01-04T01:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6037337662337663
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "ARI",
+          "opponent_name": "Arizona Cardinals",
+          "is_home": false,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.752252688172043
+        }
+      ],
+      "this_week_prob": 0.8920068493150685,
+      "best_future_week": 9,
+      "best_future_prob": 0.8124165781083954,
+      "save_for_later": false
+    },
+    "SEA": {
+      "id": "26",
+      "name": "Seattle Seahawks",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+      "bye_week": 11,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "NE",
+          "opponent_name": "New England Patriots",
+          "is_home": true,
+          "date": "2026-09-10T00:20Z",
+          "completed": true,
+          "won": true,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "ARI",
+          "opponent_name": "Arizona Cardinals",
+          "is_home": false,
+          "date": "2026-09-20T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5563240620957309
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "WSH",
+          "opponent_name": "Washington Commanders",
+          "is_home": false,
+          "date": "2026-09-27T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.49572055735827447
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "LAC",
+          "opponent_name": "Los Angeles Chargers",
+          "is_home": true,
+          "date": "2026-10-04T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5711181172291296
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "SF",
+          "opponent_name": "San Francisco 49ers",
+          "is_home": true,
+          "date": "2026-10-11T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5283645894001165
+        },
+        {
+          "week": 6,
+          "opponent_abbr": "DEN",
+          "opponent_name": "Denver Broncos",
+          "is_home": false,
+          "date": "2026-10-16T00:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5538717693836979
+        },
+        {
+          "week": 7,
+          "opponent_abbr": "KC",
+          "opponent_name": "Kansas City Chiefs",
+          "is_home": true,
+          "date": "2026-10-26T00:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.559878485471089
+        },
+        {
+          "week": 8,
+          "opponent_abbr": "CHI",
+          "opponent_name": "Chicago Bears",
+          "is_home": true,
+          "date": "2026-11-03T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6193240620957309
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "ARI",
+          "opponent_name": "Arizona Cardinals",
+          "is_home": true,
+          "date": "2026-11-08T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7992295081967213
+        },
+        {
+          "week": 10,
+          "opponent_abbr": "LV",
+          "opponent_name": "Las Vegas Raiders",
+          "is_home": false,
+          "date": "2026-11-15T21:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.7072711598746082
+        },
+        {
+          "week": 11,
+          "bye": true
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "SF",
+          "opponent_name": "San Francisco 49ers",
+          "is_home": false,
+          "date": "2026-11-29T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.435
+        },
+        {
+          "week": 13,
+          "opponent_abbr": "DAL",
+          "opponent_name": "Dallas Cowboys",
+          "is_home": true,
+          "date": "2026-12-08T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6218240620957309
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "NYG",
+          "opponent_name": "New York Giants",
+          "is_home": true,
+          "date": "2026-12-13T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.709094249201278
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "PHI",
+          "opponent_name": "Philadelphia Eagles",
+          "is_home": false,
+          "date": "2026-12-19T22:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4792662337662338
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "LAR",
+          "opponent_name": "Los Angeles Rams",
+          "is_home": true,
+          "date": "2026-12-26T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5463717693836978
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "CAR",
+          "opponent_name": "Carolina Panthers",
+          "is_home": false,
+          "date": "2027-01-03T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6652777777777779
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "LAR",
+          "opponent_name": "Los Angeles Rams",
+          "is_home": false,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.42281512292028806
+        }
+      ],
+      "this_week_prob": 0.5563240620957309,
+      "best_future_week": 9,
+      "best_future_prob": 0.7992295081967213,
+      "save_for_later": true
+    },
+    "TB": {
+      "id": "27",
+      "name": "Tampa Bay Buccaneers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+      "bye_week": 10,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "CIN",
+          "opponent_name": "Cincinnati Bengals",
+          "is_home": false,
+          "date": "2026-09-13T17:00Z",
+          "completed": true,
+          "won": false,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "CLE",
+          "opponent_name": "Cleveland Browns",
+          "is_home": true,
+          "date": "2026-09-20T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.786371757925072
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "MIN",
+          "opponent_name": "Minnesota Vikings",
+          "is_home": true,
+          "date": "2026-09-27T20:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5137337662337662
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "GB",
+          "opponent_name": "Green Bay Packers",
+          "is_home": true,
+          "date": "2026-10-04T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4812662337662338
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "DAL",
+          "opponent_name": "Dallas Cowboys",
+          "is_home": false,
+          "date": "2026-10-09T00:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.37013541059988353
+        },
+        {
+          "week": 6,
+          "opponent_abbr": "PIT",
+          "opponent_name": "Pittsburgh Steelers",
+          "is_home": true,
+          "date": "2026-10-18T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5657337662337663
+        },
+        {
+          "week": 7,
+          "opponent_abbr": "CAR",
+          "opponent_name": "Carolina Panthers",
+          "is_home": false,
+          "date": "2026-10-25T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5437337662337662
+        },
+        {
+          "week": 8,
+          "opponent_abbr": "ATL",
+          "opponent_name": "Atlanta Falcons",
+          "is_home": true,
+          "date": "2026-11-01T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6442376130978027
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "CHI",
+          "opponent_name": "Chicago Bears",
+          "is_home": false,
+          "date": "2026-11-09T01:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3595479091529389
+        },
+        {
+          "week": 10,
+          "bye": true
+        },
+        {
+          "week": 11,
+          "opponent_abbr": "DET",
+          "opponent_name": "Detroit Lions",
+          "is_home": false,
+          "date": "2026-11-22T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.36817593790426906
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "CAR",
+          "opponent_name": "Carolina Panthers",
+          "is_home": true,
+          "date": "2026-12-01T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6394520908470611
+        },
+        {
+          "week": 13,
+          "opponent_abbr": "LAC",
+          "opponent_name": "Los Angeles Chargers",
+          "is_home": true,
+          "date": "2026-12-06T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4852794426417255
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "BAL",
+          "opponent_name": "Baltimore Ravens",
+          "is_home": false,
+          "date": "2026-12-13T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.295103558472966
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "NO",
+          "opponent_name": "New Orleans Saints",
+          "is_home": true,
+          "date": "2026-12-20T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6114520908470611
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "ATL",
+          "opponent_name": "Atlanta Falcons",
+          "is_home": false,
+          "date": "2026-12-27T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5247337662337663
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "LAR",
+          "opponent_name": "Los Angeles Rams",
+          "is_home": true,
+          "date": "2027-01-03T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.39413541059988355
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "NO",
+          "opponent_name": "New Orleans Saints",
+          "is_home": false,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5157337662337662
+        }
+      ],
+      "this_week_prob": 0.786371757925072,
+      "best_future_week": 8,
+      "best_future_prob": 0.6442376130978027,
+      "save_for_later": false
+    },
+    "TEN": {
+      "id": "10",
+      "name": "Tennessee Titans",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+      "bye_week": 9,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "NYJ",
+          "opponent_name": "New York Jets",
+          "is_home": true,
+          "date": "2026-09-13T17:00Z",
+          "completed": true,
+          "won": false,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "PHI",
+          "opponent_name": "Philadelphia Eagles",
+          "is_home": true,
+          "date": "2026-09-20T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.287123745819398
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "NYG",
+          "opponent_name": "New York Giants",
+          "is_home": false,
+          "date": "2026-09-27T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.2958033707865168
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "BAL",
+          "opponent_name": "Baltimore Ravens",
+          "is_home": false,
+          "date": "2026-10-04T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.1935
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "HOU",
+          "opponent_name": "Houston Texans",
+          "is_home": true,
+          "date": "2026-10-11T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3347667240694132
+        },
+        {
+          "week": 6,
+          "opponent_abbr": "IND",
+          "opponent_name": "Indianapolis Colts",
+          "is_home": false,
+          "date": "2026-10-18T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.34702982810920124
+        },
+        {
+          "week": 7,
+          "opponent_abbr": "CLE",
+          "opponent_name": "Cleveland Browns",
+          "is_home": true,
+          "date": "2026-10-25T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5852205573582745
+        },
+        {
+          "week": 8,
+          "opponent_abbr": "CIN",
+          "opponent_name": "Cincinnati Bengals",
+          "is_home": false,
+          "date": "2026-11-01T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.25922438486962907
+        },
+        {
+          "week": 9,
+          "bye": true
+        },
+        {
+          "week": 10,
+          "opponent_abbr": "JAX",
+          "opponent_name": "Jacksonville Jaguars",
+          "is_home": true,
+          "date": "2026-11-15T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3547794426417255
+        },
+        {
+          "week": 11,
+          "opponent_abbr": "DAL",
+          "opponent_name": "Dallas Cowboys",
+          "is_home": false,
+          "date": "2026-11-22T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.26222438486962907
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "JAX",
+          "opponent_name": "Jacksonville Jaguars",
+          "is_home": false,
+          "date": "2026-11-29T21:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.2554843765022594
+        },
+        {
+          "week": 13,
+          "opponent_abbr": "WSH",
+          "opponent_name": "Washington Commanders",
+          "is_home": true,
+          "date": "2026-12-06T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4317662337662338
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "DET",
+          "opponent_name": "Detroit Lions",
+          "is_home": false,
+          "date": "2026-12-13T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.2480937161430119
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "IND",
+          "opponent_name": "Indianapolis Colts",
+          "is_home": true,
+          "date": "2026-12-20T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.45126623376623376
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "LV",
+          "opponent_name": "Las Vegas Raiders",
+          "is_home": false,
+          "date": "2026-12-27T21:05Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.44095670736914006
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "PIT",
+          "opponent_name": "Pittsburgh Steelers",
+          "is_home": true,
+          "date": "2027-01-03T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4384567073691401
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "HOU",
+          "opponent_name": "Houston Texans",
+          "is_home": false,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.2645147392290249
+        }
+      ],
+      "this_week_prob": 0.287123745819398,
+      "best_future_week": 7,
+      "best_future_prob": 0.5852205573582745,
+      "save_for_later": false
+    },
+    "WSH": {
+      "id": "28",
+      "name": "Washington Commanders",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+      "bye_week": 7,
+      "schedule": [
+        {
+          "week": 1,
+          "opponent_abbr": "PHI",
+          "opponent_name": "Philadelphia Eagles",
+          "is_home": false,
+          "date": "2026-09-13T20:25Z",
+          "completed": true,
+          "won": false,
+          "combined_prob": null
+        },
+        {
+          "week": 2,
+          "opponent_abbr": "DAL",
+          "opponent_name": "Dallas Cowboys",
+          "is_home": false,
+          "date": "2026-09-20T20:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.34976238690219735
+        },
+        {
+          "week": 3,
+          "opponent_abbr": "SEA",
+          "opponent_name": "Seattle Seahawks",
+          "is_home": true,
+          "date": "2026-09-27T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5027794426417256
+        },
+        {
+          "week": 4,
+          "opponent_abbr": "IND",
+          "opponent_name": "Indianapolis Colts",
+          "is_home": true,
+          "date": "2026-10-04T13:30Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.536682062858135
+        },
+        {
+          "week": 5,
+          "opponent_abbr": "NYG",
+          "opponent_name": "New York Giants",
+          "is_home": true,
+          "date": "2026-10-11T17:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5403717693836978
+        },
+        {
+          "week": 6,
+          "opponent_abbr": "SF",
+          "opponent_name": "San Francisco 49ers",
+          "is_home": false,
+          "date": "2026-10-20T00:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.27780337078651685
+        },
+        {
+          "week": 7,
+          "bye": true
+        },
+        {
+          "week": 8,
+          "opponent_abbr": "PHI",
+          "opponent_name": "Philadelphia Eagles",
+          "is_home": true,
+          "date": "2026-11-02T01:20Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4797662337662338
+        },
+        {
+          "week": 9,
+          "opponent_abbr": "LAR",
+          "opponent_name": "Los Angeles Rams",
+          "is_home": true,
+          "date": "2026-11-08T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3766759379042691
+        },
+        {
+          "week": 10,
+          "opponent_abbr": "NYG",
+          "opponent_name": "New York Giants",
+          "is_home": false,
+          "date": "2026-11-13T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4474567073691401
+        },
+        {
+          "week": 11,
+          "opponent_abbr": "CIN",
+          "opponent_name": "Cincinnati Bengals",
+          "is_home": true,
+          "date": "2026-11-24T01:15Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4767662337662337
+        },
+        {
+          "week": 12,
+          "opponent_abbr": "ARI",
+          "opponent_name": "Arizona Cardinals",
+          "is_home": false,
+          "date": "2026-11-29T21:25Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5962376130978027
+        },
+        {
+          "week": 13,
+          "opponent_abbr": "TEN",
+          "opponent_name": "Tennessee Titans",
+          "is_home": false,
+          "date": "2026-12-06T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.5667337662337663
+        },
+        {
+          "week": 14,
+          "opponent_abbr": "HOU",
+          "opponent_name": "Houston Texans",
+          "is_home": true,
+          "date": "2026-12-13T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4729567073691401
+        },
+        {
+          "week": 15,
+          "opponent_abbr": "ATL",
+          "opponent_name": "Atlanta Falcons",
+          "is_home": true,
+          "date": "2026-12-20T18:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.6177332759305869
+        },
+        {
+          "week": 16,
+          "opponent_abbr": "MIN",
+          "opponent_name": "Minnesota Vikings",
+          "is_home": false,
+          "date": "2026-12-27T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4172794426417255
+        },
+        {
+          "week": 17,
+          "opponent_abbr": "JAX",
+          "opponent_name": "Jacksonville Jaguars",
+          "is_home": false,
+          "date": "2027-01-03T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.3507667240694132
+        },
+        {
+          "week": 18,
+          "opponent_abbr": "DAL",
+          "opponent_name": "Dallas Cowboys",
+          "is_home": true,
+          "date": "2027-01-10T05:00Z",
+          "completed": false,
+          "won": null,
+          "combined_prob": 0.4714567073691401
+        }
+      ],
+      "this_week_prob": 0.34976238690219735,
+      "best_future_week": 15,
+      "best_future_prob": 0.6177332759305869,
+      "save_for_later": false
+    }
+  }
+}

@@ -113,6 +113,33 @@
   }
   #lock-error { color: var(--warn); font-size: 0.8rem; min-height: 1.2em; margin-top: 10px; }
   #app { display: none; }
+
+  .survivor-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+  .team-chip {
+    display: flex; align-items: center; gap: 6px; background: var(--panel);
+    border: 1px solid var(--border); border-radius: 20px; padding: 6px 12px 6px 8px;
+    cursor: pointer; user-select: none; font-size: 0.82rem; transition: opacity .15s;
+  }
+  .team-chip img { width: 20px; height: 20px; object-fit: contain; }
+  .team-chip.used { opacity: 0.4; text-decoration: line-through; background: var(--panel-2); }
+  .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  #survivor-map-table { min-width: 900px; }
+  #survivor-map-table th, #survivor-map-table td { text-align: center; padding: 6px 5px; font-size: 0.72rem; white-space: nowrap; }
+  #survivor-map-table th:first-child, #survivor-map-table td:first-child {
+    text-align: left; position: sticky; left: 0; background: var(--bg); padding-left: 4px;
+  }
+  #survivor-map-table td.this-week { background: rgba(79,157,255,0.12); border-radius: 6px; }
+  .prob-high { color: var(--good); font-weight: 700; }
+  .prob-mid { color: #e8c547; }
+  .prob-low { color: var(--warn); }
+  .rec-card {
+    display: flex; align-items: center; gap: 12px; background: var(--panel); border: 1px solid var(--border);
+    border-radius: 10px; padding: 12px 14px; margin-bottom: 8px;
+  }
+  .rec-card img { width: 30px; height: 30px; object-fit: contain; }
+  .rec-card .rec-main { flex: 1; }
+  .rec-card .rec-prob { font-size: 1.15rem; font-weight: 800; }
+  .rec-card .rec-flag { font-size: 0.75rem; color: #e8c547; margin-top: 3px; }
 </style>
 </head>
 <body>
@@ -138,6 +165,27 @@
 
   <h2 class="section">Top 3 más probables a ganar esta semana</h2>
   <div class="top3" id="top3"></div>
+
+  <h2 class="section">🏆 Mi Survivor</h2>
+  <p class="muted" style="margin-top:-8px;">
+    Marcá los equipos que ya usaste en semanas anteriores (queda guardado en este dispositivo).
+    Abajo aparece la recomendación para esta semana y el mapa de toda la temporada.
+  </p>
+  <div class="survivor-grid" id="survivor-teams-grid"></div>
+
+  <h3 style="margin:22px 0 10px; font-size: 0.95rem;">Recomendación para esta semana</h3>
+  <div id="survivor-recommendation"></div>
+
+  <h3 style="margin:22px 0 10px; font-size: 0.95rem;">Mapa de temporada (equipo × semana)</h3>
+  <p class="muted" style="margin-top:-4px; font-size: 0.78rem;">
+    % = probabilidad combinada de ganar esa semana · bye = semana libre · ✓/✗ = ya jugado
+  </p>
+  <div class="table-scroll">
+    <table id="survivor-map-table">
+      <thead><tr id="survivor-map-head"></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
 
   <h2 class="section">Ranking completo de la semana</h2>
   <table id="ranking-table">
@@ -207,6 +255,120 @@ async function load() {
   } catch (e) {
     console.error(e);
   }
+  try {
+    const res = await fetch('data/survivor.json?_=' + Date.now());
+    if (res.ok) initSurvivor(await res.json());
+  } catch (e) {
+    console.error(e);
+  }
+}
+
+const SURVIVOR_STORAGE_KEY = 'survivor_used_teams';
+
+function getUsedTeams() {
+  try {
+    return new Set(JSON.parse(localStorage.getItem(SURVIVOR_STORAGE_KEY) || '[]'));
+  } catch (e) {
+    return new Set();
+  }
+}
+
+function setUsedTeams(set) {
+  localStorage.setItem(SURVIVOR_STORAGE_KEY, JSON.stringify([...set]));
+}
+
+function probClass(p) {
+  if (p == null) return 'muted';
+  if (p >= 0.6) return 'prob-high';
+  if (p >= 0.45) return 'prob-mid';
+  return 'prob-low';
+}
+
+function initSurvivor(surv) {
+  const usedTeams = getUsedTeams();
+  const abbrs = Object.keys(surv.teams).sort();
+
+  function renderChips() {
+    const grid = document.getElementById('survivor-teams-grid');
+    grid.innerHTML = abbrs.map(abbr => {
+      const t = surv.teams[abbr];
+      const used = usedTeams.has(abbr);
+      return `<div class="team-chip ${used ? 'used' : ''}" data-abbr="${abbr}">
+        <img src="${t.logo}" alt="">${abbr}
+      </div>`;
+    }).join('');
+    grid.querySelectorAll('.team-chip').forEach(chip => {
+      chip.addEventListener('click', () => {
+        const abbr = chip.dataset.abbr;
+        if (usedTeams.has(abbr)) usedTeams.delete(abbr); else usedTeams.add(abbr);
+        setUsedTeams(usedTeams);
+        renderChips();
+        renderRecommendation();
+        renderMap();
+      });
+    });
+  }
+
+  function renderRecommendation() {
+    const el = document.getElementById('survivor-recommendation');
+    const week = surv.current_week;
+    const candidates = abbrs
+      .filter(a => !usedTeams.has(a))
+      .map(a => ({ abbr: a, ...surv.teams[a] }))
+      .filter(t => t.this_week_prob != null)
+      .sort((a, b) => b.this_week_prob - a.this_week_prob);
+
+    if (!candidates.length) {
+      el.innerHTML = '<p class="muted">No hay datos de la semana actual todavía (o ya usaste todos los equipos con partido esta semana).</p>';
+      return;
+    }
+
+    el.innerHTML = candidates.slice(0, 8).map(t => {
+      const entry = t.schedule.find(e => e.week === week);
+      const opp = entry ? `${entry.is_home ? 'vs' : '@'} ${entry.opponent_abbr}` : '';
+      const flag = t.save_for_later
+        ? `<div class="rec-flag">⚠️ Podrías guardarlo: en la semana ${t.best_future_week} tiene ${(t.best_future_prob * 100).toFixed(0)}%</div>`
+        : '';
+      return `<div class="rec-card">
+        <img src="${t.logo}" alt="">
+        <div class="rec-main">
+          <strong>${t.abbr}</strong> <span class="muted">${opp}</span>
+          ${flag}
+        </div>
+        <div class="rec-prob ${probClass(t.this_week_prob)}">${(t.this_week_prob * 100).toFixed(0)}%</div>
+      </div>`;
+    }).join('');
+  }
+
+  function renderMap() {
+    const weeks = Array.from({ length: 18 }, (_, i) => i + 1);
+    document.getElementById('survivor-map-head').innerHTML =
+      '<th>Equipo</th>' + weeks.map(w => `<th>${w === surv.current_week ? '➤' + w : w}</th>`).join('');
+
+    const tbody = document.querySelector('#survivor-map-table tbody');
+    tbody.innerHTML = abbrs.map(abbr => {
+      const t = surv.teams[abbr];
+      const used = usedTeams.has(abbr);
+      const cellsByWeek = {};
+      t.schedule.forEach(e => { cellsByWeek[e.week] = e; });
+      const cells = weeks.map(w => {
+        const e = cellsByWeek[w];
+        const cls = w === surv.current_week ? 'this-week' : '';
+        if (!e) return `<td class="${cls}">—</td>`;
+        if (e.bye) return `<td class="${cls} muted">bye</td>`;
+        if (e.completed) {
+          return `<td class="${cls} ${e.won ? 'prob-high' : 'prob-low'}">${e.won ? '✓' : '✗'}</td>`;
+        }
+        if (e.combined_prob == null) return `<td class="${cls} muted">—</td>`;
+        return `<td class="${cls} ${probClass(e.combined_prob)}">${(e.combined_prob * 100).toFixed(0)}</td>`;
+      }).join('');
+      return `<tr style="${used ? 'opacity:0.35' : ''}"><td>${used ? '✔ ' : ''}${abbr}</td>${cells}</tr>`;
+    }).join('');
+  }
+
+  renderChips();
+  renderRecommendation();
+  renderMap();
 }
 
 function renderHistory(hist) {

@@ -1,0 +1,33 @@
+name: Actualizar datos de Survivor
+
+on:
+  schedule:
+    # Una vez por semana (miercoles 14:00 UTC, ~11am Argentina), despues de
+    # que se cierra la semana anterior. survivor.py pega ~300 pedidos a
+    # ESPN (calendario completo de los 32 equipos), por eso no corre a diario.
+    - cron: "0 14 * * 3"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Calcular grilla de temporada para Survivor
+        run: python3 survivor.py
+
+      - name: Commit si hay cambios
+        run: |
+          git config user.name "nfl-picks-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/survivor.json
+          git diff --cached --quiet || git commit -m "Actualizar datos de Survivor $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push

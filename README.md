@@ -41,6 +41,37 @@ fijo — pero con varias semanas de historial se puede ver si conviene
 pesarlo distinto (por ejemplo, darle más peso al mercado si resulta ser
 más preciso que el modelo de ESPN).
 
+## Estrategia de Survivor Pool (`data/survivor.json`)
+
+Pensado para el juego de "Survivor": cada semana elegís un equipo que
+creas que va a ganar, no podés repetir equipo en toda la temporada, y si
+el que elegiste pierde quedás eliminado. La estrategia no es solo "quién
+gana esta semana" sino también "a quién me conviene guardarme para una
+semana donde le toque más fácil".
+
+- `survivor.py` trae el calendario completo (18 semanas) de los 32
+  equipos y, para cada partido que todavía no se jugó, la misma
+  probabilidad combinada (modelo ESPN + mercado) que usa `fetch.py` —
+  ESPN devuelve esa proyección para partidos de varias semanas en el
+  futuro, no solo el de esta semana. Con eso arma `data/survivor.json`.
+- A diferencia de `fetch.py`, este script pega ~300 pedidos por corrida
+  (uno por partido de la temporada), así que corre **una vez por semana**
+  (miércoles 14:00 UTC) vía `.github/workflows/survivor.yml`, en vez de
+  a diario.
+- En el dashboard, la sección **"🏆 Mi Survivor"** deja marcar qué
+  equipos ya usaste (queda guardado en `localStorage` de ese
+  dispositivo, no es una cuenta en la nube) y muestra:
+  - Una recomendación para la semana actual, con una alerta ⚠️ cuando
+    ese equipo tiene una semana bastante más fácil más adelante (la
+    diferencia supera `SAVE_THRESHOLD`, 12 puntos por defecto) y el
+    pick de esta semana ya es razonablemente seguro (`SAFE_ENOUGH`,
+    55% o más) — o sea, cuando conviene más guardarlo que gastarlo ya.
+  - Un mapa completo equipo × semana para planear a mano vos mismo.
+- Esto **no es un plan rígido de toda la temporada**: las lesiones y las
+  cuotas cambian semana a semana, así que la idea es revisar la
+  recomendación cada vez que vayas a elegir, no comprometerte de
+  entrada a los 18 picks.
+
 ## Puesta en marcha (una sola vez)
 
 1. Crear un repositorio nuevo en GitHub (puede ser privado o público) y
@@ -70,7 +101,8 @@ más preciso que el modelo de ESPN).
 ## Correr localmente
 
 ```bash
-python3 fetch.py          # genera data/latest.json
+python3 fetch.py          # genera data/latest.json y data/history.json
+python3 survivor.py       # genera data/survivor.json (tarda ~2-3 min, ~300 pedidos)
 python3 -m http.server    # sirve el dashboard en http://localhost:8000
 ```
 
