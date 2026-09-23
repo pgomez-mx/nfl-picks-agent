@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-17T23:40:04.691380+00:00",
-  "current_week": 2,
+  "generated_at": "2026-09-23T14:07:28.676745+00:00",
+  "current_week": 3,
   "save_threshold": 0.12,
   "safe_enough": 0.55,
   "teams": {
@@ -26,9 +26,9 @@
           "opponent_name": "Seattle Seahawks",
           "is_home": true,
           "date": "2026-09-20T20:25Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.442175937904269
+          "completed": true,
+          "won": false,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -38,7 +38,7 @@
           "date": "2026-09-27T20:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.18961206144178738
+          "combined_prob": 0.1511120614417874
         },
         {
           "week": 4,
@@ -48,7 +48,7 @@
           "date": "2026-10-04T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.30272884012539186
+          "combined_prob": 0.5027539682539682
         },
         {
           "week": 5,
@@ -58,7 +58,7 @@
           "date": "2026-10-11T20:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.31054894774178293
+          "combined_prob": 0.2590489477417829
         },
         {
           "week": 6,
@@ -68,7 +68,7 @@
           "date": "2026-10-18T20:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.20074943566591424
+          "combined_prob": 0.14974943566591423
         },
         {
           "week": 7,
@@ -78,7 +78,7 @@
           "date": "2026-10-25T20:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.36990575079872207
+          "combined_prob": 0.30090575079872206
         },
         {
           "week": 8,
@@ -88,7 +88,7 @@
           "date": "2026-11-01T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.2424214501510574
+          "combined_prob": 0.19042145015105738
         },
         {
           "week": 9,
@@ -98,7 +98,7 @@
           "date": "2026-11-08T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.19977049180327872
+          "combined_prob": 0.14127049180327872
         },
         {
           "week": 10,
@@ -108,7 +108,7 @@
           "date": "2026-11-15T21:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.2698191800878477
+          "combined_prob": 0.20931918008784772
         },
         {
           "week": 11,
@@ -118,7 +118,7 @@
           "date": "2026-11-22T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.19833248730964465
+          "combined_prob": 0.16583248730964467
         },
         {
           "week": 12,
@@ -128,7 +128,7 @@
           "date": "2026-11-29T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.40226238690219734
+          "combined_prob": 0.3797623869021973
         },
         {
           "week": 13,
@@ -138,7 +138,7 @@
           "date": "2026-12-06T21:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.30654894774178293
+          "combined_prob": 0.27054894774178295
         },
         {
           "week": 14,
@@ -152,7 +152,7 @@
           "date": "2026-12-20T21:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5395
+          "combined_prob": 0.5
         },
         {
           "week": 16,
@@ -162,7 +162,7 @@
           "date": "2026-12-27T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.36472222222222217
+          "combined_prob": 0.31272222222222223
         },
         {
           "week": 17,
@@ -172,7 +172,7 @@
           "date": "2027-01-03T21:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5161282306163022
+          "combined_prob": 0.46312823061630215
         },
         {
           "week": 18,
@@ -182,12 +182,12 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.24674731182795698
+          "combined_prob": 0.20274731182795697
         }
       ],
-      "this_week_prob": 0.442175937904269,
-      "best_future_week": 15,
-      "best_future_prob": 0.5395,
+      "this_week_prob": 0.1511120614417874,
+      "best_future_week": 4,
+      "best_future_prob": 0.5027539682539682,
       "save_for_later": false
     },
     "ATL": {
@@ -212,9 +212,9 @@
           "opponent_name": "Carolina Panthers",
           "is_home": true,
           "date": "2026-09-20T17:00Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.5019701822197681
+          "completed": true,
+          "won": false,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -224,7 +224,7 @@
           "date": "2026-09-25T00:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.294123745819398
+          "combined_prob": 0.27711502396332566
         },
         {
           "week": 4,
@@ -234,7 +234,7 @@
           "date": "2026-10-06T00:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4407794426417255
+          "combined_prob": 0.33626672406941316
         },
         {
           "week": 5,
@@ -244,7 +244,7 @@
           "date": "2026-10-12T00:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3280479091529389
+          "combined_prob": 0.2940479091529389
         },
         {
           "week": 5,
@@ -258,7 +258,7 @@
           "date": "2026-10-18T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.38700367947669667
+          "combined_prob": 0.3985036794766966
         },
         {
           "week": 7,
@@ -268,7 +268,7 @@
           "date": "2026-10-25T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.30149648946840524
+          "combined_prob": 0.24499648946840524
         },
         {
           "week": 8,
@@ -278,7 +278,7 @@
           "date": "2026-11-01T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.35426238690219736
+          "combined_prob": 0.32976238690219734
         },
         {
           "week": 9,
@@ -288,7 +288,7 @@
           "date": "2026-11-08T14:30Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3389964894684052
+          "combined_prob": 0.29349648946840523
         },
         {
           "week": 10,
@@ -298,7 +298,7 @@
           "date": "2026-11-15T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3351354105998835
+          "combined_prob": 0.2881354105998835
         },
         {
           "week": 12,
@@ -308,7 +308,7 @@
           "date": "2026-11-29T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3327623869021973
+          "combined_prob": 0.29076238690219736
         },
         {
           "week": 13,
@@ -318,7 +318,7 @@
           "date": "2026-12-06T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3982667240694132
+          "combined_prob": 0.3377667240694132
         },
         {
           "week": 14,
@@ -328,7 +328,7 @@
           "date": "2026-12-13T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5457662337662338
+          "combined_prob": 0.48076623376623373
         },
         {
           "week": 15,
@@ -338,7 +338,7 @@
           "date": "2026-12-20T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3807667240694132
+          "combined_prob": 0.35176672406941323
         },
         {
           "week": 16,
@@ -348,7 +348,7 @@
           "date": "2026-12-27T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4732662337662338
+          "combined_prob": 0.43826623376623375
         },
         {
           "week": 17,
@@ -358,7 +358,7 @@
           "date": "2027-01-03T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5220432926308598
+          "combined_prob": 0.46104329263085986
         },
         {
           "week": 18,
@@ -368,12 +368,12 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4602794426417255
+          "combined_prob": 0.3947794426417255
         }
       ],
-      "this_week_prob": 0.5019701822197681,
+      "this_week_prob": 0.27711502396332566,
       "best_future_week": 14,
-      "best_future_prob": 0.5457662337662338,
+      "best_future_prob": 0.48076623376623373,
       "save_for_later": false
     },
     "BAL": {
@@ -398,9 +398,9 @@
           "opponent_name": "New Orleans Saints",
           "is_home": true,
           "date": "2026-09-20T17:00Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.7585942492012779
+          "completed": true,
+          "won": false,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -410,7 +410,7 @@
           "date": "2026-09-27T20:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5949963205233033
+          "combined_prob": 0.5802191780821918
         },
         {
           "week": 4,
@@ -420,7 +420,7 @@
           "date": "2026-10-04T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.806
+          "combined_prob": 0.8236675126903552
         },
         {
           "week": 5,
@@ -430,7 +430,7 @@
           "date": "2026-10-12T00:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6704520908470613
+          "combined_prob": 0.7054520908470612
         },
         {
           "week": 6,
@@ -440,7 +440,7 @@
           "date": "2026-10-18T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7571966292134832
+          "combined_prob": 0.7411966292134832
         },
         {
           "week": 7,
@@ -450,7 +450,7 @@
           "date": "2026-10-25T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6352332759305869
+          "combined_prob": 0.6122332759305869
         },
         {
           "week": 8,
@@ -460,7 +460,7 @@
           "date": "2026-11-01T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4407794426417255
+          "combined_prob": 0.4167794426417255
         },
         {
           "week": 9,
@@ -470,7 +470,7 @@
           "date": "2026-11-06T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6238645894001165
+          "combined_prob": 0.6093645894001165
         },
         {
           "week": 10,
@@ -480,7 +480,7 @@
           "date": "2026-11-17T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6577191780821918
+          "combined_prob": 0.6702191780821918
         },
         {
           "week": 11,
@@ -490,7 +490,7 @@
           "date": "2026-11-22T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6822376130978027
+          "combined_prob": 0.6477376130978028
         },
         {
           "week": 12,
@@ -500,7 +500,7 @@
           "date": "2026-11-29T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5099567073691401
+          "combined_prob": 0.5109567073691401
         },
         {
           "week": 13,
@@ -514,7 +514,7 @@
           "date": "2026-12-13T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7038964415270341
+          "combined_prob": 0.712896441527034
         },
         {
           "week": 15,
@@ -534,7 +534,7 @@
           "date": "2026-12-27T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.8247526881720431
+          "combined_prob": 0.808252688172043
         },
         {
           "week": 17,
@@ -544,7 +544,7 @@
           "date": "2027-01-01T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5042794426417255
+          "combined_prob": 0.4867794426417255
         },
         {
           "week": 18,
@@ -554,13 +554,13 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6953240620957308
+          "combined_prob": 0.698324062095731
         }
       ],
-      "this_week_prob": 0.7585942492012779,
-      "best_future_week": 16,
-      "best_future_prob": 0.8247526881720431,
-      "save_for_later": false
+      "this_week_prob": 0.5802191780821918,
+      "best_future_week": 4,
+      "best_future_prob": 0.8236675126903552,
+      "save_for_later": true
     },
     "BUF": {
       "id": "2",
@@ -584,9 +584,9 @@
           "opponent_name": "Detroit Lions",
           "is_home": true,
           "date": "2026-09-18T00:15Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.6710156234977407
+          "completed": true,
+          "won": true,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -596,7 +596,7 @@
           "date": "2026-09-27T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6858240620957309
+          "combined_prob": 0.7605345075485263
         },
         {
           "week": 4,
@@ -606,7 +606,7 @@
           "date": "2026-10-04T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6331848770797119
+          "combined_prob": 0.6901966292134831
         },
         {
           "week": 5,
@@ -616,7 +616,7 @@
           "date": "2026-10-13T00:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4496215145289111
+          "combined_prob": 0.43912151452891107
         },
         {
           "week": 5,
@@ -630,7 +630,7 @@
           "date": "2026-10-18T20:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7200810372771475
+          "combined_prob": 0.7325810372771475
         },
         {
           "week": 8,
@@ -640,7 +640,7 @@
           "date": "2026-11-01T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5577205573582744
+          "combined_prob": 0.5817205573582744
         },
         {
           "week": 9,
@@ -650,7 +650,7 @@
           "date": "2026-11-10T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5891181172291297
+          "combined_prob": 0.6061181172291297
         },
         {
           "week": 10,
@@ -660,7 +660,7 @@
           "date": "2026-11-15T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7349358068315666
+          "combined_prob": 0.7519358068315665
         },
         {
           "week": 11,
@@ -670,7 +670,7 @@
           "date": "2026-11-22T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.8570618479880775
+          "combined_prob": 0.8700618479880775
         },
         {
           "week": 12,
@@ -680,7 +680,7 @@
           "date": "2026-11-27T01:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.569029817780232
+          "combined_prob": 0.5790298177802319
         },
         {
           "week": 13,
@@ -690,7 +690,7 @@
           "date": "2026-12-06T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5289567073691401
+          "combined_prob": 0.5279567073691401
         },
         {
           "week": 14,
@@ -700,7 +700,7 @@
           "date": "2026-12-14T01:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5167662337662338
+          "combined_prob": 0.5517662337662338
         },
         {
           "week": 15,
@@ -710,7 +710,7 @@
           "date": "2026-12-20T01:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6282332759305869
+          "combined_prob": 0.6477332759305868
         },
         {
           "week": 16,
@@ -720,7 +720,7 @@
           "date": "2026-12-25T21:30Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6038717693836979
+          "combined_prob": 0.5943717693836978
         },
         {
           "week": 17,
@@ -730,7 +730,7 @@
           "date": "2027-01-03T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7975000000000001
+          "combined_prob": 0.812
         },
         {
           "week": 18,
@@ -740,13 +740,13 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7971808199121522
+          "combined_prob": 0.8066808199121522
         }
       ],
-      "this_week_prob": 0.6710156234977407,
+      "this_week_prob": 0.7605345075485263,
       "best_future_week": 11,
-      "best_future_prob": 0.8570618479880775,
-      "save_for_later": true
+      "best_future_prob": 0.8700618479880775,
+      "save_for_later": false
     },
     "CAR": {
       "id": "29",
@@ -770,9 +770,9 @@
           "opponent_name": "Atlanta Falcons",
           "is_home": false,
           "date": "2026-09-20T17:00Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.4965298177802319
+          "completed": true,
+          "won": true,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -782,7 +782,7 @@
           "date": "2026-09-27T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5887460317460318
+          "combined_prob": 0.597529817780232
         },
         {
           "week": 4,
@@ -792,7 +792,7 @@
           "date": "2026-10-05T00:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3958151229202881
+          "combined_prob": 0.4110036794766967
         },
         {
           "week": 5,
@@ -806,7 +806,7 @@
           "date": "2026-10-18T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3034834178696839
+          "combined_prob": 0.32748341786968393
         },
         {
           "week": 7,
@@ -816,7 +816,7 @@
           "date": "2026-10-25T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.45476623376623376
+          "combined_prob": 0.4942662337662338
         },
         {
           "week": 8,
@@ -826,7 +826,7 @@
           "date": "2026-10-30T00:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.28656419316843346
+          "combined_prob": 0.32356419316843343
         },
         {
           "week": 9,
@@ -836,7 +836,7 @@
           "date": "2026-11-08T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.45481512292028803
+          "combined_prob": 0.4518151229202881
         },
         {
           "week": 10,
@@ -846,7 +846,7 @@
           "date": "2026-11-15T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4401304347826087
+          "combined_prob": 0.4476304347826087
         },
         {
           "week": 11,
@@ -856,7 +856,7 @@
           "date": "2026-11-22T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3167623869021974
+          "combined_prob": 0.3507623869021973
         },
         {
           "week": 12,
@@ -866,7 +866,7 @@
           "date": "2026-12-01T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3595479091529389
+          "combined_prob": 0.40304790915293887
         },
         {
           "week": 13,
@@ -876,7 +876,7 @@
           "date": "2026-12-06T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3320479091529389
+          "combined_prob": 0.3470479091529389
         },
         {
           "week": 14,
@@ -886,7 +886,7 @@
           "date": "2026-12-13T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5237205573582745
+          "combined_prob": 0.5312205573582744
         },
         {
           "week": 15,
@@ -896,7 +896,7 @@
           "date": "2026-12-20T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.41047018221976805
+          "combined_prob": 0.42597018221976807
         },
         {
           "week": 16,
@@ -906,7 +906,7 @@
           "date": "2026-12-27T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3685298281092012
+          "combined_prob": 0.40802982810920124
         },
         {
           "week": 17,
@@ -916,7 +916,7 @@
           "date": "2027-01-03T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3332222222222222
+          "combined_prob": 0.3182222222222222
         },
         {
           "week": 18,
@@ -926,12 +926,12 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5382205573582746
+          "combined_prob": 0.6037205573582745
         }
       ],
-      "this_week_prob": 0.4965298177802319,
-      "best_future_week": 3,
-      "best_future_prob": 0.5887460317460318,
+      "this_week_prob": 0.597529817780232,
+      "best_future_week": 18,
+      "best_future_prob": 0.6037205573582745,
       "save_for_later": false
     },
     "CHI": {
@@ -956,9 +956,9 @@
           "opponent_name": "Minnesota Vikings",
           "is_home": true,
           "date": "2026-09-20T17:00Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.6464520908470611
+          "completed": true,
+          "won": false,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -968,7 +968,7 @@
           "date": "2026-09-29T00:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.550682062858135
+          "combined_prob": 0.37317593790426906
         },
         {
           "week": 4,
@@ -978,7 +978,7 @@
           "date": "2026-10-04T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.761752688172043
+          "combined_prob": 0.614684877079712
         },
         {
           "week": 5,
@@ -988,7 +988,7 @@
           "date": "2026-10-11T20:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4486806140878989
+          "combined_prob": 0.41018061408789885
         },
         {
           "week": 6,
@@ -998,7 +998,7 @@
           "date": "2026-10-18T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6114963205233033
+          "combined_prob": 0.5999963205233033
         },
         {
           "week": 7,
@@ -1008,7 +1008,7 @@
           "date": "2026-10-23T00:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5615432926308599
+          "combined_prob": 0.5445432926308598
         },
         {
           "week": 7,
@@ -1022,7 +1022,7 @@
           "date": "2026-11-03T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.37917593790426907
+          "combined_prob": 0.3381759379042691
         },
         {
           "week": 9,
@@ -1032,7 +1032,7 @@
           "date": "2026-11-09T01:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6389520908470612
+          "combined_prob": 0.6534520908470611
         },
         {
           "week": 11,
@@ -1042,7 +1042,7 @@
           "date": "2026-11-22T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7067717842323651
+          "combined_prob": 0.6872717842323651
         },
         {
           "week": 12,
@@ -1052,7 +1052,7 @@
           "date": "2026-11-26T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.46225396825396825
+          "combined_prob": 0.44125396825396823
         },
         {
           "week": 13,
@@ -1062,7 +1062,7 @@
           "date": "2026-12-06T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5529963205233033
+          "combined_prob": 0.5594963205233033
         },
         {
           "week": 14,
@@ -1072,7 +1072,7 @@
           "date": "2026-12-13T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7366966292134831
+          "combined_prob": 0.7346966292134831
         },
         {
           "week": 15,
@@ -1082,7 +1082,7 @@
           "date": "2026-12-20T01:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3702667240694132
+          "combined_prob": 0.3507667240694132
         },
         {
           "week": 16,
@@ -1092,7 +1092,7 @@
           "date": "2026-12-25T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.565682062858135
+          "combined_prob": 0.562682062858135
         },
         {
           "week": 17,
@@ -1102,7 +1102,7 @@
           "date": "2027-01-03T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5667337662337663
+          "combined_prob": 0.5357337662337662
         },
         {
           "week": 18,
@@ -1112,12 +1112,12 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4772662337662338
+          "combined_prob": 0.46526623376623377
         }
       ],
-      "this_week_prob": 0.6464520908470611,
-      "best_future_week": 4,
-      "best_future_prob": 0.761752688172043,
+      "this_week_prob": 0.37317593790426906,
+      "best_future_week": 14,
+      "best_future_prob": 0.7346966292134831,
       "save_for_later": false
     },
     "CIN": {
@@ -1142,9 +1142,9 @@
           "opponent_name": "Houston Texans",
           "is_home": false,
           "date": "2026-09-20T17:00Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.43725396825396823
+          "completed": true,
+          "won": true,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -1154,7 +1154,7 @@
           "date": "2026-09-27T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5492205573582745
+          "combined_prob": 0.6204701718907988
         },
         {
           "week": 4,
@@ -1164,7 +1164,7 @@
           "date": "2026-10-04T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5152205573582744
+          "combined_prob": 0.5486848770797119
         },
         {
           "week": 5,
@@ -1174,7 +1174,7 @@
           "date": "2026-10-11T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7315810372771474
+          "combined_prob": 0.7410810372771475
         },
         {
           "week": 6,
@@ -1188,7 +1188,7 @@
           "date": "2026-10-25T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3632667240694132
+          "combined_prob": 0.38576672406941315
         },
         {
           "week": 8,
@@ -1198,7 +1198,7 @@
           "date": "2026-11-01T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7397756151303709
+          "combined_prob": 0.7367756151303709
         },
         {
           "week": 9,
@@ -1208,7 +1208,7 @@
           "date": "2026-11-08T14:30Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6600035105315947
+          "combined_prob": 0.7055035105315948
         },
         {
           "week": 10,
@@ -1218,7 +1218,7 @@
           "date": "2026-11-16T01:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6334520908470611
+          "combined_prob": 0.6644520908470612
         },
         {
           "week": 11,
@@ -1228,7 +1228,7 @@
           "date": "2026-11-24T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5212337662337663
+          "combined_prob": 0.5462337662337663
         },
         {
           "week": 12,
@@ -1238,7 +1238,7 @@
           "date": "2026-11-29T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6797717842323652
+          "combined_prob": 0.6737717842323652
         },
         {
           "week": 13,
@@ -1248,7 +1248,7 @@
           "date": "2026-12-06T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7033240620957308
+          "combined_prob": 0.6953240620957308
         },
         {
           "week": 14,
@@ -1258,7 +1258,7 @@
           "date": "2026-12-13T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.49123376623376624
+          "combined_prob": 0.49223376623376625
         },
         {
           "week": 15,
@@ -1268,7 +1268,7 @@
           "date": "2026-12-20T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5880298177802319
+          "combined_prob": 0.5725298177802318
         },
         {
           "week": 16,
@@ -1278,7 +1278,7 @@
           "date": "2026-12-27T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5475432926308599
+          "combined_prob": 0.5395432926308599
         },
         {
           "week": 17,
@@ -1288,7 +1288,7 @@
           "date": "2027-01-01T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.49372055735827447
+          "combined_prob": 0.5112205573582745
         },
         {
           "week": 18,
@@ -1298,13 +1298,13 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7783913525498891
+          "combined_prob": 0.7773913525498892
         }
       ],
-      "this_week_prob": 0.43725396825396823,
+      "this_week_prob": 0.6204701718907988,
       "best_future_week": 18,
-      "best_future_prob": 0.7783913525498891,
-      "save_for_later": false
+      "best_future_prob": 0.7773913525498892,
+      "save_for_later": true
     },
     "CLE": {
       "id": "5",
@@ -1328,9 +1328,9 @@
           "opponent_name": "Tampa Bay Buccaneers",
           "is_home": false,
           "date": "2026-09-20T17:00Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.21262824207492795
+          "completed": true,
+          "won": true,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -1340,7 +1340,7 @@
           "date": "2026-09-27T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4097539682539682
+          "combined_prob": 0.40147018221976805
         },
         {
           "week": 4,
@@ -1350,7 +1350,7 @@
           "date": "2026-10-02T00:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.39227944264172554
+          "combined_prob": 0.41897018221976806
         },
         {
           "week": 5,
@@ -1360,7 +1360,7 @@
           "date": "2026-10-11T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3861282306163022
+          "combined_prob": 0.4041282306163022
         },
         {
           "week": 6,
@@ -1370,7 +1370,7 @@
           "date": "2026-10-18T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.2418033707865168
+          "combined_prob": 0.25830337078651683
         },
         {
           "week": 7,
@@ -1380,7 +1380,7 @@
           "date": "2026-10-25T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.41327944264172545
+          "combined_prob": 0.4127794426417255
         },
         {
           "week": 8,
@@ -1390,7 +1390,7 @@
           "date": "2026-11-01T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.27510355847296597
+          "combined_prob": 0.31160355847296595
         },
         {
           "week": 9,
@@ -1400,7 +1400,7 @@
           "date": "2026-11-08T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3080298281092012
+          "combined_prob": 0.3130298281092012
         },
         {
           "week": 10,
@@ -1410,7 +1410,7 @@
           "date": "2026-11-15T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3006354105998835
+          "combined_prob": 0.32563541059988355
         },
         {
           "week": 11,
@@ -1424,7 +1424,7 @@
           "date": "2026-11-29T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4795432926308598
+          "combined_prob": 0.4825432926308598
         },
         {
           "week": 13,
@@ -1434,7 +1434,7 @@
           "date": "2026-12-06T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.29567593790426905
+          "combined_prob": 0.30367593790426906
         },
         {
           "week": 14,
@@ -1444,7 +1444,7 @@
           "date": "2026-12-13T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.45273376623376627
+          "combined_prob": 0.5172337662337663
         },
         {
           "week": 15,
@@ -1454,7 +1454,7 @@
           "date": "2026-12-20T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.2916354105998835
+          "combined_prob": 0.41113541059988357
         },
         {
           "week": 16,
@@ -1464,7 +1464,7 @@
           "date": "2026-12-27T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.17474731182795697
+          "combined_prob": 0.19124731182795696
         },
         {
           "week": 17,
@@ -1474,7 +1474,7 @@
           "date": "2027-01-03T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4072794426417255
+          "combined_prob": 0.4077794426417255
         },
         {
           "week": 18,
@@ -1484,12 +1484,12 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.22110864745011086
+          "combined_prob": 0.22160864745011086
         }
       ],
-      "this_week_prob": 0.21262824207492795,
-      "best_future_week": 12,
-      "best_future_prob": 0.4795432926308598,
+      "this_week_prob": 0.40147018221976805,
+      "best_future_week": 14,
+      "best_future_prob": 0.5172337662337663,
       "save_for_later": false
     },
     "DAL": {
@@ -1514,9 +1514,9 @@
           "opponent_name": "Washington Commanders",
           "is_home": true,
           "date": "2026-09-20T20:25Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.6492376130978026
+          "completed": true,
+          "won": true,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -1526,7 +1526,7 @@
           "date": "2026-09-27T20:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.40350367947669663
+          "combined_prob": 0.4177808219178082
         },
         {
           "week": 4,
@@ -1536,7 +1536,7 @@
           "date": "2026-10-04T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4502794426417255
+          "combined_prob": 0.4583151229202881
         },
         {
           "week": 5,
@@ -1546,7 +1546,7 @@
           "date": "2026-10-09T00:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6283645894001164
+          "combined_prob": 0.6683645894001164
         },
         {
           "week": 6,
@@ -1556,7 +1556,7 @@
           "date": "2026-10-19T00:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.43862151452891107
+          "combined_prob": 0.47212151452891105
         },
         {
           "week": 7,
@@ -1566,7 +1566,7 @@
           "date": "2026-10-27T00:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.43831512292028807
+          "combined_prob": 0.4553151229202881
         },
         {
           "week": 8,
@@ -1576,7 +1576,7 @@
           "date": "2026-11-01T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7565785498489426
+          "combined_prob": 0.8085785498489426
         },
         {
           "week": 9,
@@ -1586,7 +1586,7 @@
           "date": "2026-11-08T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5577337662337662
+          "combined_prob": 0.5587337662337662
         },
         {
           "week": 10,
@@ -1596,7 +1596,7 @@
           "date": "2026-11-15T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4688695652173913
+          "combined_prob": 0.45236956521739125
         },
         {
           "week": 11,
@@ -1606,7 +1606,7 @@
           "date": "2026-11-22T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7367756151303709
+          "combined_prob": 0.745275615130371
         },
         {
           "week": 12,
@@ -1616,7 +1616,7 @@
           "date": "2026-11-26T21:30Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5387337662337663
+          "combined_prob": 0.5642337662337662
         },
         {
           "week": 13,
@@ -1626,7 +1626,7 @@
           "date": "2026-12-08T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3766759379042691
+          "combined_prob": 0.35117593790426904
         },
         {
           "week": 14,
@@ -1640,7 +1640,7 @@
           "date": "2026-12-20T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.36822222222222223
+          "combined_prob": 0.35672222222222216
         },
         {
           "week": 16,
@@ -1650,7 +1650,7 @@
           "date": "2026-12-28T01:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5386848770797119
+          "combined_prob": 0.5766848770797119
         },
         {
           "week": 17,
@@ -1660,7 +1660,7 @@
           "date": "2027-01-03T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6367376130978026
+          "combined_prob": 0.7442376130978027
         },
         {
           "week": 18,
@@ -1670,12 +1670,12 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5270432926308599
+          "combined_prob": 0.5610432926308598
         }
       ],
-      "this_week_prob": 0.6492376130978026,
+      "this_week_prob": 0.4177808219178082,
       "best_future_week": 8,
-      "best_future_prob": 0.7565785498489426,
+      "best_future_prob": 0.8085785498489426,
       "save_for_later": false
     },
     "DEN": {
@@ -1700,9 +1700,9 @@
           "opponent_name": "Jacksonville Jaguars",
           "is_home": true,
           "date": "2026-09-20T20:05Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.4690298177802319
+          "completed": true,
+          "won": true,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -1712,7 +1712,7 @@
           "date": "2026-09-28T00:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.41027944264172556
+          "combined_prob": 0.39775396825396825
         },
         {
           "week": 4,
@@ -1722,7 +1722,7 @@
           "date": "2026-10-04T20:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.32675396825396824
+          "combined_prob": 0.2771354105998835
         },
         {
           "week": 5,
@@ -1732,7 +1732,7 @@
           "date": "2026-10-11T20:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4052539682539682
+          "combined_prob": 0.4647539682539682
         },
         {
           "week": 6,
@@ -1742,7 +1742,7 @@
           "date": "2026-10-16T00:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4446282306163022
+          "combined_prob": 0.42062823061630217
         },
         {
           "week": 7,
@@ -1752,7 +1752,7 @@
           "date": "2026-10-25T20:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.628094249201278
+          "combined_prob": 0.6975942492012779
         },
         {
           "week": 8,
@@ -1762,7 +1762,7 @@
           "date": "2026-11-01T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.43873376623376625
+          "combined_prob": 0.44823376623376626
         },
         {
           "week": 9,
@@ -1772,7 +1772,7 @@
           "date": "2026-11-08T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.543184877079712
+          "combined_prob": 0.546184877079712
         },
         {
           "week": 10,
@@ -1786,7 +1786,7 @@
           "date": "2026-11-22T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6849358068315665
+          "combined_prob": 0.6984358068315665
         },
         {
           "week": 12,
@@ -1796,7 +1796,7 @@
           "date": "2026-11-27T20:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.47704329263085987
+          "combined_prob": 0.5240432926308598
         },
         {
           "week": 13,
@@ -1806,7 +1806,7 @@
           "date": "2026-12-06T21:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7786808199121522
+          "combined_prob": 0.7926808199121522
         },
         {
           "week": 14,
@@ -1816,7 +1816,7 @@
           "date": "2026-12-13T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5960035105315948
+          "combined_prob": 0.6150035105315947
         },
         {
           "week": 15,
@@ -1826,7 +1826,7 @@
           "date": "2026-12-20T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5883645894001165
+          "combined_prob": 0.5973645894001165
         },
         {
           "week": 16,
@@ -1836,7 +1836,7 @@
           "date": "2026-12-25T21:30Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3946282306163022
+          "combined_prob": 0.4041282306163022
         },
         {
           "week": 17,
@@ -1846,7 +1846,7 @@
           "date": "2027-01-03T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.40527944264172555
+          "combined_prob": 0.4197794426417255
         },
         {
           "week": 18,
@@ -1856,12 +1856,12 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5065432926308598
+          "combined_prob": 0.5510432926308599
         }
       ],
-      "this_week_prob": 0.4690298177802319,
+      "this_week_prob": 0.39775396825396825,
       "best_future_week": 13,
-      "best_future_prob": 0.7786808199121522,
+      "best_future_prob": 0.7926808199121522,
       "save_for_later": false
     },
     "DET": {
@@ -1886,9 +1886,9 @@
           "opponent_name": "Buffalo Bills",
           "is_home": false,
           "date": "2026-09-18T00:15Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.3279843765022594
+          "completed": true,
+          "won": false,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -1898,7 +1898,7 @@
           "date": "2026-09-27T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7335345075485262
+          "combined_prob": 0.7340396294390119
         },
         {
           "week": 4,
@@ -1908,7 +1908,7 @@
           "date": "2026-10-05T00:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.602684877079712
+          "combined_prob": 0.5874963205233034
         },
         {
           "week": 5,
@@ -1918,7 +1918,7 @@
           "date": "2026-10-11T20:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6879510522582171
+          "combined_prob": 0.7399510522582171
         },
         {
           "week": 6,
@@ -1932,7 +1932,7 @@
           "date": "2026-10-25T20:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5677460317460318
+          "combined_prob": 0.5962460317460317
         },
         {
           "week": 8,
@@ -1942,7 +1942,7 @@
           "date": "2026-11-01T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6012376130978028
+          "combined_prob": 0.6137376130978027
         },
         {
           "week": 9,
@@ -1952,7 +1952,7 @@
           "date": "2026-11-08T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.730016582130316
+          "combined_prob": 0.7465165821303159
         },
         {
           "week": 10,
@@ -1962,7 +1962,7 @@
           "date": "2026-11-15T14:30Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5222337662337663
+          "combined_prob": 0.5277337662337662
         },
         {
           "week": 11,
@@ -1972,7 +1972,7 @@
           "date": "2026-11-22T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6303240620957309
+          "combined_prob": 0.6583240620957309
         },
         {
           "week": 12,
@@ -1982,7 +1982,7 @@
           "date": "2026-11-26T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5357460317460317
+          "combined_prob": 0.5572460317460317
         },
         {
           "week": 13,
@@ -1992,7 +1992,7 @@
           "date": "2026-12-06T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5997332759305869
+          "combined_prob": 0.6607332759305868
         },
         {
           "week": 14,
@@ -2002,7 +2002,7 @@
           "date": "2026-12-13T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.750906283856988
+          "combined_prob": 0.7489062838569881
         },
         {
           "week": 15,
@@ -2012,7 +2012,7 @@
           "date": "2026-12-21T01:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4857337662337663
+          "combined_prob": 0.5037337662337662
         },
         {
           "week": 16,
@@ -2022,7 +2022,7 @@
           "date": "2026-12-29T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6218645894001165
+          "combined_prob": 0.7303645894001165
         },
         {
           "week": 17,
@@ -2032,7 +2032,7 @@
           "date": "2027-01-03T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4317662337662338
+          "combined_prob": 0.46226623376623377
         },
         {
           "week": 18,
@@ -2042,12 +2042,12 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4557794426417255
+          "combined_prob": 0.4867794426417255
         }
       ],
-      "this_week_prob": 0.3279843765022594,
+      "this_week_prob": 0.7340396294390119,
       "best_future_week": 14,
-      "best_future_prob": 0.750906283856988,
+      "best_future_prob": 0.7489062838569881,
       "save_for_later": false
     },
     "GB": {
@@ -2072,9 +2072,9 @@
           "opponent_name": "New York Jets",
           "is_home": false,
           "date": "2026-09-20T17:00Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.6314520908470611
+          "completed": true,
+          "won": true,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -2084,7 +2084,7 @@
           "date": "2026-09-25T00:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.704876254180602
+          "combined_prob": 0.7213849760366744
         },
         {
           "week": 4,
@@ -2094,7 +2094,7 @@
           "date": "2026-10-04T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5167337662337663
+          "combined_prob": 0.5156820628581351
         },
         {
           "week": 5,
@@ -2104,7 +2104,7 @@
           "date": "2026-10-11T20:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5493193859121012
+          "combined_prob": 0.5878193859121013
         },
         {
           "week": 6,
@@ -2114,7 +2114,7 @@
           "date": "2026-10-19T00:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5593784854710889
+          "combined_prob": 0.525878485471089
         },
         {
           "week": 7,
@@ -2124,7 +2124,7 @@
           "date": "2026-10-25T20:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4302539682539682
+          "combined_prob": 0.4022539682539682
         },
         {
           "week": 8,
@@ -2134,7 +2134,7 @@
           "date": "2026-10-30T00:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7124358068315666
+          "combined_prob": 0.6749358068315665
         },
         {
           "week": 9,
@@ -2144,7 +2144,7 @@
           "date": "2026-11-08T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.45876623376623377
+          "combined_prob": 0.43726623376623375
         },
         {
           "week": 10,
@@ -2154,7 +2154,7 @@
           "date": "2026-11-15T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6077777777777778
+          "combined_prob": 0.5922777777777778
         },
         {
           "week": 11,
@@ -2168,7 +2168,7 @@
           "date": "2026-11-26T01:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3546759379042691
+          "combined_prob": 0.32167593790426907
         },
         {
           "week": 13,
@@ -2178,7 +2178,7 @@
           "date": "2026-12-06T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6058240620957309
+          "combined_prob": 0.5743240620957308
         },
         {
           "week": 14,
@@ -2188,7 +2188,7 @@
           "date": "2026-12-14T01:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.48123376623376624
+          "combined_prob": 0.44673376623376626
         },
         {
           "week": 15,
@@ -2198,7 +2198,7 @@
           "date": "2026-12-20T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.8218249158249158
+          "combined_prob": 0.8193249158249158
         },
         {
           "week": 16,
@@ -2208,7 +2208,7 @@
           "date": "2026-12-25T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4323179371418649
+          "combined_prob": 0.4358179371418649
         },
         {
           "week": 17,
@@ -2218,7 +2218,7 @@
           "date": "2027-01-05T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5322205573582746
+          "combined_prob": 0.5332205573582744
         },
         {
           "week": 18,
@@ -2228,13 +2228,13 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5422205573582745
+          "combined_prob": 0.5112205573582745
         }
       ],
-      "this_week_prob": 0.6314520908470611,
+      "this_week_prob": 0.7213849760366744,
       "best_future_week": 15,
-      "best_future_prob": 0.8218249158249158,
-      "save_for_later": true
+      "best_future_prob": 0.8193249158249158,
+      "save_for_later": false
     },
     "HOU": {
       "id": "34",
@@ -2258,9 +2258,9 @@
           "opponent_name": "Cincinnati Bengals",
           "is_home": true,
           "date": "2026-09-20T17:00Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.5612460317460317
+          "completed": true,
+          "won": false,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -2270,7 +2270,7 @@
           "date": "2026-09-27T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5657205573582744
+          "combined_prob": 0.5515298177802319
         },
         {
           "week": 4,
@@ -2280,7 +2280,7 @@
           "date": "2026-10-04T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5477205573582745
+          "combined_prob": 0.539684877079712
         },
         {
           "week": 5,
@@ -2290,7 +2290,7 @@
           "date": "2026-10-11T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6637332759305868
+          "combined_prob": 0.6317332759305868
         },
         {
           "week": 6,
@@ -2300,7 +2300,7 @@
           "date": "2026-10-18T13:30Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4638351229650156
+          "combined_prob": 0.4738351229650156
         },
         {
           "week": 7,
@@ -2310,7 +2310,7 @@
           "date": "2026-10-25T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6445156234977406
+          "combined_prob": 0.7565156234977406
         },
         {
           "week": 8,
@@ -2324,7 +2324,7 @@
           "date": "2026-11-08T21:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4822794426417255
+          "combined_prob": 0.49327944264172546
         },
         {
           "week": 10,
@@ -2334,7 +2334,7 @@
           "date": "2026-11-15T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6983645894001165
+          "combined_prob": 0.6733645894001166
         },
         {
           "week": 11,
@@ -2344,7 +2344,7 @@
           "date": "2026-11-20T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6780156234977406
+          "combined_prob": 0.6525156234977406
         },
         {
           "week": 12,
@@ -2354,7 +2354,7 @@
           "date": "2026-11-29T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4880432926308599
+          "combined_prob": 0.4875432926308598
         },
         {
           "week": 13,
@@ -2364,7 +2364,7 @@
           "date": "2026-12-07T01:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5330432926308599
+          "combined_prob": 0.5375432926308599
         },
         {
           "week": 14,
@@ -2374,7 +2374,7 @@
           "date": "2026-12-13T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5250432926308599
+          "combined_prob": 0.5305432926308599
         },
         {
           "week": 15,
@@ -2384,7 +2384,7 @@
           "date": "2026-12-20T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5414963205233033
+          "combined_prob": 0.5404963205233033
         },
         {
           "week": 16,
@@ -2394,7 +2394,7 @@
           "date": "2026-12-25T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4502794426417255
+          "combined_prob": 0.44677944264172553
         },
         {
           "week": 17,
@@ -2404,7 +2404,7 @@
           "date": "2027-01-05T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4657794426417255
+          "combined_prob": 0.46477944264172555
         },
         {
           "week": 18,
@@ -2414,12 +2414,12 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.734485260770975
+          "combined_prob": 0.714985260770975
         }
       ],
-      "this_week_prob": 0.5612460317460317,
-      "best_future_week": 18,
-      "best_future_prob": 0.734485260770975,
+      "this_week_prob": 0.5515298177802319,
+      "best_future_week": 7,
+      "best_future_prob": 0.7565156234977406,
       "save_for_later": true
     },
     "IND": {
@@ -2444,9 +2444,9 @@
           "opponent_name": "Kansas City Chiefs",
           "is_home": false,
           "date": "2026-09-21T00:20Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.26472438486962907
+          "completed": true,
+          "won": false,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -2456,7 +2456,7 @@
           "date": "2026-09-27T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4322794426417255
+          "combined_prob": 0.4464701822197681
         },
         {
           "week": 4,
@@ -2466,7 +2466,7 @@
           "date": "2026-10-04T13:30Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4618179371418649
+          "combined_prob": 0.6178645894001165
         },
         {
           "week": 5,
@@ -2476,7 +2476,7 @@
           "date": "2026-10-11T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4327539682539682
+          "combined_prob": 0.46175396825396825
         },
         {
           "week": 6,
@@ -2486,7 +2486,7 @@
           "date": "2026-10-18T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6519701718907988
+          "combined_prob": 0.6499701718907989
         },
         {
           "week": 7,
@@ -2496,7 +2496,7 @@
           "date": "2026-10-25T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.38125396825396823
+          "combined_prob": 0.39375396825396825
         },
         {
           "week": 8,
@@ -2506,7 +2506,7 @@
           "date": "2026-11-01T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.2992623869021973
+          "combined_prob": 0.32876238690219733
         },
         {
           "week": 9,
@@ -2516,7 +2516,7 @@
           "date": "2026-11-08T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.44026623376623375
+          "combined_prob": 0.4397662337662338
         },
         {
           "week": 10,
@@ -2526,7 +2526,7 @@
           "date": "2026-11-15T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7400396294390119
+          "combined_prob": 0.7475396294390119
         },
         {
           "week": 11,
@@ -2536,7 +2536,7 @@
           "date": "2026-11-20T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3209843765022594
+          "combined_prob": 0.34598437650225944
         },
         {
           "week": 12,
@@ -2546,7 +2546,7 @@
           "date": "2026-11-29T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5242205573582746
+          "combined_prob": 0.6452205573582745
         },
         {
           "week": 13,
@@ -2560,7 +2560,7 @@
           "date": "2026-12-13T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.33130337078651684
+          "combined_prob": 0.34830337078651685
         },
         {
           "week": 15,
@@ -2570,7 +2570,7 @@
           "date": "2026-12-20T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5467337662337663
+          "combined_prob": 0.5407337662337662
         },
         {
           "week": 16,
@@ -2580,7 +2580,7 @@
           "date": "2026-12-27T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.45095670736914006
+          "combined_prob": 0.45845670736914007
         },
         {
           "week": 17,
@@ -2590,7 +2590,7 @@
           "date": "2027-01-03T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5912205573582745
+          "combined_prob": 0.5907205573582746
         },
         {
           "week": 18,
@@ -2600,12 +2600,12 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.44554329263085984
+          "combined_prob": 0.4725432926308598
         }
       ],
-      "this_week_prob": 0.26472438486962907,
+      "this_week_prob": 0.4464701822197681,
       "best_future_week": 10,
-      "best_future_prob": 0.7400396294390119,
+      "best_future_prob": 0.7475396294390119,
       "save_for_later": false
     },
     "JAX": {
@@ -2630,9 +2630,9 @@
           "opponent_name": "Denver Broncos",
           "is_home": false,
           "date": "2026-09-20T20:05Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.529470182219768
+          "completed": true,
+          "won": false,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -2642,7 +2642,7 @@
           "date": "2026-09-27T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.621
+          "combined_prob": 0.5749963205233033
         },
         {
           "week": 4,
@@ -2652,7 +2652,7 @@
           "date": "2026-10-04T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4827794426417255
+          "combined_prob": 0.4493151229202881
         },
         {
           "week": 5,
@@ -2662,7 +2662,7 @@
           "date": "2026-10-11T13:30Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5182662337662337
+          "combined_prob": 0.5007662337662337
         },
         {
           "week": 6,
@@ -2672,7 +2672,7 @@
           "date": "2026-10-18T13:30Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5341648770349844
+          "combined_prob": 0.5246648770349844
         },
         {
           "week": 7,
@@ -2686,7 +2686,7 @@
           "date": "2026-11-01T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6997376130978027
+          "combined_prob": 0.6697376130978028
         },
         {
           "week": 9,
@@ -2696,7 +2696,7 @@
           "date": "2026-11-06T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3746354105998835
+          "combined_prob": 0.38863541059988355
         },
         {
           "week": 10,
@@ -2706,7 +2706,7 @@
           "date": "2026-11-15T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6442205573582744
+          "combined_prob": 0.6127205573582746
         },
         {
           "week": 11,
@@ -2716,7 +2716,7 @@
           "date": "2026-11-22T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5567337662337662
+          "combined_prob": 0.6497337662337663
         },
         {
           "week": 12,
@@ -2726,7 +2726,7 @@
           "date": "2026-11-29T21:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7435156234977407
+          "combined_prob": 0.7230156234977405
         },
         {
           "week": 13,
@@ -2736,7 +2736,7 @@
           "date": "2026-12-06T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4450036794766966
+          "combined_prob": 0.43850367947669666
         },
         {
           "week": 14,
@@ -2746,7 +2746,7 @@
           "date": "2026-12-15T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.642684877079712
+          "combined_prob": 0.643184877079712
         },
         {
           "week": 15,
@@ -2756,7 +2756,7 @@
           "date": "2026-12-20T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4565036794766967
+          "combined_prob": 0.4575036794766967
         },
         {
           "week": 16,
@@ -2766,7 +2766,7 @@
           "date": "2026-12-28T01:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4593151229202881
+          "combined_prob": 0.42131512292028805
         },
         {
           "week": 17,
@@ -2776,7 +2776,7 @@
           "date": "2027-01-03T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6477332759305868
+          "combined_prob": 0.6462332759305869
         },
         {
           "week": 18,
@@ -2786,13 +2786,13 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5529567073691402
+          "combined_prob": 0.52595670736914
         }
       ],
-      "this_week_prob": 0.529470182219768,
+      "this_week_prob": 0.5749963205233033,
       "best_future_week": 12,
-      "best_future_prob": 0.7435156234977407,
-      "save_for_later": false
+      "best_future_prob": 0.7230156234977405,
+      "save_for_later": true
     },
     "KC": {
       "id": "12",
@@ -2816,9 +2816,9 @@
           "opponent_name": "Indianapolis Colts",
           "is_home": true,
           "date": "2026-09-21T00:20Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.7342756151303709
+          "completed": true,
+          "won": true,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -2828,7 +2828,7 @@
           "date": "2026-09-27T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.8093717579250721
+          "combined_prob": 0.8505068493150685
         },
         {
           "week": 4,
@@ -2838,7 +2838,7 @@
           "date": "2026-10-04T20:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7025035105315948
+          "combined_prob": 0.7083964415270341
         },
         {
           "week": 5,
@@ -2852,7 +2852,7 @@
           "date": "2026-10-18T20:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6297460317460317
+          "combined_prob": 0.6607460317460317
         },
         {
           "week": 7,
@@ -2862,7 +2862,7 @@
           "date": "2026-10-26T00:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.438121514528911
+          "combined_prob": 0.41062151452891105
         },
         {
           "week": 8,
@@ -2872,7 +2872,7 @@
           "date": "2026-11-01T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5597662337662338
+          "combined_prob": 0.5502662337662337
         },
         {
           "week": 9,
@@ -2882,7 +2882,7 @@
           "date": "2026-11-08T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7951625615763547
+          "combined_prob": 0.7901625615763547
         },
         {
           "week": 10,
@@ -2892,7 +2892,7 @@
           "date": "2026-11-15T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6638645894001165
+          "combined_prob": 0.7108645894001164
         },
         {
           "week": 11,
@@ -2902,7 +2902,7 @@
           "date": "2026-11-22T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.8006675126903553
+          "combined_prob": 0.8336675126903552
         },
         {
           "week": 12,
@@ -2912,7 +2912,7 @@
           "date": "2026-11-27T01:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.42947018221976807
+          "combined_prob": 0.41947018221976806
         },
         {
           "week": 13,
@@ -2922,7 +2922,7 @@
           "date": "2026-12-04T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4186354105998835
+          "combined_prob": 0.3976354105998835
         },
         {
           "week": 14,
@@ -2932,7 +2932,7 @@
           "date": "2026-12-13T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5072662337662338
+          "combined_prob": 0.5057662337662338
         },
         {
           "week": 15,
@@ -2942,7 +2942,7 @@
           "date": "2026-12-22T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6087460317460318
+          "combined_prob": 0.6032460317460318
         },
         {
           "week": 16,
@@ -2952,7 +2952,7 @@
           "date": "2026-12-27T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5454963205233033
+          "combined_prob": 0.5144963205233033
         },
         {
           "week": 17,
@@ -2962,7 +2962,7 @@
           "date": "2027-01-03T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5327662337662338
+          "combined_prob": 0.5572662337662337
         },
         {
           "week": 18,
@@ -2972,12 +2972,12 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.773
+          "combined_prob": 0.7750000000000001
         }
       ],
-      "this_week_prob": 0.7342756151303709,
-      "best_future_week": 3,
-      "best_future_prob": 0.8093717579250721,
+      "this_week_prob": 0.8505068493150685,
+      "best_future_week": 11,
+      "best_future_prob": 0.8336675126903552,
       "save_for_later": false
     },
     "LV": {
@@ -3002,9 +3002,9 @@
           "opponent_name": "Los Angeles Chargers",
           "is_home": false,
           "date": "2026-09-20T20:05Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.28646037056098816
+          "completed": true,
+          "won": true,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -3014,7 +3014,7 @@
           "date": "2026-09-27T20:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.388315122920288
+          "combined_prob": 0.3642667240694132
         },
         {
           "week": 4,
@@ -3024,7 +3024,7 @@
           "date": "2026-10-04T20:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.29649648946840523
+          "combined_prob": 0.290603558472966
         },
         {
           "week": 5,
@@ -3044,7 +3044,7 @@
           "date": "2026-10-18T20:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.2789189627228525
+          "combined_prob": 0.2664189627228525
         },
         {
           "week": 7,
@@ -3054,7 +3054,7 @@
           "date": "2026-10-25T20:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.2739654924514737
+          "combined_prob": 0.26196549245147377
         },
         {
           "week": 8,
@@ -3064,7 +3064,7 @@
           "date": "2026-11-01T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.45626623376623376
+          "combined_prob": 0.45526623376623376
         },
         {
           "week": 9,
@@ -3074,7 +3074,7 @@
           "date": "2026-11-08T21:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.18708342189160468
+          "combined_prob": 0.18008342189160467
         },
         {
           "week": 10,
@@ -3084,7 +3084,7 @@
           "date": "2026-11-15T21:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.29122884012539185
+          "combined_prob": 0.2662288401253919
         },
         {
           "week": 11,
@@ -3094,7 +3094,7 @@
           "date": "2026-11-22T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3135641931684334
+          "combined_prob": 0.30006419316843347
         },
         {
           "week": 12,
@@ -3104,7 +3104,7 @@
           "date": "2026-11-29T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5189567073691401
+          "combined_prob": 0.5154567073691401
         },
         {
           "week": 13,
@@ -3118,7 +3118,7 @@
           "date": "2026-12-13T21:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3736759379042691
+          "combined_prob": 0.4191759379042691
         },
         {
           "week": 15,
@@ -3128,7 +3128,7 @@
           "date": "2026-12-20T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4096354105998835
+          "combined_prob": 0.40113541059988356
         },
         {
           "week": 16,
@@ -3138,7 +3138,7 @@
           "date": "2026-12-27T21:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5570432926308598
+          "combined_prob": 0.5575432926308599
         },
         {
           "week": 17,
@@ -3148,7 +3148,7 @@
           "date": "2027-01-03T21:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.48237176938369786
+          "combined_prob": 0.5353717693836979
         },
         {
           "week": 18,
@@ -3158,12 +3158,12 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.22600000000000003
+          "combined_prob": 0.22400000000000003
         }
       ],
-      "this_week_prob": 0.28646037056098816,
+      "this_week_prob": 0.3642667240694132,
       "best_future_week": 16,
-      "best_future_prob": 0.5570432926308598,
+      "best_future_prob": 0.5575432926308599,
       "save_for_later": false
     },
     "LAC": {
@@ -3188,9 +3188,9 @@
           "opponent_name": "Las Vegas Raiders",
           "is_home": true,
           "date": "2026-09-20T20:05Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.7120396294390119
+          "completed": true,
+          "won": false,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -3200,7 +3200,7 @@
           "date": "2026-09-27T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.31317593790426906
+          "combined_prob": 0.23846549245147375
         },
         {
           "week": 4,
@@ -3210,7 +3210,7 @@
           "date": "2026-10-04T20:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.42688188277087036
+          "combined_prob": 0.2852243848696291
         },
         {
           "week": 5,
@@ -3220,7 +3220,7 @@
           "date": "2026-10-11T20:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5932460317460317
+          "combined_prob": 0.5332460317460317
         },
         {
           "week": 6,
@@ -3230,7 +3230,7 @@
           "date": "2026-10-18T20:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3687539682539682
+          "combined_prob": 0.33825396825396825
         },
         {
           "week": 7,
@@ -3244,7 +3244,7 @@
           "date": "2026-11-01T21:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3625479091529389
+          "combined_prob": 0.3105479091529389
         },
         {
           "week": 9,
@@ -3254,7 +3254,7 @@
           "date": "2026-11-08T21:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5157205573582745
+          "combined_prob": 0.5052205573582744
         },
         {
           "week": 10,
@@ -3264,7 +3264,7 @@
           "date": "2026-11-17T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.34078082191780823
+          "combined_prob": 0.3287808219178082
         },
         {
           "week": 11,
@@ -3274,7 +3274,7 @@
           "date": "2026-11-22T21:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7264165781083953
+          "combined_prob": 0.7029165781083954
         },
         {
           "week": 12,
@@ -3284,7 +3284,7 @@
           "date": "2026-11-30T01:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5147337662337663
+          "combined_prob": 0.48523376623376624
         },
         {
           "week": 13,
@@ -3294,7 +3294,7 @@
           "date": "2026-12-06T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5127205573582745
+          "combined_prob": 0.5027205573582745
         },
         {
           "week": 14,
@@ -3304,7 +3304,7 @@
           "date": "2026-12-13T21:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6243240620957309
+          "combined_prob": 0.5788240620957309
         },
         {
           "week": 15,
@@ -3314,7 +3314,7 @@
           "date": "2026-12-18T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4597460317460318
+          "combined_prob": 0.41374603174603175
         },
         {
           "week": 16,
@@ -3324,7 +3324,7 @@
           "date": "2026-12-27T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.741094249201278
+          "combined_prob": 0.7235942492012779
         },
         {
           "week": 17,
@@ -3334,7 +3334,7 @@
           "date": "2027-01-03T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4657337662337663
+          "combined_prob": 0.44123376623376626
         },
         {
           "week": 18,
@@ -3344,12 +3344,12 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4914567073691401
+          "combined_prob": 0.44695670736914006
         }
       ],
-      "this_week_prob": 0.7120396294390119,
+      "this_week_prob": 0.23846549245147375,
       "best_future_week": 16,
-      "best_future_prob": 0.741094249201278,
+      "best_future_prob": 0.7235942492012779,
       "save_for_later": false
     },
     "LAR": {
@@ -3374,9 +3374,9 @@
           "opponent_name": "New York Giants",
           "is_home": true,
           "date": "2026-09-22T00:15Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.718094249201278
+          "completed": true,
+          "won": true,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -3386,7 +3386,7 @@
           "date": "2026-09-28T00:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5882205573582745
+          "combined_prob": 0.6007460317460318
         },
         {
           "week": 4,
@@ -3396,7 +3396,7 @@
           "date": "2026-10-04T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5175432926308599
+          "combined_prob": 0.5677205573582744
         },
         {
           "week": 5,
@@ -3406,7 +3406,7 @@
           "date": "2026-10-13T00:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5483784854710889
+          "combined_prob": 0.5588784854710889
         },
         {
           "week": 6,
@@ -3416,7 +3416,7 @@
           "date": "2026-10-18T20:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7982505643340858
+          "combined_prob": 0.8497505643340858
         },
         {
           "week": 7,
@@ -3426,7 +3426,7 @@
           "date": "2026-10-25T20:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7250345075485263
+          "combined_prob": 0.7370345075485263
         },
         {
           "week": 8,
@@ -3436,7 +3436,7 @@
           "date": "2026-11-01T21:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6359520908470612
+          "combined_prob": 0.6884520908470612
         },
         {
           "week": 9,
@@ -3446,7 +3446,7 @@
           "date": "2026-11-08T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6213240620957309
+          "combined_prob": 0.6628240620957309
         },
         {
           "week": 10,
@@ -3456,7 +3456,7 @@
           "date": "2026-11-15T21:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7286808199121522
+          "combined_prob": 0.7896808199121522
         },
         {
           "week": 11,
@@ -3470,7 +3470,7 @@
           "date": "2026-11-26T01:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.643824062095731
+          "combined_prob": 0.6773240620957308
         },
         {
           "week": 13,
@@ -3480,7 +3480,7 @@
           "date": "2026-12-04T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5793645894001165
+          "combined_prob": 0.6003645894001165
         },
         {
           "week": 14,
@@ -3490,7 +3490,7 @@
           "date": "2026-12-13T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4498717693836979
+          "combined_prob": 0.45437176938369783
         },
         {
           "week": 15,
@@ -3500,7 +3500,7 @@
           "date": "2026-12-20T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6297777777777778
+          "combined_prob": 0.6417777777777778
         },
         {
           "week": 16,
@@ -3510,7 +3510,7 @@
           "date": "2026-12-26T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4521282306163022
+          "combined_prob": 0.4461282306163022
         },
         {
           "week": 17,
@@ -3520,7 +3520,7 @@
           "date": "2027-01-03T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6043645894001164
+          "combined_prob": 0.6508645894001165
         },
         {
           "week": 18,
@@ -3530,13 +3530,13 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5756848770797119
+          "combined_prob": 0.5606848770797119
         }
       ],
-      "this_week_prob": 0.718094249201278,
+      "this_week_prob": 0.6007460317460318,
       "best_future_week": 6,
-      "best_future_prob": 0.7982505643340858,
-      "save_for_later": false
+      "best_future_prob": 0.8497505643340858,
+      "save_for_later": true
     },
     "MIA": {
       "id": "15",
@@ -3560,9 +3560,9 @@
           "opponent_name": "San Francisco 49ers",
           "is_home": false,
           "date": "2026-09-20T20:25Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.10749315068493151
+          "completed": true,
+          "won": false,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -3572,7 +3572,7 @@
           "date": "2026-09-27T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.19012824207492796
+          "combined_prob": 0.14899315068493152
         },
         {
           "week": 4,
@@ -3582,7 +3582,7 @@
           "date": "2026-10-04T20:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.19724731182795696
+          "combined_prob": 0.15474943566591423
         },
         {
           "week": 5,
@@ -3592,7 +3592,7 @@
           "date": "2026-10-11T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.2674189627228525
+          "combined_prob": 0.2584189627228525
         },
         {
           "week": 6,
@@ -3606,7 +3606,7 @@
           "date": "2026-10-25T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.37675396825396823
+          "combined_prob": 0.3632539682539682
         },
         {
           "week": 8,
@@ -3616,7 +3616,7 @@
           "date": "2026-11-01T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.25060864745011086
+          "combined_prob": 0.23810864745011084
         },
         {
           "week": 9,
@@ -3626,7 +3626,7 @@
           "date": "2026-11-08T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.26898341786968394
+          "combined_prob": 0.2529834178696839
         },
         {
           "week": 10,
@@ -3636,7 +3636,7 @@
           "date": "2026-11-15T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.2589603705609882
+          "combined_prob": 0.2514603705609882
         },
         {
           "week": 11,
@@ -3646,7 +3646,7 @@
           "date": "2026-11-22T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.1424381520119225
+          "combined_prob": 0.1294381520119225
         },
         {
           "week": 12,
@@ -3656,7 +3656,7 @@
           "date": "2026-11-29T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4617337662337663
+          "combined_prob": 0.4597337662337663
         },
         {
           "week": 13,
@@ -3666,7 +3666,7 @@
           "date": "2026-12-06T21:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.22031918008784773
+          "combined_prob": 0.20631918008784772
         },
         {
           "week": 14,
@@ -3676,7 +3676,7 @@
           "date": "2026-12-13T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.26230337078651683
+          "combined_prob": 0.26430337078651683
         },
         {
           "week": 15,
@@ -3686,7 +3686,7 @@
           "date": "2026-12-20T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.17717508417508418
+          "combined_prob": 0.18017508417508415
         },
         {
           "week": 16,
@@ -3696,7 +3696,7 @@
           "date": "2026-12-27T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.2579057507987221
+          "combined_prob": 0.27490575079872204
         },
         {
           "week": 17,
@@ -3706,7 +3706,7 @@
           "date": "2027-01-03T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.202
+          "combined_prob": 0.18750000000000003
         },
         {
           "week": 18,
@@ -3716,12 +3716,12 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.18037055837563454
+          "combined_prob": 0.17237055837563453
         }
       ],
-      "this_week_prob": 0.10749315068493151,
+      "this_week_prob": 0.14899315068493152,
       "best_future_week": 12,
-      "best_future_prob": 0.4617337662337663,
+      "best_future_prob": 0.4597337662337663,
       "save_for_later": false
     },
     "MIN": {
@@ -3746,9 +3746,9 @@
           "opponent_name": "Chicago Bears",
           "is_home": false,
           "date": "2026-09-20T17:00Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.35204790915293893
+          "completed": true,
+          "won": true,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -3758,7 +3758,7 @@
           "date": "2026-09-27T20:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4842662337662338
+          "combined_prob": 0.5303695652173913
         },
         {
           "week": 4,
@@ -3768,7 +3768,7 @@
           "date": "2026-10-04T20:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.802252688172043
+          "combined_prob": 0.8447505643340858
         },
         {
           "week": 5,
@@ -3778,7 +3778,7 @@
           "date": "2026-10-11T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5482337662337662
+          "combined_prob": 0.5267337662337663
         },
         {
           "week": 6,
@@ -3792,7 +3792,7 @@
           "date": "2026-10-25T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6177460317460317
+          "combined_prob": 0.6047460317460317
         },
         {
           "week": 8,
@@ -3802,7 +3802,7 @@
           "date": "2026-11-01T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.39676238690219734
+          "combined_prob": 0.38426238690219733
         },
         {
           "week": 9,
@@ -3812,7 +3812,7 @@
           "date": "2026-11-10T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4093818827708704
+          "combined_prob": 0.3923818827708704
         },
         {
           "week": 10,
@@ -3822,7 +3822,7 @@
           "date": "2026-11-15T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.39022222222222225
+          "combined_prob": 0.4057222222222222
         },
         {
           "week": 11,
@@ -3832,7 +3832,7 @@
           "date": "2026-11-23T01:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.35802982810920125
+          "combined_prob": 0.33502982810920123
         },
         {
           "week": 12,
@@ -3842,7 +3842,7 @@
           "date": "2026-11-29T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6657376130978028
+          "combined_prob": 0.7082376130978028
         },
         {
           "week": 13,
@@ -3852,7 +3852,7 @@
           "date": "2026-12-06T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6664520908470611
+          "combined_prob": 0.6514520908470611
         },
         {
           "week": 14,
@@ -3862,7 +3862,7 @@
           "date": "2026-12-11T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.40426238690219735
+          "combined_prob": 0.39226238690219734
         },
         {
           "week": 15,
@@ -3872,7 +3872,7 @@
           "date": "2026-12-21T01:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5122662337662338
+          "combined_prob": 0.4942662337662338
         },
         {
           "week": 16,
@@ -3882,7 +3882,7 @@
           "date": "2026-12-27T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5812205573582745
+          "combined_prob": 0.5997205573582745
         },
         {
           "week": 17,
@@ -3892,7 +3892,7 @@
           "date": "2027-01-03T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6202332759305869
+          "combined_prob": 0.6267332759305868
         },
         {
           "week": 18,
@@ -3902,12 +3902,12 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5207337662337663
+          "combined_prob": 0.5332337662337663
         }
       ],
-      "this_week_prob": 0.35204790915293893,
+      "this_week_prob": 0.5303695652173913,
       "best_future_week": 4,
-      "best_future_prob": 0.802252688172043,
+      "best_future_prob": 0.8447505643340858,
       "save_for_later": false
     },
     "NE": {
@@ -3932,9 +3932,9 @@
           "opponent_name": "Pittsburgh Steelers",
           "is_home": true,
           "date": "2026-09-20T17:00Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.6592376130978026
+          "completed": true,
+          "won": true,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -3944,7 +3944,7 @@
           "date": "2026-09-27T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.376
+          "combined_prob": 0.42350367947669665
         },
         {
           "week": 4,
@@ -3954,7 +3954,7 @@
           "date": "2026-10-04T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.36581512292028806
+          "combined_prob": 0.3083033707865168
         },
         {
           "week": 5,
@@ -3974,7 +3974,7 @@
           "date": "2026-10-18T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7484531502423264
+          "combined_prob": 0.7544531502423264
         },
         {
           "week": 7,
@@ -3984,7 +3984,7 @@
           "date": "2026-10-23T00:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4369567073691401
+          "combined_prob": 0.45395670736914007
         },
         {
           "week": 8,
@@ -3994,7 +3994,7 @@
           "date": "2026-11-01T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7483913525498892
+          "combined_prob": 0.7608913525498892
         },
         {
           "week": 9,
@@ -4004,7 +4004,7 @@
           "date": "2026-11-08T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5392337662337663
+          "combined_prob": 0.5612337662337663
         },
         {
           "week": 10,
@@ -4014,7 +4014,7 @@
           "date": "2026-11-15T14:30Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4757662337662337
+          "combined_prob": 0.4702662337662338
         },
         {
           "week": 11,
@@ -4028,7 +4028,7 @@
           "date": "2026-11-30T01:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4832662337662338
+          "combined_prob": 0.5132662337662337
         },
         {
           "week": 13,
@@ -4038,7 +4038,7 @@
           "date": "2026-12-06T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.46904329263085986
+          "combined_prob": 0.4705432926308598
         },
         {
           "week": 14,
@@ -4048,7 +4048,7 @@
           "date": "2026-12-11T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5942376130978027
+          "combined_prob": 0.6057376130978027
         },
         {
           "week": 15,
@@ -4058,7 +4058,7 @@
           "date": "2026-12-22T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.38975396825396824
+          "combined_prob": 0.39575396825396825
         },
         {
           "week": 16,
@@ -4068,7 +4068,7 @@
           "date": "2026-12-27T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6540810372771475
+          "combined_prob": 0.6670810372771474
         },
         {
           "week": 17,
@@ -4078,7 +4078,7 @@
           "date": "2027-01-03T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5932205573582745
+          "combined_prob": 0.5787205573582745
         },
         {
           "week": 18,
@@ -4088,13 +4088,13 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.8191294416243655
+          "combined_prob": 0.8271294416243655
         }
       ],
-      "this_week_prob": 0.6592376130978026,
+      "this_week_prob": 0.42350367947669665,
       "best_future_week": 18,
-      "best_future_prob": 0.8191294416243655,
-      "save_for_later": true
+      "best_future_prob": 0.8271294416243655,
+      "save_for_later": false
     },
     "NO": {
       "id": "18",
@@ -4118,9 +4118,9 @@
           "opponent_name": "Baltimore Ravens",
           "is_home": false,
           "date": "2026-09-20T17:00Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.24040575079872206
+          "completed": true,
+          "won": true,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -4130,7 +4130,7 @@
           "date": "2026-09-27T20:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.610184877079712
+          "combined_prob": 0.6342332759305869
         },
         {
           "week": 4,
@@ -4140,7 +4140,7 @@
           "date": "2026-10-06T00:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5577205573582744
+          "combined_prob": 0.6627332759305868
         },
         {
           "week": 5,
@@ -4150,7 +4150,7 @@
           "date": "2026-10-11T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4497662337662338
+          "combined_prob": 0.4712662337662338
         },
         {
           "week": 6,
@@ -4160,7 +4160,7 @@
           "date": "2026-10-18T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4142539682539682
+          "combined_prob": 0.5832539682539682
         },
         {
           "week": 7,
@@ -4170,7 +4170,7 @@
           "date": "2026-10-25T13:30Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.45625396825396825
+          "combined_prob": 0.4932539682539683
         },
         {
           "week": 8,
@@ -4184,7 +4184,7 @@
           "date": "2026-11-08T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6909701718907988
+          "combined_prob": 0.6859701718907988
         },
         {
           "week": 10,
@@ -4194,7 +4194,7 @@
           "date": "2026-11-15T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5583695652173912
+          "combined_prob": 0.5508695652173913
         },
         {
           "week": 11,
@@ -4204,7 +4204,7 @@
           "date": "2026-11-22T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.2922282157676348
+          "combined_prob": 0.3112282157676348
         },
         {
           "week": 12,
@@ -4214,7 +4214,7 @@
           "date": "2026-11-29T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3187282157676349
+          "combined_prob": 0.32522821576763483
         },
         {
           "week": 13,
@@ -4224,7 +4224,7 @@
           "date": "2026-12-06T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3921759379042691
+          "combined_prob": 0.42367593790426905
         },
         {
           "week": 14,
@@ -4234,7 +4234,7 @@
           "date": "2026-12-13T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4742794426417255
+          "combined_prob": 0.4667794426417255
         },
         {
           "week": 15,
@@ -4244,7 +4244,7 @@
           "date": "2026-12-20T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3865479091529389
+          "combined_prob": 0.4210479091529389
         },
         {
           "week": 16,
@@ -4254,7 +4254,7 @@
           "date": "2026-12-27T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6337777777777778
+          "combined_prob": 0.6862777777777778
         },
         {
           "week": 17,
@@ -4264,7 +4264,7 @@
           "date": "2027-01-03T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4759567073691401
+          "combined_prob": 0.5374567073691401
         },
         {
           "week": 18,
@@ -4274,12 +4274,12 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4822662337662338
+          "combined_prob": 0.5122662337662338
         }
       ],
-      "this_week_prob": 0.24040575079872206,
-      "best_future_week": 9,
-      "best_future_prob": 0.6909701718907988,
+      "this_week_prob": 0.6342332759305869,
+      "best_future_week": 16,
+      "best_future_prob": 0.6862777777777778,
       "save_for_later": false
     },
     "NYG": {
@@ -4304,9 +4304,9 @@
           "opponent_name": "Los Angeles Rams",
           "is_home": false,
           "date": "2026-09-22T00:15Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.28090575079872204
+          "completed": true,
+          "won": false,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -4316,7 +4316,7 @@
           "date": "2026-09-27T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7031966292134831
+          "combined_prob": 0.4762205573582745
         },
         {
           "week": 4,
@@ -4326,7 +4326,7 @@
           "date": "2026-10-04T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6957711598746081
+          "combined_prob": 0.4957460317460317
         },
         {
           "week": 5,
@@ -4336,7 +4336,7 @@
           "date": "2026-10-11T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4576282306163022
+          "combined_prob": 0.3656282306163022
         },
         {
           "week": 6,
@@ -4346,7 +4346,7 @@
           "date": "2026-10-18T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5837460317460317
+          "combined_prob": 0.41574603174603175
         },
         {
           "week": 7,
@@ -4356,7 +4356,7 @@
           "date": "2026-10-25T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.35398437650225933
+          "combined_prob": 0.2429843765022594
         },
         {
           "week": 8,
@@ -4370,7 +4370,7 @@
           "date": "2026-11-08T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3624843765022594
+          "combined_prob": 0.2409843765022594
         },
         {
           "week": 10,
@@ -4380,7 +4380,7 @@
           "date": "2026-11-13T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5505432926308598
+          "combined_prob": 0.41254329263085987
         },
         {
           "week": 11,
@@ -4390,7 +4390,7 @@
           "date": "2026-11-22T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4417662337662338
+          "combined_prob": 0.3492662337662338
         },
         {
           "week": 12,
@@ -4400,7 +4400,7 @@
           "date": "2026-11-29T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4737794426417255
+          "combined_prob": 0.3537794426417255
         },
         {
           "week": 13,
@@ -4410,7 +4410,7 @@
           "date": "2026-12-06T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3756806140878989
+          "combined_prob": 0.2676806140878989
         },
         {
           "week": 14,
@@ -4420,7 +4420,7 @@
           "date": "2026-12-13T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.28940575079872205
+          "combined_prob": 0.18240575079872207
         },
         {
           "week": 15,
@@ -4430,7 +4430,7 @@
           "date": "2026-12-20T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7073645894001165
+          "combined_prob": 0.5873645894001165
         },
         {
           "week": 16,
@@ -4440,7 +4440,7 @@
           "date": "2026-12-29T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3766354105998835
+          "combined_prob": 0.26913541059988355
         },
         {
           "week": 17,
@@ -4450,7 +4450,7 @@
           "date": "2027-01-03T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3617623869021973
+          "combined_prob": 0.2552623869021973
         },
         {
           "week": 18,
@@ -4460,12 +4460,12 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4453151229202881
+          "combined_prob": 0.34831512292028805
         }
       ],
-      "this_week_prob": 0.28090575079872204,
+      "this_week_prob": 0.4762205573582745,
       "best_future_week": 15,
-      "best_future_prob": 0.7073645894001165,
+      "best_future_prob": 0.5873645894001165,
       "save_for_later": false
     },
     "NYJ": {
@@ -4490,9 +4490,9 @@
           "opponent_name": "Green Bay Packers",
           "is_home": true,
           "date": "2026-09-20T17:00Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.3670479091529389
+          "completed": true,
+          "won": false,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -4502,7 +4502,7 @@
           "date": "2026-09-27T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.2649654924514737
+          "combined_prob": 0.2649603705609882
         },
         {
           "week": 4,
@@ -4512,7 +4512,7 @@
           "date": "2026-10-04T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.237247311827957
+          "combined_prob": 0.3843151229202881
         },
         {
           "week": 5,
@@ -4522,7 +4522,7 @@
           "date": "2026-10-11T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6123717693836979
+          "combined_prob": 0.5943717693836978
         },
         {
           "week": 6,
@@ -4532,7 +4532,7 @@
           "date": "2026-10-18T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.2505468497576737
+          "combined_prob": 0.24454684975767368
         },
         {
           "week": 7,
@@ -4542,7 +4542,7 @@
           "date": "2026-10-25T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6217460317460317
+          "combined_prob": 0.6357460317460317
         },
         {
           "week": 8,
@@ -4552,7 +4552,7 @@
           "date": "2026-11-01T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5417337662337662
+          "combined_prob": 0.5427337662337662
         },
         {
           "week": 9,
@@ -4562,7 +4562,7 @@
           "date": "2026-11-08T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.20433743842364532
+          "combined_prob": 0.20883743842364533
         },
         {
           "week": 10,
@@ -4572,7 +4572,7 @@
           "date": "2026-11-15T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.26406419316843344
+          "combined_prob": 0.24706419316843345
         },
         {
           "week": 11,
@@ -4582,7 +4582,7 @@
           "date": "2026-11-22T21:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.27208342189160467
+          "combined_prob": 0.2955834218916047
         },
         {
           "week": 12,
@@ -4592,7 +4592,7 @@
           "date": "2026-11-29T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5367662337662338
+          "combined_prob": 0.5387662337662338
         },
         {
           "week": 13,
@@ -4606,7 +4606,7 @@
           "date": "2026-12-13T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4024964894684052
+          "combined_prob": 0.3834964894684052
         },
         {
           "week": 15,
@@ -4616,7 +4616,7 @@
           "date": "2026-12-20T21:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4585
+          "combined_prob": 0.498
         },
         {
           "week": 16,
@@ -4626,7 +4626,7 @@
           "date": "2026-12-27T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3444189627228525
+          "combined_prob": 0.3314189627228525
         },
         {
           "week": 17,
@@ -4636,7 +4636,7 @@
           "date": "2027-01-03T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3782667240694132
+          "combined_prob": 0.3717667240694132
         },
         {
           "week": 18,
@@ -4646,12 +4646,12 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.20231918008784772
+          "combined_prob": 0.1928191800878477
         }
       ],
-      "this_week_prob": 0.3670479091529389,
+      "this_week_prob": 0.2649603705609882,
       "best_future_week": 7,
-      "best_future_prob": 0.6217460317460317,
+      "best_future_prob": 0.6357460317460317,
       "save_for_later": false
     },
     "PHI": {
@@ -4676,9 +4676,9 @@
           "opponent_name": "Tennessee Titans",
           "is_home": false,
           "date": "2026-09-20T17:00Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.711376254180602
+          "completed": true,
+          "won": true,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -4688,7 +4688,7 @@
           "date": "2026-09-29T00:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4478179371418649
+          "combined_prob": 0.625324062095731
         },
         {
           "week": 4,
@@ -4698,7 +4698,7 @@
           "date": "2026-10-04T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.48045670736914015
+          "combined_prob": 0.4307794426417255
         },
         {
           "week": 5,
@@ -4708,7 +4708,7 @@
           "date": "2026-10-11T13:30Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.48023376623376623
+          "combined_prob": 0.49723376623376625
         },
         {
           "week": 6,
@@ -4718,7 +4718,7 @@
           "date": "2026-10-18T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.695516582130316
+          "combined_prob": 0.671516582130316
         },
         {
           "week": 7,
@@ -4728,7 +4728,7 @@
           "date": "2026-10-27T00:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.559684877079712
+          "combined_prob": 0.542684877079712
         },
         {
           "week": 8,
@@ -4738,7 +4738,7 @@
           "date": "2026-11-02T01:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5182337662337663
+          "combined_prob": 0.5557337662337662
         },
         {
           "week": 9,
@@ -4748,7 +4748,7 @@
           "date": "2026-11-08T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6360156234977405
+          "combined_prob": 0.7585156234977406
         },
         {
           "week": 10,
@@ -4762,7 +4762,7 @@
           "date": "2026-11-22T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6660156234977406
+          "combined_prob": 0.6815156234977406
         },
         {
           "week": 12,
@@ -4772,7 +4772,7 @@
           "date": "2026-11-26T21:30Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.45976623376623377
+          "combined_prob": 0.43426623376623374
         },
         {
           "week": 13,
@@ -4782,7 +4782,7 @@
           "date": "2026-12-06T21:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6919510522582171
+          "combined_prob": 0.7279510522582171
         },
         {
           "week": 14,
@@ -4792,7 +4792,7 @@
           "date": "2026-12-13T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6671966292134832
+          "combined_prob": 0.6501966292134831
         },
         {
           "week": 15,
@@ -4802,7 +4802,7 @@
           "date": "2026-12-19T22:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5187337662337663
+          "combined_prob": 0.4722337662337663
         },
         {
           "week": 16,
@@ -4812,7 +4812,7 @@
           "date": "2026-12-25T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5482205573582746
+          "combined_prob": 0.5517205573582745
         },
         {
           "week": 17,
@@ -4822,7 +4822,7 @@
           "date": "2027-01-04T01:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.39476623376623377
+          "combined_prob": 0.36376623376623374
         },
         {
           "week": 18,
@@ -4832,13 +4832,13 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5526848770797119
+          "combined_prob": 0.650684877079712
         }
       ],
-      "this_week_prob": 0.711376254180602,
-      "best_future_week": 6,
-      "best_future_prob": 0.695516582130316,
-      "save_for_later": false
+      "this_week_prob": 0.625324062095731,
+      "best_future_week": 9,
+      "best_future_prob": 0.7585156234977406,
+      "save_for_later": true
     },
     "PIT": {
       "id": "23",
@@ -4862,9 +4862,9 @@
           "opponent_name": "New England Patriots",
           "is_home": false,
           "date": "2026-09-20T17:00Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.33976238690219734
+          "completed": true,
+          "won": false,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -4874,7 +4874,7 @@
           "date": "2026-09-27T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4492794426417255
+          "combined_prob": 0.37802982810920127
         },
         {
           "week": 4,
@@ -4884,7 +4884,7 @@
           "date": "2026-10-02T00:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6062205573582744
+          "combined_prob": 0.5795298177802319
         },
         {
           "week": 5,
@@ -4894,7 +4894,7 @@
           "date": "2026-10-11T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5657460317460317
+          "combined_prob": 0.5362460317460318
         },
         {
           "week": 6,
@@ -4904,7 +4904,7 @@
           "date": "2026-10-18T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.43276623376623374
+          "combined_prob": 0.4367662337662338
         },
         {
           "week": 7,
@@ -4914,7 +4914,7 @@
           "date": "2026-10-25T13:30Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5417460317460318
+          "combined_prob": 0.5047460317460317
         },
         {
           "week": 8,
@@ -4924,7 +4924,7 @@
           "date": "2026-11-01T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.723896441527034
+          "combined_prob": 0.687396441527034
         },
         {
           "week": 9,
@@ -4938,7 +4938,7 @@
           "date": "2026-11-16T01:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.36504790915293894
+          "combined_prob": 0.33454790915293886
         },
         {
           "week": 11,
@@ -4948,7 +4948,7 @@
           "date": "2026-11-22T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3329843765022594
+          "combined_prob": 0.3169843765022594
         },
         {
           "week": 12,
@@ -4958,7 +4958,7 @@
           "date": "2026-11-27T20:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5209567073691401
+          "combined_prob": 0.4739567073691401
         },
         {
           "week": 13,
@@ -4968,7 +4968,7 @@
           "date": "2026-12-07T01:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4649567073691401
+          "combined_prob": 0.46045670736914013
         },
         {
           "week": 14,
@@ -4978,7 +4978,7 @@
           "date": "2026-12-15T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.35631512292028805
+          "combined_prob": 0.35581512292028805
         },
         {
           "week": 15,
@@ -4988,7 +4988,7 @@
           "date": "2026-12-20T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3879701822197681
+          "combined_prob": 0.3874701822197681
         },
         {
           "week": 16,
@@ -4998,7 +4998,7 @@
           "date": "2026-12-27T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6299701718907988
+          "combined_prob": 0.5904701718907988
         },
         {
           "week": 17,
@@ -5008,7 +5008,7 @@
           "date": "2027-01-03T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5600432926308598
+          "combined_prob": 0.5255432926308599
         },
         {
           "week": 18,
@@ -5018,12 +5018,12 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.30367593790426906
+          "combined_prob": 0.30067593790426905
         }
       ],
-      "this_week_prob": 0.33976238690219734,
+      "this_week_prob": 0.37802982810920127,
       "best_future_week": 8,
-      "best_future_prob": 0.723896441527034,
+      "best_future_prob": 0.687396441527034,
       "save_for_later": false
     },
     "SF": {
@@ -5048,9 +5048,9 @@
           "opponent_name": "Miami Dolphins",
           "is_home": true,
           "date": "2026-09-20T20:25Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.8920068493150685
+          "completed": true,
+          "won": true,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -5060,7 +5060,7 @@
           "date": "2026-09-27T20:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.8098879385582127
+          "combined_prob": 0.8483879385582126
         },
         {
           "week": 4,
@@ -5070,7 +5070,7 @@
           "date": "2026-10-04T20:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6722460317460317
+          "combined_prob": 0.7218645894001166
         },
         {
           "week": 5,
@@ -5080,7 +5080,7 @@
           "date": "2026-10-11T20:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4696354105998835
+          "combined_prob": 0.4601354105998835
         },
         {
           "week": 6,
@@ -5090,7 +5090,7 @@
           "date": "2026-10-20T00:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7211966292134832
+          "combined_prob": 0.7586966292134831
         },
         {
           "week": 7,
@@ -5100,7 +5100,7 @@
           "date": "2026-10-25T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6975035105315948
+          "combined_prob": 0.7545035105315947
         },
         {
           "week": 8,
@@ -5114,7 +5114,7 @@
           "date": "2026-11-08T21:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.8124165781083954
+          "combined_prob": 0.8194165781083953
         },
         {
           "week": 10,
@@ -5124,7 +5124,7 @@
           "date": "2026-11-15T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5296304347826086
+          "combined_prob": 0.5461304347826087
         },
         {
           "week": 11,
@@ -5134,7 +5134,7 @@
           "date": "2026-11-23T01:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6404701718907988
+          "combined_prob": 0.6639701718907989
         },
         {
           "week": 12,
@@ -5144,7 +5144,7 @@
           "date": "2026-11-29T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5635
+          "combined_prob": 0.5585
         },
         {
           "week": 13,
@@ -5154,7 +5154,7 @@
           "date": "2026-12-06T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6233193859121011
+          "combined_prob": 0.7318193859121012
         },
         {
           "week": 14,
@@ -5164,7 +5164,7 @@
           "date": "2026-12-13T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5486282306163022
+          "combined_prob": 0.5441282306163022
         },
         {
           "week": 15,
@@ -5174,7 +5174,7 @@
           "date": "2026-12-18T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5392539682539682
+          "combined_prob": 0.5852539682539682
         },
         {
           "week": 16,
@@ -5184,7 +5184,7 @@
           "date": "2026-12-27T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4525036794766967
+          "combined_prob": 0.4835036794766967
         },
         {
           "week": 17,
@@ -5194,7 +5194,7 @@
           "date": "2027-01-04T01:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6037337662337663
+          "combined_prob": 0.6352337662337663
         },
         {
           "week": 18,
@@ -5204,12 +5204,12 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.752252688172043
+          "combined_prob": 0.796752688172043
         }
       ],
-      "this_week_prob": 0.8920068493150685,
+      "this_week_prob": 0.8483879385582126,
       "best_future_week": 9,
-      "best_future_prob": 0.8124165781083954,
+      "best_future_prob": 0.8194165781083953,
       "save_for_later": false
     },
     "SEA": {
@@ -5234,9 +5234,9 @@
           "opponent_name": "Arizona Cardinals",
           "is_home": false,
           "date": "2026-09-20T20:25Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.5563240620957309
+          "completed": true,
+          "won": true,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -5246,7 +5246,7 @@
           "date": "2026-09-27T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.49572055735827447
+          "combined_prob": 0.701985260770975
         },
         {
           "week": 4,
@@ -5256,7 +5256,7 @@
           "date": "2026-10-04T20:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5711181172291296
+          "combined_prob": 0.713275615130371
         },
         {
           "week": 5,
@@ -5266,7 +5266,7 @@
           "date": "2026-10-11T20:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5283645894001165
+          "combined_prob": 0.5383645894001166
         },
         {
           "week": 6,
@@ -5276,7 +5276,7 @@
           "date": "2026-10-16T00:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5538717693836979
+          "combined_prob": 0.5778717693836979
         },
         {
           "week": 7,
@@ -5286,7 +5286,7 @@
           "date": "2026-10-26T00:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.559878485471089
+          "combined_prob": 0.587878485471089
         },
         {
           "week": 8,
@@ -5296,7 +5296,7 @@
           "date": "2026-11-03T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6193240620957309
+          "combined_prob": 0.6608240620957309
         },
         {
           "week": 9,
@@ -5306,7 +5306,7 @@
           "date": "2026-11-08T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7992295081967213
+          "combined_prob": 0.8582295081967214
         },
         {
           "week": 10,
@@ -5316,7 +5316,7 @@
           "date": "2026-11-15T21:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.7072711598746082
+          "combined_prob": 0.7327711598746082
         },
         {
           "week": 11,
@@ -5330,7 +5330,7 @@
           "date": "2026-11-29T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.435
+          "combined_prob": 0.44
         },
         {
           "week": 13,
@@ -5340,7 +5340,7 @@
           "date": "2026-12-08T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6218240620957309
+          "combined_prob": 0.6473240620957309
         },
         {
           "week": 14,
@@ -5350,7 +5350,7 @@
           "date": "2026-12-13T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.709094249201278
+          "combined_prob": 0.8170942492012779
         },
         {
           "week": 15,
@@ -5360,7 +5360,7 @@
           "date": "2026-12-19T22:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4792662337662338
+          "combined_prob": 0.5257662337662338
         },
         {
           "week": 16,
@@ -5370,7 +5370,7 @@
           "date": "2026-12-26T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5463717693836978
+          "combined_prob": 0.5523717693836978
         },
         {
           "week": 17,
@@ -5380,7 +5380,7 @@
           "date": "2027-01-03T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6652777777777779
+          "combined_prob": 0.6807777777777777
         },
         {
           "week": 18,
@@ -5390,12 +5390,12 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.42281512292028806
+          "combined_prob": 0.43731512292028807
         }
       ],
-      "this_week_prob": 0.5563240620957309,
+      "this_week_prob": 0.701985260770975,
       "best_future_week": 9,
-      "best_future_prob": 0.7992295081967213,
+      "best_future_prob": 0.8582295081967214,
       "save_for_later": true
     },
     "TB": {
@@ -5420,9 +5420,9 @@
           "opponent_name": "Cleveland Browns",
           "is_home": true,
           "date": "2026-09-20T17:00Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.786371757925072
+          "completed": true,
+          "won": false,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -5432,7 +5432,7 @@
           "date": "2026-09-27T20:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5137337662337662
+          "combined_prob": 0.4676304347826087
         },
         {
           "week": 4,
@@ -5442,7 +5442,7 @@
           "date": "2026-10-04T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4812662337662338
+          "combined_prob": 0.4823179371418649
         },
         {
           "week": 5,
@@ -5452,7 +5452,7 @@
           "date": "2026-10-09T00:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.37013541059988353
+          "combined_prob": 0.33063541059988355
         },
         {
           "week": 6,
@@ -5462,7 +5462,7 @@
           "date": "2026-10-18T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5657337662337663
+          "combined_prob": 0.5617337662337663
         },
         {
           "week": 7,
@@ -5472,7 +5472,7 @@
           "date": "2026-10-25T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5437337662337662
+          "combined_prob": 0.5037337662337662
         },
         {
           "week": 8,
@@ -5482,7 +5482,7 @@
           "date": "2026-11-01T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6442376130978027
+          "combined_prob": 0.6687376130978027
         },
         {
           "week": 9,
@@ -5492,7 +5492,7 @@
           "date": "2026-11-09T01:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3595479091529389
+          "combined_prob": 0.34554790915293887
         },
         {
           "week": 10,
@@ -5506,7 +5506,7 @@
           "date": "2026-11-22T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.36817593790426906
+          "combined_prob": 0.34017593790426903
         },
         {
           "week": 12,
@@ -5516,7 +5516,7 @@
           "date": "2026-12-01T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6394520908470611
+          "combined_prob": 0.5954520908470611
         },
         {
           "week": 13,
@@ -5526,7 +5526,7 @@
           "date": "2026-12-06T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4852794426417255
+          "combined_prob": 0.49577944264172547
         },
         {
           "week": 14,
@@ -5536,7 +5536,7 @@
           "date": "2026-12-13T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.295103558472966
+          "combined_prob": 0.285603558472966
         },
         {
           "week": 15,
@@ -5546,7 +5546,7 @@
           "date": "2026-12-20T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6114520908470611
+          "combined_prob": 0.5769520908470611
         },
         {
           "week": 16,
@@ -5556,7 +5556,7 @@
           "date": "2026-12-27T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5247337662337663
+          "combined_prob": 0.5602337662337662
         },
         {
           "week": 17,
@@ -5566,7 +5566,7 @@
           "date": "2027-01-03T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.39413541059988355
+          "combined_prob": 0.34763541059988357
         },
         {
           "week": 18,
@@ -5576,12 +5576,12 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5157337662337662
+          "combined_prob": 0.48623376623376624
         }
       ],
-      "this_week_prob": 0.786371757925072,
+      "this_week_prob": 0.4676304347826087,
       "best_future_week": 8,
-      "best_future_prob": 0.6442376130978027,
+      "best_future_prob": 0.6687376130978027,
       "save_for_later": false
     },
     "TEN": {
@@ -5606,9 +5606,9 @@
           "opponent_name": "Philadelphia Eagles",
           "is_home": true,
           "date": "2026-09-20T17:00Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.287123745819398
+          "completed": true,
+          "won": false,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -5618,7 +5618,7 @@
           "date": "2026-09-27T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.2958033707865168
+          "combined_prob": 0.5222794426417254
         },
         {
           "week": 4,
@@ -5628,7 +5628,7 @@
           "date": "2026-10-04T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.1935
+          "combined_prob": 0.17583248730964465
         },
         {
           "week": 5,
@@ -5638,7 +5638,7 @@
           "date": "2026-10-11T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3347667240694132
+          "combined_prob": 0.3672667240694132
         },
         {
           "week": 6,
@@ -5648,7 +5648,7 @@
           "date": "2026-10-18T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.34702982810920124
+          "combined_prob": 0.3485298281092012
         },
         {
           "week": 7,
@@ -5658,7 +5658,7 @@
           "date": "2026-10-25T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5852205573582745
+          "combined_prob": 0.5857205573582744
         },
         {
           "week": 8,
@@ -5668,7 +5668,7 @@
           "date": "2026-11-01T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.25922438486962907
+          "combined_prob": 0.26222438486962907
         },
         {
           "week": 9,
@@ -5682,7 +5682,7 @@
           "date": "2026-11-15T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3547794426417255
+          "combined_prob": 0.38627944264172553
         },
         {
           "week": 11,
@@ -5692,7 +5692,7 @@
           "date": "2026-11-22T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.26222438486962907
+          "combined_prob": 0.25422438486962906
         },
         {
           "week": 12,
@@ -5702,7 +5702,7 @@
           "date": "2026-11-29T21:05Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.2554843765022594
+          "combined_prob": 0.2759843765022594
         },
         {
           "week": 13,
@@ -5712,7 +5712,7 @@
           "date": "2026-12-06T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4317662337662338
+          "combined_prob": 0.45326623376623376
         },
         {
           "week": 14,
@@ -5722,7 +5722,7 @@
           "date": "2026-12-13T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.2480937161430119
+          "combined_prob": 0.2500937161430119
         },
         {
           "week": 15,
@@ -5732,7 +5732,7 @@
           "date": "2026-12-20T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.45126623376623376
+          "combined_prob": 0.4577662337662337
         },
         {
           "week": 16,
@@ -5752,7 +5752,7 @@
           "date": "2027-01-03T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4384567073691401
+          "combined_prob": 0.47245670736914014
         },
         {
           "week": 18,
@@ -5762,12 +5762,12 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.2645147392290249
+          "combined_prob": 0.2835147392290249
         }
       ],
-      "this_week_prob": 0.287123745819398,
+      "this_week_prob": 0.5222794426417254,
       "best_future_week": 7,
-      "best_future_prob": 0.5852205573582745,
+      "best_future_prob": 0.5857205573582744,
       "save_for_later": false
     },
     "WSH": {
@@ -5792,9 +5792,9 @@
           "opponent_name": "Dallas Cowboys",
           "is_home": false,
           "date": "2026-09-20T20:25Z",
-          "completed": false,
-          "won": null,
-          "combined_prob": 0.34976238690219735
+          "completed": true,
+          "won": false,
+          "combined_prob": null
         },
         {
           "week": 3,
@@ -5804,7 +5804,7 @@
           "date": "2026-09-27T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5027794426417256
+          "combined_prob": 0.29651473922902494
         },
         {
           "week": 4,
@@ -5814,7 +5814,7 @@
           "date": "2026-10-04T13:30Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.536682062858135
+          "combined_prob": 0.38063541059988354
         },
         {
           "week": 5,
@@ -5824,7 +5824,7 @@
           "date": "2026-10-11T17:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5403717693836978
+          "combined_prob": 0.6333717693836979
         },
         {
           "week": 6,
@@ -5834,7 +5834,7 @@
           "date": "2026-10-20T00:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.27780337078651685
+          "combined_prob": 0.2408033707865168
         },
         {
           "week": 7,
@@ -5848,7 +5848,7 @@
           "date": "2026-11-02T01:20Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4797662337662338
+          "combined_prob": 0.44226623376623375
         },
         {
           "week": 9,
@@ -5858,7 +5858,7 @@
           "date": "2026-11-08T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3766759379042691
+          "combined_prob": 0.3361759379042691
         },
         {
           "week": 10,
@@ -5868,7 +5868,7 @@
           "date": "2026-11-13T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4474567073691401
+          "combined_prob": 0.5864567073691401
         },
         {
           "week": 11,
@@ -5878,7 +5878,7 @@
           "date": "2026-11-24T01:15Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4767662337662337
+          "combined_prob": 0.45176623376623376
         },
         {
           "week": 12,
@@ -5888,7 +5888,7 @@
           "date": "2026-11-29T21:25Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5962376130978027
+          "combined_prob": 0.6187376130978026
         },
         {
           "week": 13,
@@ -5898,7 +5898,7 @@
           "date": "2026-12-06T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.5667337662337663
+          "combined_prob": 0.5452337662337663
         },
         {
           "week": 14,
@@ -5908,7 +5908,7 @@
           "date": "2026-12-13T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4729567073691401
+          "combined_prob": 0.46745670736914013
         },
         {
           "week": 15,
@@ -5918,7 +5918,7 @@
           "date": "2026-12-20T18:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.6177332759305869
+          "combined_prob": 0.6472332759305869
         },
         {
           "week": 16,
@@ -5928,7 +5928,7 @@
           "date": "2026-12-27T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4172794426417255
+          "combined_prob": 0.3992794426417255
         },
         {
           "week": 17,
@@ -5938,7 +5938,7 @@
           "date": "2027-01-03T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.3507667240694132
+          "combined_prob": 0.3527667240694132
         },
         {
           "week": 18,
@@ -5948,12 +5948,12 @@
           "date": "2027-01-10T05:00Z",
           "completed": false,
           "won": null,
-          "combined_prob": 0.4714567073691401
+          "combined_prob": 0.4374567073691401
         }
       ],
-      "this_week_prob": 0.34976238690219735,
+      "this_week_prob": 0.29651473922902494,
       "best_future_week": 15,
-      "best_future_prob": 0.6177332759305869,
+      "best_future_prob": 0.6472332759305869,
       "save_for_later": false
     }
   }
