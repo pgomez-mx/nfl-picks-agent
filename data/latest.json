@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T13:15:40.902532+00:00",
+  "generated_at": "2026-09-25T13:15:59.698377+00:00",
   "week_number": 3,
   "season_type": "reg",
   "season_type_num": 2,
@@ -8,7 +8,7 @@
     {
       "event_id": "401872948",
       "date": "2026-09-25T00:15Z",
-      "status": "9/24 - 8:15 PM EDT",
+      "status": "Final",
       "book": "DraftKings",
       "spread_details": "GB -4.5",
       "home": {
@@ -16,25 +16,20 @@
         "name": "Green Bay Packers",
         "abbr": "GB",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
-        "model_prob": 0.745,
-        "market_prob": 0.6805555555555556,
-        "moneyline": -245,
-        "combined_prob": 0.7127777777777777,
+        "model_prob": null,
+        "market_prob": 0.6750312469954812,
+        "moneyline": -238,
+        "combined_prob": 0.6750312469954812,
         "key_injuries": [
           {
-            "name": "Aaron Banks",
-            "position": "G",
-            "status": "Out"
-          },
-          {
-            "name": "Warren Brinson",
-            "position": "DT",
-            "status": "Out"
-          },
-          {
-            "name": "Javon Hargrave",
-            "position": "DT",
+            "name": "Edgerrin Cooper",
+            "position": "LB",
             "status": "Questionable"
+          },
+          {
+            "name": "Anthony Campbell",
+            "position": "DT",
+            "status": "Out"
           },
           {
             "name": "Jayden Reed",
@@ -45,6 +40,11 @@
             "name": "Zach Bako-Bewele",
             "position": "OT",
             "status": "Out"
+          },
+          {
+            "name": "Aaron Banks",
+            "position": "G",
+            "status": "Out"
           }
         ]
       },
@@ -53,20 +53,35 @@
         "name": "Atlanta Falcons",
         "abbr": "ATL",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
-        "model_prob": 0.253,
-        "market_prob": 0.3194444444444444,
-        "moneyline": 200,
-        "combined_prob": 0.2862222222222222,
+        "model_prob": null,
+        "market_prob": 0.3249687530045188,
+        "moneyline": 195,
+        "combined_prob": 0.3249687530045188,
         "key_injuries": [
           {
-            "name": "Samson Ebukam",
-            "position": "DE",
+            "name": "Jack Strand",
+            "position": "QB",
             "status": "Out"
           },
           {
-            "name": "Billy Bowman Jr.",
+            "name": "Cooper Rush",
+            "position": "QB",
+            "status": "Out"
+          },
+          {
+            "name": "Robert Longerbeam",
             "position": "CB",
-            "status": "Questionable"
+            "status": "Out"
+          },
+          {
+            "name": "Ethan Onianwa",
+            "position": "OT",
+            "status": "Out"
+          },
+          {
+            "name": "Malcolm DeWalt IV",
+            "position": "CB",
+            "status": "Out"
           }
         ]
       }
@@ -82,14 +97,19 @@
         "name": "Buffalo Bills",
         "abbr": "BUF",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
-        "model_prob": 0.782,
-        "market_prob": 0.7440690150970525,
-        "moneyline": -345,
-        "combined_prob": 0.7630345075485263,
+        "model_prob": 0.7809999999999999,
+        "market_prob": 0.740871613663133,
+        "moneyline": -340,
+        "combined_prob": 0.7609358068315665,
         "key_injuries": [
           {
             "name": "Ed Oliver",
             "position": "DT",
+            "status": "Questionable"
+          },
+          {
+            "name": "DJ Moore",
+            "position": "WR",
             "status": "Questionable"
           },
           {
@@ -106,11 +126,6 @@
             "name": "Ar'maj Reed-Adams",
             "position": "G",
             "status": "Questionable"
-          },
-          {
-            "name": "Jordan Hancock",
-            "position": "CB",
-            "status": "Questionable"
           }
         ]
       },
@@ -120,10 +135,15 @@
         "abbr": "LAC",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
         "model_prob": 0.217,
-        "market_prob": 0.2559309849029475,
-        "moneyline": 275,
-        "combined_prob": 0.23646549245147375,
+        "market_prob": 0.2591283863368669,
+        "moneyline": 270,
+        "combined_prob": 0.23806419316843347,
         "key_injuries": [
+          {
+            "name": "Brenen Thompson",
+            "position": "WR",
+            "status": "Questionable"
+          },
           {
             "name": "Dalvin Tomlinson",
             "position": "DT",
@@ -135,18 +155,13 @@
             "status": "Questionable"
           },
           {
-            "name": "Derwin James Jr.",
-            "position": "S",
-            "status": "Questionable"
-          },
-          {
-            "name": "Brenen Thompson",
-            "position": "WR",
-            "status": "Questionable"
-          },
-          {
             "name": "Tuli Tuipulotu",
             "position": "LB",
+            "status": "Questionable"
+          },
+          {
+            "name": "Rodney Shelley",
+            "position": "CB",
             "status": "Questionable"
           }
         ]
@@ -163,10 +178,10 @@
         "name": "Cleveland Browns",
         "abbr": "CLE",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
-        "model_prob": 0.369,
+        "model_prob": 0.36,
         "market_prob": 0.42794036443953615,
         "moneyline": 124,
-        "combined_prob": 0.39847018221976804,
+        "combined_prob": 0.3939701822197681,
         "key_injuries": [
           {
             "name": "Tyson Campbell",
@@ -179,18 +194,13 @@
             "status": "Questionable"
           },
           {
-            "name": "Tytus Howard",
-            "position": "OT",
-            "status": "Questionable"
-          },
-          {
-            "name": "Mason Graham",
-            "position": "DT",
-            "status": "Questionable"
-          },
-          {
             "name": "Grant Delpit",
             "position": "S",
+            "status": "Questionable"
+          },
+          {
+            "name": "Teven Jenkins",
+            "position": "G",
             "status": "Questionable"
           }
         ]
@@ -200,29 +210,29 @@
         "name": "Carolina Panthers",
         "abbr": "CAR",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
-        "model_prob": 0.628,
+        "model_prob": 0.637,
         "market_prob": 0.5720596355604638,
         "moneyline": -148,
-        "combined_prob": 0.6000298177802319,
+        "combined_prob": 0.6045298177802318,
         "key_injuries": [
-          {
-            "name": "Jaelan Phillips",
-            "position": "LB",
-            "status": "Questionable"
-          },
-          {
-            "name": "Nick Scott",
-            "position": "S",
-            "status": "Questionable"
-          },
           {
             "name": "Devin Lloyd",
             "position": "LB",
             "status": "Questionable"
           },
           {
+            "name": "Xavier Legette",
+            "position": "WR",
+            "status": "Questionable"
+          },
+          {
             "name": "Jalen Coker",
             "position": "WR",
+            "status": "Questionable"
+          },
+          {
+            "name": "Nick Scott",
+            "position": "S",
             "status": "Questionable"
           }
         ]
@@ -239,29 +249,34 @@
         "name": "Detroit Lions",
         "abbr": "DET",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
-        "model_prob": 0.747,
-        "market_prob": 0.7220792588780237,
-        "moneyline": -305,
-        "combined_prob": 0.7345396294390119,
+        "model_prob": 0.748,
+        "market_prob": 0.7179705215419501,
+        "moneyline": -298,
+        "combined_prob": 0.732985260770975,
         "key_injuries": [
+          {
+            "name": "Ben Bartch",
+            "position": "G",
+            "status": "Questionable"
+          },
           {
             "name": "Tate Ratledge",
             "position": "G",
             "status": "Questionable"
           },
           {
-            "name": "Ahmed Hassanein",
-            "position": "DE",
+            "name": "Blake Miller",
+            "position": "OT",
+            "status": "Questionable"
+          },
+          {
+            "name": "Christian Mahogany",
+            "position": "G",
             "status": "Questionable"
           },
           {
             "name": "Thomas Harper",
             "position": "S",
-            "status": "Questionable"
-          },
-          {
-            "name": "Ben Bartch",
-            "position": "G",
             "status": "Questionable"
           }
         ]
@@ -271,24 +286,34 @@
         "name": "New York Jets",
         "abbr": "NYJ",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
-        "model_prob": 0.251,
-        "market_prob": 0.27792074112197634,
-        "moneyline": 245,
-        "combined_prob": 0.26446037056098814,
+        "model_prob": 0.25,
+        "market_prob": 0.2820294784580499,
+        "moneyline": 240,
+        "combined_prob": 0.26601473922902497,
         "key_injuries": [
+          {
+            "name": "Kiko Mauigoa",
+            "position": "LB",
+            "status": "Questionable"
+          },
           {
             "name": "Kene Nwangwu",
             "position": "RB",
             "status": "Questionable"
           },
           {
-            "name": "Minkah Fitzpatrick",
-            "position": "S",
+            "name": "Mason Taylor",
+            "position": "TE",
+            "status": "Doubtful"
+          },
+          {
+            "name": "Adonai Mitchell",
+            "position": "WR",
             "status": "Questionable"
           },
           {
-            "name": "Joseph Ossai",
-            "position": "DE",
+            "name": "Minkah Fitzpatrick",
+            "position": "S",
             "status": "Questionable"
           }
         ]
@@ -299,16 +324,16 @@
       "date": "2026-09-27T17:00Z",
       "status": "9/27 - 1:00 PM EDT",
       "book": "DraftKings",
-      "spread_details": "HOU -2.5",
+      "spread_details": "HOU -1.5",
       "home": {
         "id": "11",
         "name": "Indianapolis Colts",
         "abbr": "IND",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
-        "model_prob": 0.46799999999999997,
-        "market_prob": 0.448558885283451,
-        "moneyline": 114,
-        "combined_prob": 0.4582794426417255,
+        "model_prob": 0.467,
+        "market_prob": 0.4675324675324675,
+        "moneyline": 105,
+        "combined_prob": 0.4672662337662338,
         "key_injuries": [
           {
             "name": "Ashton Dulin",
@@ -332,29 +357,29 @@
         "name": "Houston Texans",
         "abbr": "HOU",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
-        "model_prob": 0.528,
-        "market_prob": 0.551441114716549,
-        "moneyline": -135,
-        "combined_prob": 0.5397205573582745,
+        "model_prob": 0.529,
+        "market_prob": 0.5324675324675325,
+        "moneyline": -125,
+        "combined_prob": 0.5307337662337663,
         "key_injuries": [
+          {
+            "name": "Jadeveon Clowney",
+            "position": "DE",
+            "status": "Questionable"
+          },
+          {
+            "name": "Nico Collins",
+            "position": "WR",
+            "status": "Questionable"
+          },
           {
             "name": "M.J. Stewart",
             "position": "S",
             "status": "Out"
           },
           {
-            "name": "Logan Hall",
-            "position": "DE",
-            "status": "Questionable"
-          },
-          {
             "name": "Trent Brown",
             "position": "OT",
-            "status": "Questionable"
-          },
-          {
-            "name": "Nico Collins",
-            "position": "WR",
             "status": "Questionable"
           },
           {
@@ -376,14 +401,14 @@
         "name": "Miami Dolphins",
         "abbr": "MIA",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
-        "model_prob": 0.146,
+        "model_prob": 0.145,
         "market_prob": 0.16835016835016833,
         "moneyline": 470,
-        "combined_prob": 0.15717508417508416,
+        "combined_prob": 0.15667508417508416,
         "key_injuries": [
           {
-            "name": "Robert Beal Jr.",
-            "position": "DE",
+            "name": "Jaylen Wright",
+            "position": "RB",
             "status": "Questionable"
           },
           {
@@ -392,18 +417,18 @@
             "status": "Questionable"
           },
           {
-            "name": "Jaylen Wright",
-            "position": "RB",
+            "name": "Caleb Douglas",
+            "position": "WR",
             "status": "Questionable"
           },
           {
-            "name": "Chop Robinson",
-            "position": "LB",
+            "name": "Chris Bell",
+            "position": "WR",
             "status": "Questionable"
           },
           {
-            "name": "JuJu Brents",
-            "position": "CB",
+            "name": "Robert Beal Jr.",
+            "position": "DE",
             "status": "Questionable"
           }
         ]
@@ -413,10 +438,10 @@
         "name": "Kansas City Chiefs",
         "abbr": "KC",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
-        "model_prob": 0.853,
+        "model_prob": 0.8540000000000001,
         "market_prob": 0.8316498316498315,
         "moneyline": -650,
-        "combined_prob": 0.8423249158249158,
+        "combined_prob": 0.8428249158249158,
         "key_injuries": [
           {
             "name": "L'Jarius Sneed",
@@ -426,11 +451,6 @@
           {
             "name": "Chris Jones",
             "position": "DT",
-            "status": "Questionable"
-          },
-          {
-            "name": "Felix Anudike-Uzomah",
-            "position": "DE",
             "status": "Questionable"
           },
           {
@@ -446,16 +466,16 @@
       "date": "2026-09-27T17:00Z",
       "status": "9/27 - 1:00 PM EDT",
       "book": "DraftKings",
-      "spread_details": "NYG -3",
+      "spread_details": "NYG -2.5",
       "home": {
         "id": "19",
         "name": "New York Giants",
         "abbr": "NYG",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
-        "model_prob": 0.462,
-        "market_prob": 0.5634920634920635,
-        "moneyline": -142,
-        "combined_prob": 0.5127460317460317,
+        "model_prob": 0.455,
+        "market_prob": 0.551441114716549,
+        "moneyline": -135,
+        "combined_prob": 0.5032205573582745,
         "key_injuries": [
           {
             "name": "Andrew Thomas",
@@ -476,11 +496,6 @@
             "name": "Brian Burns",
             "position": "LB",
             "status": "Questionable"
-          },
-          {
-            "name": "Shelby Harris",
-            "position": "DT",
-            "status": "Questionable"
           }
         ]
       },
@@ -489,14 +504,14 @@
         "name": "Tennessee Titans",
         "abbr": "TEN",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
-        "model_prob": 0.535,
-        "market_prob": 0.43650793650793646,
-        "moneyline": 120,
-        "combined_prob": 0.4857539682539682,
+        "model_prob": 0.541,
+        "market_prob": 0.448558885283451,
+        "moneyline": 114,
+        "combined_prob": 0.4947794426417255,
         "key_injuries": [
           {
-            "name": "Cor'Dale Flott",
-            "position": "CB",
+            "name": "Daniel Bellinger",
+            "position": "TE",
             "status": "Questionable"
           },
           {
@@ -505,13 +520,18 @@
             "status": "Questionable"
           },
           {
+            "name": "Micah Robinson",
+            "position": "CB",
+            "status": "Questionable"
+          },
+          {
             "name": "Tyjae Spears",
             "position": "RB",
             "status": "Questionable"
           },
           {
-            "name": "Solomon Thomas",
-            "position": "DT",
+            "name": "Cor'Dale Flott",
+            "position": "CB",
             "status": "Questionable"
           }
         ]
@@ -528,24 +548,19 @@
         "name": "Pittsburgh Steelers",
         "abbr": "PIT",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
-        "model_prob": 0.38,
-        "market_prob": 0.3775334481388264,
-        "moneyline": 154,
-        "combined_prob": 0.3787667240694132,
+        "model_prob": 0.387,
+        "market_prob": 0.39076376554174075,
+        "moneyline": 145,
+        "combined_prob": 0.3888818827708704,
         "key_injuries": [
-          {
-            "name": "Jamel Dean",
-            "position": "CB",
-            "status": "Questionable"
-          },
-          {
-            "name": "Joey Porter Jr.",
-            "position": "CB",
-            "status": "Questionable"
-          },
           {
             "name": "Michael Pittman Jr.",
             "position": "WR",
+            "status": "Questionable"
+          },
+          {
+            "name": "Rico Dowdle",
+            "position": "RB",
             "status": "Questionable"
           },
           {
@@ -554,8 +569,13 @@
             "status": "Questionable"
           },
           {
-            "name": "Rico Dowdle",
-            "position": "RB",
+            "name": "Gennings Dunker",
+            "position": "G",
+            "status": "Questionable"
+          },
+          {
+            "name": "Jamel Dean",
+            "position": "CB",
             "status": "Questionable"
           }
         ]
@@ -565,16 +585,11 @@
         "name": "Cincinnati Bengals",
         "abbr": "CIN",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
-        "model_prob": 0.617,
-        "market_prob": 0.6224665518611737,
-        "moneyline": -185,
-        "combined_prob": 0.6197332759305869,
+        "model_prob": 0.61,
+        "market_prob": 0.6092362344582594,
+        "moneyline": -175,
+        "combined_prob": 0.6096181172291297,
         "key_injuries": [
-          {
-            "name": "Jonathan Allen",
-            "position": "DT",
-            "status": "Questionable"
-          },
           {
             "name": "Andrei Iosivas",
             "position": "WR",
@@ -593,20 +608,20 @@
       "date": "2026-09-27T17:00Z",
       "status": "9/27 - 1:00 PM EDT",
       "book": "DraftKings",
-      "spread_details": "SEA -7",
+      "spread_details": "SEA -7.5",
       "home": {
         "id": "28",
         "name": "Washington Commanders",
         "abbr": "WSH",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
-        "model_prob": 0.335,
-        "market_prob": 0.2559309849029475,
-        "moneyline": 275,
-        "combined_prob": 0.2954654924514738,
+        "model_prob": 0.32299999999999995,
+        "market_prob": 0.2522172949002217,
+        "moneyline": 280,
+        "combined_prob": 0.28760864745011083,
         "key_injuries": [
           {
-            "name": "Jeremy Reaves",
-            "position": "S",
+            "name": "Chig Okonkwo",
+            "position": "TE",
             "status": "Questionable"
           },
           {
@@ -625,7 +640,7 @@
             "status": "Questionable"
           },
           {
-            "name": "Tyler Owens",
+            "name": "Percy Butler",
             "position": "S",
             "status": "Questionable"
           }
@@ -636,10 +651,10 @@
         "name": "Seattle Seahawks",
         "abbr": "SEA",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
-        "model_prob": 0.662,
-        "market_prob": 0.7440690150970525,
-        "moneyline": -345,
-        "combined_prob": 0.7030345075485263,
+        "model_prob": 0.675,
+        "market_prob": 0.7477827050997783,
+        "moneyline": -355,
+        "combined_prob": 0.7113913525498892,
         "key_injuries": [
           {
             "name": "Ty Okada",
@@ -647,19 +662,19 @@
             "status": "Questionable"
           },
           {
-            "name": "Ernest Jones IV",
-            "position": "LB",
+            "name": "Julian Love",
+            "position": "S",
             "status": "Questionable"
           },
           {
-            "name": "Cooper Kupp",
-            "position": "WR",
-            "status": "Questionable"
-          },
-          {
-            "name": "George Holani",
+            "name": "Jadarian Price",
             "position": "RB",
             "status": "Questionable"
+          },
+          {
+            "name": "Zach Charbonnet",
+            "position": "RB",
+            "status": "Out"
           }
         ]
       }
@@ -675,14 +690,19 @@
         "name": "Jacksonville Jaguars",
         "abbr": "JAX",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
-        "model_prob": 0.575,
+        "model_prob": 0.5660000000000001,
         "market_prob": 0.5829926410466066,
         "moneyline": -155,
-        "combined_prob": 0.5789963205233033,
+        "combined_prob": 0.5744963205233033,
         "key_injuries": [
           {
             "name": "LeQuint Allen Jr.",
             "position": "RB",
+            "status": "Questionable"
+          },
+          {
+            "name": "Jakobi Meyers",
+            "position": "WR",
             "status": "Questionable"
           },
           {
@@ -699,11 +719,6 @@
             "name": "Robert Hainsey",
             "position": "C",
             "status": "Questionable"
-          },
-          {
-            "name": "Jakobi Meyers",
-            "position": "WR",
-            "status": "Questionable"
           }
         ]
       },
@@ -712,15 +727,20 @@
         "name": "New England Patriots",
         "abbr": "NE",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
-        "model_prob": 0.42100000000000004,
+        "model_prob": 0.431,
         "market_prob": 0.4170073589533933,
         "moneyline": 130,
-        "combined_prob": 0.4190036794766967,
+        "combined_prob": 0.42400367947669665,
         "key_injuries": [
           {
-            "name": "Brenden Schooler",
+            "name": "Dre'Mont Jones",
+            "position": "DE",
+            "status": "Questionable"
+          },
+          {
+            "name": "Craig Woodson",
             "position": "S",
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "name": "Eli Raridon",
@@ -728,14 +748,9 @@
             "status": "Questionable"
           },
           {
-            "name": "Reggie Gilliam",
-            "position": "FB",
-            "status": "Questionable"
-          },
-          {
-            "name": "Morgan Moses",
-            "position": "OT",
-            "status": "Questionable"
+            "name": "Brenden Schooler",
+            "position": "S",
+            "status": "Out"
           }
         ]
       }
@@ -752,29 +767,29 @@
         "abbr": "SF",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
         "model_prob": 0.899,
-        "market_prob": 0.7819063004846527,
-        "moneyline": -440,
-        "combined_prob": 0.8404531502423264,
+        "market_prob": 0.7867435158501441,
+        "moneyline": -455,
+        "combined_prob": 0.8428717579250721,
         "key_injuries": [
-          {
-            "name": "Mike Evans",
-            "position": "WR",
-            "status": "Questionable"
-          },
           {
             "name": "Romello Height",
             "position": "DE",
             "status": "Questionable"
           },
           {
+            "name": "Nick Bosa",
+            "position": "DE",
+            "status": "Questionable"
+          },
+          {
+            "name": "Mike Evans",
+            "position": "WR",
+            "status": "Questionable"
+          },
+          {
             "name": "James Thompson Jr.",
             "position": "DT",
             "status": "Doubtful"
-          },
-          {
-            "name": "Demarcus Robinson",
-            "position": "WR",
-            "status": "Out"
           }
         ]
       },
@@ -784,9 +799,9 @@
         "abbr": "ARI",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
         "model_prob": 0.1,
-        "market_prob": 0.21809369951534735,
-        "moneyline": 340,
-        "combined_prob": 0.1590468497576737,
+        "market_prob": 0.2132564841498559,
+        "moneyline": 350,
+        "combined_prob": 0.15662824207492795,
         "key_injuries": [
           {
             "name": "Max Melton",
@@ -794,13 +809,13 @@
             "status": "Questionable"
           },
           {
-            "name": "Garrett Williams",
-            "position": "CB",
+            "name": "Dadrion Taylor-Demerson",
+            "position": "S",
             "status": "Questionable"
           },
           {
-            "name": "Dadrion Taylor-Demerson",
-            "position": "S",
+            "name": "Garrett Williams",
+            "position": "CB",
             "status": "Questionable"
           },
           {
@@ -827,18 +842,18 @@
         "name": "Tampa Bay Buccaneers",
         "abbr": "TB",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
-        "model_prob": 0.451,
-        "market_prob": 0.4739134147382802,
-        "moneyline": 102,
-        "combined_prob": 0.46245670736914013,
+        "model_prob": 0.447,
+        "market_prob": 0.4782608695652174,
+        "moneyline": 100,
+        "combined_prob": 0.4626304347826087,
         "key_injuries": [
           {
-            "name": "Rueben Bain Jr.",
+            "name": "Josiah Trotter",
             "position": "LB",
             "status": "Questionable"
           },
           {
-            "name": "Josiah Trotter",
+            "name": "Rueben Bain Jr.",
             "position": "LB",
             "status": "Questionable"
           },
@@ -854,13 +869,18 @@
         "name": "Minnesota Vikings",
         "abbr": "MIN",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
-        "model_prob": 0.546,
-        "market_prob": 0.5260865852617197,
-        "moneyline": -122,
-        "combined_prob": 0.5360432926308598,
+        "model_prob": 0.55,
+        "market_prob": 0.5217391304347826,
+        "moneyline": -120,
+        "combined_prob": 0.5358695652173913,
         "key_injuries": [
           {
             "name": "DeeJay Dallas",
+            "position": "RB",
+            "status": "Questionable"
+          },
+          {
+            "name": "Aaron Jones Sr.",
             "position": "RB",
             "status": "Questionable"
           },
@@ -872,11 +892,6 @@
           {
             "name": "Nick Samac",
             "position": "C",
-            "status": "Questionable"
-          },
-          {
-            "name": "Brian O'Neill",
-            "position": "OT",
             "status": "Questionable"
           },
           {
@@ -899,19 +914,14 @@
         "abbr": "DAL",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
         "model_prob": 0.45299999999999996,
-        "market_prob": 0.3835616438356164,
-        "moneyline": 150,
-        "combined_prob": 0.4182808219178082,
+        "market_prob": 0.39076376554174075,
+        "moneyline": 145,
+        "combined_prob": 0.42188188277087035,
         "key_injuries": [
           {
-            "name": "Malik Hooker",
+            "name": "P.J. Locke",
             "position": "S",
-            "status": "Doubtful"
-          },
-          {
-            "name": "DeMarvion Overshown",
-            "position": "LB",
-            "status": "Questionable"
+            "status": "Out"
           },
           {
             "name": "Cobie Durant",
@@ -919,8 +929,13 @@
             "status": "Out"
           },
           {
-            "name": "P.J. Locke",
+            "name": "Malik Hooker",
             "position": "S",
+            "status": "Out"
+          },
+          {
+            "name": "DeMarvion Overshown",
+            "position": "LB",
             "status": "Out"
           }
         ]
@@ -931,12 +946,17 @@
         "abbr": "BAL",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
         "model_prob": 0.544,
-        "market_prob": 0.6164383561643836,
-        "moneyline": -180,
-        "combined_prob": 0.5802191780821918,
+        "market_prob": 0.6092362344582594,
+        "moneyline": -175,
+        "combined_prob": 0.5766181172291297,
         "key_injuries": [
           {
             "name": "Chris Moore",
+            "position": "WR",
+            "status": "Questionable"
+          },
+          {
+            "name": "Zay Flowers",
             "position": "WR",
             "status": "Questionable"
           },
@@ -946,18 +966,13 @@
             "status": "Questionable"
           },
           {
-            "name": "Zion Young",
-            "position": "LB",
-            "status": "Questionable"
-          },
-          {
-            "name": "John Simpson",
-            "position": "G",
-            "status": "Questionable"
-          },
-          {
             "name": "Malaki Starks",
             "position": "S",
+            "status": "Questionable"
+          },
+          {
+            "name": "Trey Hendrickson",
+            "position": "LB",
             "status": "Questionable"
           }
         ]
@@ -974,29 +989,29 @@
         "name": "New Orleans Saints",
         "abbr": "NO",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
-        "model_prob": 0.639,
+        "model_prob": 0.627,
         "market_prob": 0.6224665518611737,
         "moneyline": -185,
-        "combined_prob": 0.6307332759305868,
+        "combined_prob": 0.6247332759305868,
         "key_injuries": [
+          {
+            "name": "Kendre Miller",
+            "position": "RB",
+            "status": "Questionable"
+          },
+          {
+            "name": "Travis Etienne Jr.",
+            "position": "RB",
+            "status": "Questionable"
+          },
           {
             "name": "Christen Miller",
             "position": "DT",
             "status": "Questionable"
           },
           {
-            "name": "Chase Young",
-            "position": "DE",
-            "status": "Questionable"
-          },
-          {
-            "name": "Jonas Sanker",
-            "position": "S",
-            "status": "Questionable"
-          },
-          {
-            "name": "Nathan Shepherd",
-            "position": "DT",
+            "name": "Barion Brown",
+            "position": "WR",
             "status": "Questionable"
           }
         ]
@@ -1006,24 +1021,14 @@
         "name": "Las Vegas Raiders",
         "abbr": "LV",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
-        "model_prob": 0.358,
+        "model_prob": 0.37,
         "market_prob": 0.3775334481388264,
         "moneyline": 154,
-        "combined_prob": 0.3677667240694132,
+        "combined_prob": 0.3737667240694132,
         "key_injuries": [
           {
-            "name": "Treydan Stukes",
-            "position": "S",
-            "status": "Questionable"
-          },
-          {
-            "name": "Darien Porter",
-            "position": "CB",
-            "status": "Questionable"
-          },
-          {
-            "name": "Nakobe Dean",
-            "position": "LB",
+            "name": "Kwity Paye",
+            "position": "DE",
             "status": "Questionable"
           },
           {
@@ -1032,8 +1037,13 @@
             "status": "Questionable"
           },
           {
-            "name": "Folorunso Fatukasi",
-            "position": "DT",
+            "name": "Treydan Stukes",
+            "position": "S",
+            "status": "Questionable"
+          },
+          {
+            "name": "Aidan O'Connell",
+            "position": "QB",
             "status": "Questionable"
           }
         ]
@@ -1050,10 +1060,10 @@
         "name": "Denver Broncos",
         "abbr": "DEN",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
-        "model_prob": 0.36,
-        "market_prob": 0.448558885283451,
-        "moneyline": 114,
-        "combined_prob": 0.4042794426417255,
+        "model_prob": 0.355,
+        "market_prob": 0.4572564612326044,
+        "moneyline": 110,
+        "combined_prob": 0.4061282306163022,
         "key_injuries": [
           {
             "name": "Marvin Mims Jr.",
@@ -1066,18 +1076,13 @@
             "status": "Questionable"
           },
           {
-            "name": "RJ Harvey",
-            "position": "RB",
-            "status": "Questionable"
-          },
-          {
-            "name": "J.K. Dobbins",
-            "position": "RB",
-            "status": "Questionable"
-          },
-          {
             "name": "Jonathon Cooper",
             "position": "LB",
+            "status": "Out"
+          },
+          {
+            "name": "Nick Gargiulo",
+            "position": "G",
             "status": "Out"
           }
         ]
@@ -1087,21 +1092,11 @@
         "name": "Los Angeles Rams",
         "abbr": "LAR",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
-        "model_prob": 0.637,
-        "market_prob": 0.551441114716549,
-        "moneyline": -135,
-        "combined_prob": 0.5942205573582745,
+        "model_prob": 0.642,
+        "market_prob": 0.5427435387673957,
+        "moneyline": -130,
+        "combined_prob": 0.5923717693836978,
         "key_injuries": [
-          {
-            "name": "Kamren Kinchens",
-            "position": "S",
-            "status": "Questionable"
-          },
-          {
-            "name": "Nate Landman",
-            "position": "LB",
-            "status": "Questionable"
-          },
           {
             "name": "Jordan Whittington",
             "position": "WR",
@@ -1110,6 +1105,21 @@
           {
             "name": "Colby Parkinson",
             "position": "TE",
+            "status": "Questionable"
+          },
+          {
+            "name": "Puka Nacua",
+            "position": "WR",
+            "status": "Questionable"
+          },
+          {
+            "name": "Kamren Kinchens",
+            "position": "S",
+            "status": "Questionable"
+          },
+          {
+            "name": "Nate Landman",
+            "position": "LB",
             "status": "Questionable"
           }
         ]
@@ -1126,29 +1136,29 @@
         "name": "Chicago Bears",
         "abbr": "CHI",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
-        "model_prob": 0.47,
+        "model_prob": 0.461,
         "market_prob": 0.33635187580853815,
         "moneyline": 185,
-        "combined_prob": 0.4031759379042691,
+        "combined_prob": 0.3986759379042691,
         "key_injuries": [
           {
-            "name": "Shemar Turner",
-            "position": "DT",
-            "status": "Out"
+            "name": "Tyrique Stevenson Sr.",
+            "position": "CB",
+            "status": "Questionable"
           },
           {
-            "name": "Noah Sewell",
-            "position": "LB",
-            "status": "Out"
-          },
-          {
-            "name": "Kyle Monangai",
-            "position": "RB",
+            "name": "Cairo Santos",
+            "position": "PK",
             "status": "Questionable"
           },
           {
             "name": "Tyson Bagent",
             "position": "QB",
+            "status": "Questionable"
+          },
+          {
+            "name": "Kyle Monangai",
+            "position": "RB",
             "status": "Questionable"
           }
         ]
@@ -1158,10 +1168,10 @@
         "name": "Philadelphia Eagles",
         "abbr": "PHI",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
-        "model_prob": 0.526,
+        "model_prob": 0.536,
         "market_prob": 0.6636481241914618,
         "moneyline": -225,
-        "combined_prob": 0.5948240620957309,
+        "combined_prob": 0.5998240620957309,
         "key_injuries": [
           {
             "name": "Jonathan Greenard",
@@ -1169,12 +1179,22 @@
             "status": "Questionable"
           },
           {
-            "name": "Dallas Goedert",
-            "position": "TE",
-            "status": "Doubtful"
+            "name": "Will Shipley",
+            "position": "RB",
+            "status": "Questionable"
           },
           {
-            "name": "Saquon Barkley",
+            "name": "Andrew Mukuba",
+            "position": "S",
+            "status": "Questionable"
+          },
+          {
+            "name": "Jalen Carter",
+            "position": "DT",
+            "status": "Questionable"
+          },
+          {
+            "name": "Tank Bigsby",
             "position": "RB",
             "status": "Questionable"
           }
@@ -1184,98 +1204,36 @@
   ],
   "ranking": [
     {
-      "team": "Kansas City Chiefs",
-      "abbr": "KC",
-      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
-      "opponent": "Miami Dolphins",
-      "opponent_abbr": "MIA",
-      "is_home": false,
-      "combined_prob": 0.8423249158249158,
-      "model_prob": 0.853,
-      "market_prob": 0.8316498316498315,
-      "moneyline": -650,
-      "own_injuries": [
-        {
-          "name": "L'Jarius Sneed",
-          "position": "CB",
-          "status": "Questionable"
-        },
-        {
-          "name": "Chris Jones",
-          "position": "DT",
-          "status": "Questionable"
-        },
-        {
-          "name": "Felix Anudike-Uzomah",
-          "position": "DE",
-          "status": "Questionable"
-        },
-        {
-          "name": "Omarr Norman-Lott",
-          "position": "DT",
-          "status": "Out"
-        }
-      ],
-      "opponent_injuries": [
-        {
-          "name": "Robert Beal Jr.",
-          "position": "DE",
-          "status": "Questionable"
-        },
-        {
-          "name": "Ryan Miller",
-          "position": "WR",
-          "status": "Questionable"
-        },
-        {
-          "name": "Jaylen Wright",
-          "position": "RB",
-          "status": "Questionable"
-        },
-        {
-          "name": "Chop Robinson",
-          "position": "LB",
-          "status": "Questionable"
-        },
-        {
-          "name": "JuJu Brents",
-          "position": "CB",
-          "status": "Questionable"
-        }
-      ],
-      "game_date": "2026-09-27T17:00Z"
-    },
-    {
       "team": "San Francisco 49ers",
       "abbr": "SF",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
       "opponent": "Arizona Cardinals",
       "opponent_abbr": "ARI",
       "is_home": true,
-      "combined_prob": 0.8404531502423264,
+      "combined_prob": 0.8428717579250721,
       "model_prob": 0.899,
-      "market_prob": 0.7819063004846527,
-      "moneyline": -440,
+      "market_prob": 0.7867435158501441,
+      "moneyline": -455,
       "own_injuries": [
-        {
-          "name": "Mike Evans",
-          "position": "WR",
-          "status": "Questionable"
-        },
         {
           "name": "Romello Height",
           "position": "DE",
           "status": "Questionable"
         },
         {
+          "name": "Nick Bosa",
+          "position": "DE",
+          "status": "Questionable"
+        },
+        {
+          "name": "Mike Evans",
+          "position": "WR",
+          "status": "Questionable"
+        },
+        {
           "name": "James Thompson Jr.",
           "position": "DT",
           "status": "Doubtful"
-        },
-        {
-          "name": "Demarcus Robinson",
-          "position": "WR",
-          "status": "Out"
         }
       ],
       "opponent_injuries": [
@@ -1285,13 +1243,13 @@
           "status": "Questionable"
         },
         {
-          "name": "Garrett Williams",
-          "position": "CB",
+          "name": "Dadrion Taylor-Demerson",
+          "position": "S",
           "status": "Questionable"
         },
         {
-          "name": "Dadrion Taylor-Demerson",
-          "position": "S",
+          "name": "Garrett Williams",
+          "position": "CB",
           "status": "Questionable"
         },
         {
@@ -1308,20 +1266,82 @@
       "game_date": "2026-09-27T20:05Z"
     },
     {
+      "team": "Kansas City Chiefs",
+      "abbr": "KC",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+      "opponent": "Miami Dolphins",
+      "opponent_abbr": "MIA",
+      "is_home": false,
+      "combined_prob": 0.8428249158249158,
+      "model_prob": 0.8540000000000001,
+      "market_prob": 0.8316498316498315,
+      "moneyline": -650,
+      "own_injuries": [
+        {
+          "name": "L'Jarius Sneed",
+          "position": "CB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Chris Jones",
+          "position": "DT",
+          "status": "Questionable"
+        },
+        {
+          "name": "Omarr Norman-Lott",
+          "position": "DT",
+          "status": "Out"
+        }
+      ],
+      "opponent_injuries": [
+        {
+          "name": "Jaylen Wright",
+          "position": "RB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Ryan Miller",
+          "position": "WR",
+          "status": "Questionable"
+        },
+        {
+          "name": "Caleb Douglas",
+          "position": "WR",
+          "status": "Questionable"
+        },
+        {
+          "name": "Chris Bell",
+          "position": "WR",
+          "status": "Questionable"
+        },
+        {
+          "name": "Robert Beal Jr.",
+          "position": "DE",
+          "status": "Questionable"
+        }
+      ],
+      "game_date": "2026-09-27T17:00Z"
+    },
+    {
       "team": "Buffalo Bills",
       "abbr": "BUF",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
       "opponent": "Los Angeles Chargers",
       "opponent_abbr": "LAC",
       "is_home": true,
-      "combined_prob": 0.7630345075485263,
-      "model_prob": 0.782,
-      "market_prob": 0.7440690150970525,
-      "moneyline": -345,
+      "combined_prob": 0.7609358068315665,
+      "model_prob": 0.7809999999999999,
+      "market_prob": 0.740871613663133,
+      "moneyline": -340,
       "own_injuries": [
         {
           "name": "Ed Oliver",
           "position": "DT",
+          "status": "Questionable"
+        },
+        {
+          "name": "DJ Moore",
+          "position": "WR",
           "status": "Questionable"
         },
         {
@@ -1338,14 +1358,14 @@
           "name": "Ar'maj Reed-Adams",
           "position": "G",
           "status": "Questionable"
-        },
-        {
-          "name": "Jordan Hancock",
-          "position": "CB",
-          "status": "Questionable"
         }
       ],
       "opponent_injuries": [
+        {
+          "name": "Brenen Thompson",
+          "position": "WR",
+          "status": "Questionable"
+        },
         {
           "name": "Dalvin Tomlinson",
           "position": "DT",
@@ -1357,18 +1377,13 @@
           "status": "Questionable"
         },
         {
-          "name": "Derwin James Jr.",
-          "position": "S",
-          "status": "Questionable"
-        },
-        {
-          "name": "Brenen Thompson",
-          "position": "WR",
-          "status": "Questionable"
-        },
-        {
           "name": "Tuli Tuipulotu",
           "position": "LB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Rodney Shelley",
+          "position": "CB",
           "status": "Questionable"
         }
       ],
@@ -1381,102 +1396,65 @@
       "opponent": "New York Jets",
       "opponent_abbr": "NYJ",
       "is_home": true,
-      "combined_prob": 0.7345396294390119,
-      "model_prob": 0.747,
-      "market_prob": 0.7220792588780237,
-      "moneyline": -305,
+      "combined_prob": 0.732985260770975,
+      "model_prob": 0.748,
+      "market_prob": 0.7179705215419501,
+      "moneyline": -298,
       "own_injuries": [
+        {
+          "name": "Ben Bartch",
+          "position": "G",
+          "status": "Questionable"
+        },
         {
           "name": "Tate Ratledge",
           "position": "G",
           "status": "Questionable"
         },
         {
-          "name": "Ahmed Hassanein",
-          "position": "DE",
+          "name": "Blake Miller",
+          "position": "OT",
+          "status": "Questionable"
+        },
+        {
+          "name": "Christian Mahogany",
+          "position": "G",
           "status": "Questionable"
         },
         {
           "name": "Thomas Harper",
           "position": "S",
           "status": "Questionable"
-        },
-        {
-          "name": "Ben Bartch",
-          "position": "G",
-          "status": "Questionable"
         }
       ],
       "opponent_injuries": [
+        {
+          "name": "Kiko Mauigoa",
+          "position": "LB",
+          "status": "Questionable"
+        },
         {
           "name": "Kene Nwangwu",
           "position": "RB",
           "status": "Questionable"
         },
         {
-          "name": "Minkah Fitzpatrick",
-          "position": "S",
+          "name": "Mason Taylor",
+          "position": "TE",
+          "status": "Doubtful"
+        },
+        {
+          "name": "Adonai Mitchell",
+          "position": "WR",
           "status": "Questionable"
         },
         {
-          "name": "Joseph Ossai",
-          "position": "DE",
+          "name": "Minkah Fitzpatrick",
+          "position": "S",
           "status": "Questionable"
         }
       ],
       "game_date": "2026-09-27T17:00Z"
-    },
-    {
-      "team": "Green Bay Packers",
-      "abbr": "GB",
-      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
-      "opponent": "Atlanta Falcons",
-      "opponent_abbr": "ATL",
-      "is_home": true,
-      "combined_prob": 0.7127777777777777,
-      "model_prob": 0.745,
-      "market_prob": 0.6805555555555556,
-      "moneyline": -245,
-      "own_injuries": [
-        {
-          "name": "Aaron Banks",
-          "position": "G",
-          "status": "Out"
-        },
-        {
-          "name": "Warren Brinson",
-          "position": "DT",
-          "status": "Out"
-        },
-        {
-          "name": "Javon Hargrave",
-          "position": "DT",
-          "status": "Questionable"
-        },
-        {
-          "name": "Jayden Reed",
-          "position": "WR",
-          "status": "Out"
-        },
-        {
-          "name": "Zach Bako-Bewele",
-          "position": "OT",
-          "status": "Out"
-        }
-      ],
-      "opponent_injuries": [
-        {
-          "name": "Samson Ebukam",
-          "position": "DE",
-          "status": "Out"
-        },
-        {
-          "name": "Billy Bowman Jr.",
-          "position": "CB",
-          "status": "Questionable"
-        }
-      ],
-      "game_date": "2026-09-25T00:15Z"
     },
     {
       "team": "Seattle Seahawks",
@@ -1485,10 +1463,10 @@
       "opponent": "Washington Commanders",
       "opponent_abbr": "WSH",
       "is_home": false,
-      "combined_prob": 0.7030345075485263,
-      "model_prob": 0.662,
-      "market_prob": 0.7440690150970525,
-      "moneyline": -345,
+      "combined_prob": 0.7113913525498892,
+      "model_prob": 0.675,
+      "market_prob": 0.7477827050997783,
+      "moneyline": -355,
       "own_injuries": [
         {
           "name": "Ty Okada",
@@ -1496,25 +1474,25 @@
           "status": "Questionable"
         },
         {
-          "name": "Ernest Jones IV",
-          "position": "LB",
+          "name": "Julian Love",
+          "position": "S",
           "status": "Questionable"
         },
         {
-          "name": "Cooper Kupp",
-          "position": "WR",
-          "status": "Questionable"
-        },
-        {
-          "name": "George Holani",
+          "name": "Jadarian Price",
           "position": "RB",
           "status": "Questionable"
+        },
+        {
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "status": "Out"
         }
       ],
       "opponent_injuries": [
         {
-          "name": "Jeremy Reaves",
-          "position": "S",
+          "name": "Chig Okonkwo",
+          "position": "TE",
           "status": "Questionable"
         },
         {
@@ -1533,12 +1511,79 @@
           "status": "Questionable"
         },
         {
-          "name": "Tyler Owens",
+          "name": "Percy Butler",
           "position": "S",
           "status": "Questionable"
         }
       ],
       "game_date": "2026-09-27T17:00Z"
+    },
+    {
+      "team": "Green Bay Packers",
+      "abbr": "GB",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+      "opponent": "Atlanta Falcons",
+      "opponent_abbr": "ATL",
+      "is_home": true,
+      "combined_prob": 0.6750312469954812,
+      "model_prob": null,
+      "market_prob": 0.6750312469954812,
+      "moneyline": -238,
+      "own_injuries": [
+        {
+          "name": "Edgerrin Cooper",
+          "position": "LB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Anthony Campbell",
+          "position": "DT",
+          "status": "Out"
+        },
+        {
+          "name": "Jayden Reed",
+          "position": "WR",
+          "status": "Out"
+        },
+        {
+          "name": "Zach Bako-Bewele",
+          "position": "OT",
+          "status": "Out"
+        },
+        {
+          "name": "Aaron Banks",
+          "position": "G",
+          "status": "Out"
+        }
+      ],
+      "opponent_injuries": [
+        {
+          "name": "Jack Strand",
+          "position": "QB",
+          "status": "Out"
+        },
+        {
+          "name": "Cooper Rush",
+          "position": "QB",
+          "status": "Out"
+        },
+        {
+          "name": "Robert Longerbeam",
+          "position": "CB",
+          "status": "Out"
+        },
+        {
+          "name": "Ethan Onianwa",
+          "position": "OT",
+          "status": "Out"
+        },
+        {
+          "name": "Malcolm DeWalt IV",
+          "position": "CB",
+          "status": "Out"
+        }
+      ],
+      "game_date": "2026-09-25T00:15Z"
     },
     {
       "team": "New Orleans Saints",
@@ -1547,46 +1592,36 @@
       "opponent": "Las Vegas Raiders",
       "opponent_abbr": "LV",
       "is_home": true,
-      "combined_prob": 0.6307332759305868,
-      "model_prob": 0.639,
+      "combined_prob": 0.6247332759305868,
+      "model_prob": 0.627,
       "market_prob": 0.6224665518611737,
       "moneyline": -185,
       "own_injuries": [
+        {
+          "name": "Kendre Miller",
+          "position": "RB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Travis Etienne Jr.",
+          "position": "RB",
+          "status": "Questionable"
+        },
         {
           "name": "Christen Miller",
           "position": "DT",
           "status": "Questionable"
         },
         {
-          "name": "Chase Young",
-          "position": "DE",
-          "status": "Questionable"
-        },
-        {
-          "name": "Jonas Sanker",
-          "position": "S",
-          "status": "Questionable"
-        },
-        {
-          "name": "Nathan Shepherd",
-          "position": "DT",
+          "name": "Barion Brown",
+          "position": "WR",
           "status": "Questionable"
         }
       ],
       "opponent_injuries": [
         {
-          "name": "Treydan Stukes",
-          "position": "S",
-          "status": "Questionable"
-        },
-        {
-          "name": "Darien Porter",
-          "position": "CB",
-          "status": "Questionable"
-        },
-        {
-          "name": "Nakobe Dean",
-          "position": "LB",
+          "name": "Kwity Paye",
+          "position": "DE",
           "status": "Questionable"
         },
         {
@@ -1595,8 +1630,13 @@
           "status": "Questionable"
         },
         {
-          "name": "Folorunso Fatukasi",
-          "position": "DT",
+          "name": "Treydan Stukes",
+          "position": "S",
+          "status": "Questionable"
+        },
+        {
+          "name": "Aidan O'Connell",
+          "position": "QB",
           "status": "Questionable"
         }
       ],
@@ -1609,16 +1649,11 @@
       "opponent": "Pittsburgh Steelers",
       "opponent_abbr": "PIT",
       "is_home": false,
-      "combined_prob": 0.6197332759305869,
-      "model_prob": 0.617,
-      "market_prob": 0.6224665518611737,
-      "moneyline": -185,
+      "combined_prob": 0.6096181172291297,
+      "model_prob": 0.61,
+      "market_prob": 0.6092362344582594,
+      "moneyline": -175,
       "own_injuries": [
-        {
-          "name": "Jonathan Allen",
-          "position": "DT",
-          "status": "Questionable"
-        },
         {
           "name": "Andrei Iosivas",
           "position": "WR",
@@ -1632,18 +1667,13 @@
       ],
       "opponent_injuries": [
         {
-          "name": "Jamel Dean",
-          "position": "CB",
-          "status": "Questionable"
-        },
-        {
-          "name": "Joey Porter Jr.",
-          "position": "CB",
-          "status": "Questionable"
-        },
-        {
           "name": "Michael Pittman Jr.",
           "position": "WR",
+          "status": "Questionable"
+        },
+        {
+          "name": "Rico Dowdle",
+          "position": "RB",
           "status": "Questionable"
         },
         {
@@ -1652,8 +1682,13 @@
           "status": "Questionable"
         },
         {
-          "name": "Rico Dowdle",
-          "position": "RB",
+          "name": "Gennings Dunker",
+          "position": "G",
+          "status": "Questionable"
+        },
+        {
+          "name": "Jamel Dean",
+          "position": "CB",
           "status": "Questionable"
         }
       ],
@@ -1666,29 +1701,29 @@
       "opponent": "Cleveland Browns",
       "opponent_abbr": "CLE",
       "is_home": false,
-      "combined_prob": 0.6000298177802319,
-      "model_prob": 0.628,
+      "combined_prob": 0.6045298177802318,
+      "model_prob": 0.637,
       "market_prob": 0.5720596355604638,
       "moneyline": -148,
       "own_injuries": [
-        {
-          "name": "Jaelan Phillips",
-          "position": "LB",
-          "status": "Questionable"
-        },
-        {
-          "name": "Nick Scott",
-          "position": "S",
-          "status": "Questionable"
-        },
         {
           "name": "Devin Lloyd",
           "position": "LB",
           "status": "Questionable"
         },
         {
+          "name": "Xavier Legette",
+          "position": "WR",
+          "status": "Questionable"
+        },
+        {
           "name": "Jalen Coker",
           "position": "WR",
+          "status": "Questionable"
+        },
+        {
+          "name": "Nick Scott",
+          "position": "S",
           "status": "Questionable"
         }
       ],
@@ -1704,18 +1739,13 @@
           "status": "Questionable"
         },
         {
-          "name": "Tytus Howard",
-          "position": "OT",
-          "status": "Questionable"
-        },
-        {
-          "name": "Mason Graham",
-          "position": "DT",
-          "status": "Questionable"
-        },
-        {
           "name": "Grant Delpit",
           "position": "S",
+          "status": "Questionable"
+        },
+        {
+          "name": "Teven Jenkins",
+          "position": "G",
           "status": "Questionable"
         }
       ],
@@ -1728,8 +1758,8 @@
       "opponent": "Chicago Bears",
       "opponent_abbr": "CHI",
       "is_home": false,
-      "combined_prob": 0.5948240620957309,
-      "model_prob": 0.526,
+      "combined_prob": 0.5998240620957309,
+      "model_prob": 0.536,
       "market_prob": 0.6636481241914618,
       "moneyline": -225,
       "own_injuries": [
@@ -1739,35 +1769,45 @@
           "status": "Questionable"
         },
         {
-          "name": "Dallas Goedert",
-          "position": "TE",
-          "status": "Doubtful"
+          "name": "Will Shipley",
+          "position": "RB",
+          "status": "Questionable"
         },
         {
-          "name": "Saquon Barkley",
+          "name": "Andrew Mukuba",
+          "position": "S",
+          "status": "Questionable"
+        },
+        {
+          "name": "Jalen Carter",
+          "position": "DT",
+          "status": "Questionable"
+        },
+        {
+          "name": "Tank Bigsby",
           "position": "RB",
           "status": "Questionable"
         }
       ],
       "opponent_injuries": [
         {
-          "name": "Shemar Turner",
-          "position": "DT",
-          "status": "Out"
+          "name": "Tyrique Stevenson Sr.",
+          "position": "CB",
+          "status": "Questionable"
         },
         {
-          "name": "Noah Sewell",
-          "position": "LB",
-          "status": "Out"
-        },
-        {
-          "name": "Kyle Monangai",
-          "position": "RB",
+          "name": "Cairo Santos",
+          "position": "PK",
           "status": "Questionable"
         },
         {
           "name": "Tyson Bagent",
           "position": "QB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Kyle Monangai",
+          "position": "RB",
           "status": "Questionable"
         }
       ],
@@ -1780,21 +1820,11 @@
       "opponent": "Denver Broncos",
       "opponent_abbr": "DEN",
       "is_home": false,
-      "combined_prob": 0.5942205573582745,
-      "model_prob": 0.637,
-      "market_prob": 0.551441114716549,
-      "moneyline": -135,
+      "combined_prob": 0.5923717693836978,
+      "model_prob": 0.642,
+      "market_prob": 0.5427435387673957,
+      "moneyline": -130,
       "own_injuries": [
-        {
-          "name": "Kamren Kinchens",
-          "position": "S",
-          "status": "Questionable"
-        },
-        {
-          "name": "Nate Landman",
-          "position": "LB",
-          "status": "Questionable"
-        },
         {
           "name": "Jordan Whittington",
           "position": "WR",
@@ -1803,6 +1833,21 @@
         {
           "name": "Colby Parkinson",
           "position": "TE",
+          "status": "Questionable"
+        },
+        {
+          "name": "Puka Nacua",
+          "position": "WR",
+          "status": "Questionable"
+        },
+        {
+          "name": "Kamren Kinchens",
+          "position": "S",
+          "status": "Questionable"
+        },
+        {
+          "name": "Nate Landman",
+          "position": "LB",
           "status": "Questionable"
         }
       ],
@@ -1818,18 +1863,13 @@
           "status": "Questionable"
         },
         {
-          "name": "RJ Harvey",
-          "position": "RB",
-          "status": "Questionable"
-        },
-        {
-          "name": "J.K. Dobbins",
-          "position": "RB",
-          "status": "Questionable"
-        },
-        {
           "name": "Jonathon Cooper",
           "position": "LB",
+          "status": "Out"
+        },
+        {
+          "name": "Nick Gargiulo",
+          "position": "G",
           "status": "Out"
         }
       ],
@@ -1842,13 +1882,18 @@
       "opponent": "Dallas Cowboys",
       "opponent_abbr": "DAL",
       "is_home": false,
-      "combined_prob": 0.5802191780821918,
+      "combined_prob": 0.5766181172291297,
       "model_prob": 0.544,
-      "market_prob": 0.6164383561643836,
-      "moneyline": -180,
+      "market_prob": 0.6092362344582594,
+      "moneyline": -175,
       "own_injuries": [
         {
           "name": "Chris Moore",
+          "position": "WR",
+          "status": "Questionable"
+        },
+        {
+          "name": "Zay Flowers",
           "position": "WR",
           "status": "Questionable"
         },
@@ -1858,31 +1903,21 @@
           "status": "Questionable"
         },
         {
-          "name": "Zion Young",
-          "position": "LB",
-          "status": "Questionable"
-        },
-        {
-          "name": "John Simpson",
-          "position": "G",
-          "status": "Questionable"
-        },
-        {
           "name": "Malaki Starks",
           "position": "S",
+          "status": "Questionable"
+        },
+        {
+          "name": "Trey Hendrickson",
+          "position": "LB",
           "status": "Questionable"
         }
       ],
       "opponent_injuries": [
         {
-          "name": "Malik Hooker",
+          "name": "P.J. Locke",
           "position": "S",
-          "status": "Doubtful"
-        },
-        {
-          "name": "DeMarvion Overshown",
-          "position": "LB",
-          "status": "Questionable"
+          "status": "Out"
         },
         {
           "name": "Cobie Durant",
@@ -1890,8 +1925,13 @@
           "status": "Out"
         },
         {
-          "name": "P.J. Locke",
+          "name": "Malik Hooker",
           "position": "S",
+          "status": "Out"
+        },
+        {
+          "name": "DeMarvion Overshown",
+          "position": "LB",
           "status": "Out"
         }
       ],
@@ -1904,14 +1944,19 @@
       "opponent": "New England Patriots",
       "opponent_abbr": "NE",
       "is_home": true,
-      "combined_prob": 0.5789963205233033,
-      "model_prob": 0.575,
+      "combined_prob": 0.5744963205233033,
+      "model_prob": 0.5660000000000001,
       "market_prob": 0.5829926410466066,
       "moneyline": -155,
       "own_injuries": [
         {
           "name": "LeQuint Allen Jr.",
           "position": "RB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Jakobi Meyers",
+          "position": "WR",
           "status": "Questionable"
         },
         {
@@ -1928,18 +1973,18 @@
           "name": "Robert Hainsey",
           "position": "C",
           "status": "Questionable"
-        },
-        {
-          "name": "Jakobi Meyers",
-          "position": "WR",
-          "status": "Questionable"
         }
       ],
       "opponent_injuries": [
         {
-          "name": "Brenden Schooler",
+          "name": "Dre'Mont Jones",
+          "position": "DE",
+          "status": "Questionable"
+        },
+        {
+          "name": "Craig Woodson",
           "position": "S",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Eli Raridon",
@@ -1947,70 +1992,8 @@
           "status": "Questionable"
         },
         {
-          "name": "Reggie Gilliam",
-          "position": "FB",
-          "status": "Questionable"
-        },
-        {
-          "name": "Morgan Moses",
-          "position": "OT",
-          "status": "Questionable"
-        }
-      ],
-      "game_date": "2026-09-27T17:00Z"
-    },
-    {
-      "team": "Houston Texans",
-      "abbr": "HOU",
-      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
-      "opponent": "Indianapolis Colts",
-      "opponent_abbr": "IND",
-      "is_home": false,
-      "combined_prob": 0.5397205573582745,
-      "model_prob": 0.528,
-      "market_prob": 0.551441114716549,
-      "moneyline": -135,
-      "own_injuries": [
-        {
-          "name": "M.J. Stewart",
+          "name": "Brenden Schooler",
           "position": "S",
-          "status": "Out"
-        },
-        {
-          "name": "Logan Hall",
-          "position": "DE",
-          "status": "Questionable"
-        },
-        {
-          "name": "Trent Brown",
-          "position": "OT",
-          "status": "Questionable"
-        },
-        {
-          "name": "Nico Collins",
-          "position": "WR",
-          "status": "Questionable"
-        },
-        {
-          "name": "Jake Hummel",
-          "position": "LB",
-          "status": "Questionable"
-        }
-      ],
-      "opponent_injuries": [
-        {
-          "name": "Ashton Dulin",
-          "position": "WR",
-          "status": "Questionable"
-        },
-        {
-          "name": "Charvarius Ward",
-          "position": "CB",
-          "status": "Questionable"
-        },
-        {
-          "name": "Alec Pierce",
-          "position": "WR",
           "status": "Out"
         }
       ],
@@ -2023,13 +2006,18 @@
       "opponent": "Tampa Bay Buccaneers",
       "opponent_abbr": "TB",
       "is_home": false,
-      "combined_prob": 0.5360432926308598,
-      "model_prob": 0.546,
-      "market_prob": 0.5260865852617197,
-      "moneyline": -122,
+      "combined_prob": 0.5358695652173913,
+      "model_prob": 0.55,
+      "market_prob": 0.5217391304347826,
+      "moneyline": -120,
       "own_injuries": [
         {
           "name": "DeeJay Dallas",
+          "position": "RB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Aaron Jones Sr.",
           "position": "RB",
           "status": "Questionable"
         },
@@ -2044,11 +2032,6 @@
           "status": "Questionable"
         },
         {
-          "name": "Brian O'Neill",
-          "position": "OT",
-          "status": "Questionable"
-        },
-        {
           "name": "Jake Golday",
           "position": "LB",
           "status": "Questionable"
@@ -2056,12 +2039,12 @@
       ],
       "opponent_injuries": [
         {
-          "name": "Rueben Bain Jr.",
+          "name": "Josiah Trotter",
           "position": "LB",
           "status": "Questionable"
         },
         {
-          "name": "Josiah Trotter",
+          "name": "Rueben Bain Jr.",
           "position": "LB",
           "status": "Questionable"
         },
@@ -2074,16 +2057,73 @@
       "game_date": "2026-09-27T20:05Z"
     },
     {
+      "team": "Houston Texans",
+      "abbr": "HOU",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+      "opponent": "Indianapolis Colts",
+      "opponent_abbr": "IND",
+      "is_home": false,
+      "combined_prob": 0.5307337662337663,
+      "model_prob": 0.529,
+      "market_prob": 0.5324675324675325,
+      "moneyline": -125,
+      "own_injuries": [
+        {
+          "name": "Jadeveon Clowney",
+          "position": "DE",
+          "status": "Questionable"
+        },
+        {
+          "name": "Nico Collins",
+          "position": "WR",
+          "status": "Questionable"
+        },
+        {
+          "name": "M.J. Stewart",
+          "position": "S",
+          "status": "Out"
+        },
+        {
+          "name": "Trent Brown",
+          "position": "OT",
+          "status": "Questionable"
+        },
+        {
+          "name": "Jake Hummel",
+          "position": "LB",
+          "status": "Questionable"
+        }
+      ],
+      "opponent_injuries": [
+        {
+          "name": "Ashton Dulin",
+          "position": "WR",
+          "status": "Questionable"
+        },
+        {
+          "name": "Charvarius Ward",
+          "position": "CB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Alec Pierce",
+          "position": "WR",
+          "status": "Out"
+        }
+      ],
+      "game_date": "2026-09-27T17:00Z"
+    },
+    {
       "team": "New York Giants",
       "abbr": "NYG",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
       "opponent": "Tennessee Titans",
       "opponent_abbr": "TEN",
       "is_home": true,
-      "combined_prob": 0.5127460317460317,
-      "model_prob": 0.462,
-      "market_prob": 0.5634920634920635,
-      "moneyline": -142,
+      "combined_prob": 0.5032205573582745,
+      "model_prob": 0.455,
+      "market_prob": 0.551441114716549,
+      "moneyline": -135,
       "own_injuries": [
         {
           "name": "Andrew Thomas",
@@ -2104,17 +2144,12 @@
           "name": "Brian Burns",
           "position": "LB",
           "status": "Questionable"
-        },
-        {
-          "name": "Shelby Harris",
-          "position": "DT",
-          "status": "Questionable"
         }
       ],
       "opponent_injuries": [
         {
-          "name": "Cor'Dale Flott",
-          "position": "CB",
+          "name": "Daniel Bellinger",
+          "position": "TE",
           "status": "Questionable"
         },
         {
@@ -2123,13 +2158,18 @@
           "status": "Questionable"
         },
         {
+          "name": "Micah Robinson",
+          "position": "CB",
+          "status": "Questionable"
+        },
+        {
           "name": "Tyjae Spears",
           "position": "RB",
           "status": "Questionable"
         },
         {
-          "name": "Solomon Thomas",
-          "position": "DT",
+          "name": "Cor'Dale Flott",
+          "position": "CB",
           "status": "Questionable"
         }
       ],
@@ -2142,14 +2182,14 @@
       "opponent": "New York Giants",
       "opponent_abbr": "NYG",
       "is_home": false,
-      "combined_prob": 0.4857539682539682,
-      "model_prob": 0.535,
-      "market_prob": 0.43650793650793646,
-      "moneyline": 120,
+      "combined_prob": 0.4947794426417255,
+      "model_prob": 0.541,
+      "market_prob": 0.448558885283451,
+      "moneyline": 114,
       "own_injuries": [
         {
-          "name": "Cor'Dale Flott",
-          "position": "CB",
+          "name": "Daniel Bellinger",
+          "position": "TE",
           "status": "Questionable"
         },
         {
@@ -2158,13 +2198,18 @@
           "status": "Questionable"
         },
         {
+          "name": "Micah Robinson",
+          "position": "CB",
+          "status": "Questionable"
+        },
+        {
           "name": "Tyjae Spears",
           "position": "RB",
           "status": "Questionable"
         },
         {
-          "name": "Solomon Thomas",
-          "position": "DT",
+          "name": "Cor'Dale Flott",
+          "position": "CB",
           "status": "Questionable"
         }
       ],
@@ -2188,71 +2233,9 @@
           "name": "Brian Burns",
           "position": "LB",
           "status": "Questionable"
-        },
-        {
-          "name": "Shelby Harris",
-          "position": "DT",
-          "status": "Questionable"
         }
       ],
       "game_date": "2026-09-27T17:00Z"
-    },
-    {
-      "team": "Tampa Bay Buccaneers",
-      "abbr": "TB",
-      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
-      "opponent": "Minnesota Vikings",
-      "opponent_abbr": "MIN",
-      "is_home": true,
-      "combined_prob": 0.46245670736914013,
-      "model_prob": 0.451,
-      "market_prob": 0.4739134147382802,
-      "moneyline": 102,
-      "own_injuries": [
-        {
-          "name": "Rueben Bain Jr.",
-          "position": "LB",
-          "status": "Questionable"
-        },
-        {
-          "name": "Josiah Trotter",
-          "position": "LB",
-          "status": "Questionable"
-        },
-        {
-          "name": "Anthony Nelson",
-          "position": "LB",
-          "status": "Questionable"
-        }
-      ],
-      "opponent_injuries": [
-        {
-          "name": "DeeJay Dallas",
-          "position": "RB",
-          "status": "Questionable"
-        },
-        {
-          "name": "Jalen Redmond",
-          "position": "DT",
-          "status": "Questionable"
-        },
-        {
-          "name": "Nick Samac",
-          "position": "C",
-          "status": "Questionable"
-        },
-        {
-          "name": "Brian O'Neill",
-          "position": "OT",
-          "status": "Questionable"
-        },
-        {
-          "name": "Jake Golday",
-          "position": "LB",
-          "status": "Questionable"
-        }
-      ],
-      "game_date": "2026-09-27T20:05Z"
     },
     {
       "team": "Indianapolis Colts",
@@ -2261,10 +2244,10 @@
       "opponent": "Houston Texans",
       "opponent_abbr": "HOU",
       "is_home": true,
-      "combined_prob": 0.4582794426417255,
-      "model_prob": 0.46799999999999997,
-      "market_prob": 0.448558885283451,
-      "moneyline": 114,
+      "combined_prob": 0.4672662337662338,
+      "model_prob": 0.467,
+      "market_prob": 0.4675324675324675,
+      "moneyline": 105,
       "own_injuries": [
         {
           "name": "Ashton Dulin",
@@ -2284,23 +2267,23 @@
       ],
       "opponent_injuries": [
         {
-          "name": "M.J. Stewart",
-          "position": "S",
-          "status": "Out"
-        },
-        {
-          "name": "Logan Hall",
+          "name": "Jadeveon Clowney",
           "position": "DE",
-          "status": "Questionable"
-        },
-        {
-          "name": "Trent Brown",
-          "position": "OT",
           "status": "Questionable"
         },
         {
           "name": "Nico Collins",
           "position": "WR",
+          "status": "Questionable"
+        },
+        {
+          "name": "M.J. Stewart",
+          "position": "S",
+          "status": "Out"
+        },
+        {
+          "name": "Trent Brown",
+          "position": "OT",
           "status": "Questionable"
         },
         {
@@ -2312,21 +2295,83 @@
       "game_date": "2026-09-27T17:00Z"
     },
     {
+      "team": "Tampa Bay Buccaneers",
+      "abbr": "TB",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+      "opponent": "Minnesota Vikings",
+      "opponent_abbr": "MIN",
+      "is_home": true,
+      "combined_prob": 0.4626304347826087,
+      "model_prob": 0.447,
+      "market_prob": 0.4782608695652174,
+      "moneyline": 100,
+      "own_injuries": [
+        {
+          "name": "Josiah Trotter",
+          "position": "LB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Rueben Bain Jr.",
+          "position": "LB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Anthony Nelson",
+          "position": "LB",
+          "status": "Questionable"
+        }
+      ],
+      "opponent_injuries": [
+        {
+          "name": "DeeJay Dallas",
+          "position": "RB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Aaron Jones Sr.",
+          "position": "RB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Jalen Redmond",
+          "position": "DT",
+          "status": "Questionable"
+        },
+        {
+          "name": "Nick Samac",
+          "position": "C",
+          "status": "Questionable"
+        },
+        {
+          "name": "Jake Golday",
+          "position": "LB",
+          "status": "Questionable"
+        }
+      ],
+      "game_date": "2026-09-27T20:05Z"
+    },
+    {
       "team": "New England Patriots",
       "abbr": "NE",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
       "opponent": "Jacksonville Jaguars",
       "opponent_abbr": "JAX",
       "is_home": false,
-      "combined_prob": 0.4190036794766967,
-      "model_prob": 0.42100000000000004,
+      "combined_prob": 0.42400367947669665,
+      "model_prob": 0.431,
       "market_prob": 0.4170073589533933,
       "moneyline": 130,
       "own_injuries": [
         {
-          "name": "Brenden Schooler",
+          "name": "Dre'Mont Jones",
+          "position": "DE",
+          "status": "Questionable"
+        },
+        {
+          "name": "Craig Woodson",
           "position": "S",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Eli Raridon",
@@ -2334,20 +2379,20 @@
           "status": "Questionable"
         },
         {
-          "name": "Reggie Gilliam",
-          "position": "FB",
-          "status": "Questionable"
-        },
-        {
-          "name": "Morgan Moses",
-          "position": "OT",
-          "status": "Questionable"
+          "name": "Brenden Schooler",
+          "position": "S",
+          "status": "Out"
         }
       ],
       "opponent_injuries": [
         {
           "name": "LeQuint Allen Jr.",
           "position": "RB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Jakobi Meyers",
+          "position": "WR",
           "status": "Questionable"
         },
         {
@@ -2364,11 +2409,6 @@
           "name": "Robert Hainsey",
           "position": "C",
           "status": "Questionable"
-        },
-        {
-          "name": "Jakobi Meyers",
-          "position": "WR",
-          "status": "Questionable"
         }
       ],
       "game_date": "2026-09-27T17:00Z"
@@ -2380,20 +2420,15 @@
       "opponent": "Baltimore Ravens",
       "opponent_abbr": "BAL",
       "is_home": true,
-      "combined_prob": 0.4182808219178082,
+      "combined_prob": 0.42188188277087035,
       "model_prob": 0.45299999999999996,
-      "market_prob": 0.3835616438356164,
-      "moneyline": 150,
+      "market_prob": 0.39076376554174075,
+      "moneyline": 145,
       "own_injuries": [
         {
-          "name": "Malik Hooker",
+          "name": "P.J. Locke",
           "position": "S",
-          "status": "Doubtful"
-        },
-        {
-          "name": "DeMarvion Overshown",
-          "position": "LB",
-          "status": "Questionable"
+          "status": "Out"
         },
         {
           "name": "Cobie Durant",
@@ -2401,8 +2436,13 @@
           "status": "Out"
         },
         {
-          "name": "P.J. Locke",
+          "name": "Malik Hooker",
           "position": "S",
+          "status": "Out"
+        },
+        {
+          "name": "DeMarvion Overshown",
+          "position": "LB",
           "status": "Out"
         }
       ],
@@ -2413,23 +2453,23 @@
           "status": "Questionable"
         },
         {
+          "name": "Zay Flowers",
+          "position": "WR",
+          "status": "Questionable"
+        },
+        {
           "name": "Ronnie Stanley",
           "position": "OT",
           "status": "Questionable"
         },
         {
-          "name": "Zion Young",
-          "position": "LB",
-          "status": "Questionable"
-        },
-        {
-          "name": "John Simpson",
-          "position": "G",
-          "status": "Questionable"
-        },
-        {
           "name": "Malaki Starks",
           "position": "S",
+          "status": "Questionable"
+        },
+        {
+          "name": "Trey Hendrickson",
+          "position": "LB",
           "status": "Questionable"
         }
       ],
@@ -2442,10 +2482,10 @@
       "opponent": "Los Angeles Rams",
       "opponent_abbr": "LAR",
       "is_home": true,
-      "combined_prob": 0.4042794426417255,
-      "model_prob": 0.36,
-      "market_prob": 0.448558885283451,
-      "moneyline": 114,
+      "combined_prob": 0.4061282306163022,
+      "model_prob": 0.355,
+      "market_prob": 0.4572564612326044,
+      "moneyline": 110,
       "own_injuries": [
         {
           "name": "Marvin Mims Jr.",
@@ -2458,32 +2498,17 @@
           "status": "Questionable"
         },
         {
-          "name": "RJ Harvey",
-          "position": "RB",
-          "status": "Questionable"
-        },
-        {
-          "name": "J.K. Dobbins",
-          "position": "RB",
-          "status": "Questionable"
-        },
-        {
           "name": "Jonathon Cooper",
           "position": "LB",
+          "status": "Out"
+        },
+        {
+          "name": "Nick Gargiulo",
+          "position": "G",
           "status": "Out"
         }
       ],
       "opponent_injuries": [
-        {
-          "name": "Kamren Kinchens",
-          "position": "S",
-          "status": "Questionable"
-        },
-        {
-          "name": "Nate Landman",
-          "position": "LB",
-          "status": "Questionable"
-        },
         {
           "name": "Jordan Whittington",
           "position": "WR",
@@ -2492,6 +2517,21 @@
         {
           "name": "Colby Parkinson",
           "position": "TE",
+          "status": "Questionable"
+        },
+        {
+          "name": "Puka Nacua",
+          "position": "WR",
+          "status": "Questionable"
+        },
+        {
+          "name": "Kamren Kinchens",
+          "position": "S",
+          "status": "Questionable"
+        },
+        {
+          "name": "Nate Landman",
+          "position": "LB",
           "status": "Questionable"
         }
       ],
@@ -2504,29 +2544,29 @@
       "opponent": "Philadelphia Eagles",
       "opponent_abbr": "PHI",
       "is_home": true,
-      "combined_prob": 0.4031759379042691,
-      "model_prob": 0.47,
+      "combined_prob": 0.3986759379042691,
+      "model_prob": 0.461,
       "market_prob": 0.33635187580853815,
       "moneyline": 185,
       "own_injuries": [
         {
-          "name": "Shemar Turner",
-          "position": "DT",
-          "status": "Out"
+          "name": "Tyrique Stevenson Sr.",
+          "position": "CB",
+          "status": "Questionable"
         },
         {
-          "name": "Noah Sewell",
-          "position": "LB",
-          "status": "Out"
-        },
-        {
-          "name": "Kyle Monangai",
-          "position": "RB",
+          "name": "Cairo Santos",
+          "position": "PK",
           "status": "Questionable"
         },
         {
           "name": "Tyson Bagent",
           "position": "QB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Kyle Monangai",
+          "position": "RB",
           "status": "Questionable"
         }
       ],
@@ -2537,12 +2577,22 @@
           "status": "Questionable"
         },
         {
-          "name": "Dallas Goedert",
-          "position": "TE",
-          "status": "Doubtful"
+          "name": "Will Shipley",
+          "position": "RB",
+          "status": "Questionable"
         },
         {
-          "name": "Saquon Barkley",
+          "name": "Andrew Mukuba",
+          "position": "S",
+          "status": "Questionable"
+        },
+        {
+          "name": "Jalen Carter",
+          "position": "DT",
+          "status": "Questionable"
+        },
+        {
+          "name": "Tank Bigsby",
           "position": "RB",
           "status": "Questionable"
         }
@@ -2556,8 +2606,8 @@
       "opponent": "Carolina Panthers",
       "opponent_abbr": "CAR",
       "is_home": true,
-      "combined_prob": 0.39847018221976804,
-      "model_prob": 0.369,
+      "combined_prob": 0.3939701822197681,
+      "model_prob": 0.36,
       "market_prob": 0.42794036443953615,
       "moneyline": 124,
       "own_injuries": [
@@ -2572,40 +2622,35 @@
           "status": "Questionable"
         },
         {
-          "name": "Tytus Howard",
-          "position": "OT",
-          "status": "Questionable"
-        },
-        {
-          "name": "Mason Graham",
-          "position": "DT",
-          "status": "Questionable"
-        },
-        {
           "name": "Grant Delpit",
           "position": "S",
+          "status": "Questionable"
+        },
+        {
+          "name": "Teven Jenkins",
+          "position": "G",
           "status": "Questionable"
         }
       ],
       "opponent_injuries": [
-        {
-          "name": "Jaelan Phillips",
-          "position": "LB",
-          "status": "Questionable"
-        },
-        {
-          "name": "Nick Scott",
-          "position": "S",
-          "status": "Questionable"
-        },
         {
           "name": "Devin Lloyd",
           "position": "LB",
           "status": "Questionable"
         },
         {
+          "name": "Xavier Legette",
+          "position": "WR",
+          "status": "Questionable"
+        },
+        {
           "name": "Jalen Coker",
           "position": "WR",
+          "status": "Questionable"
+        },
+        {
+          "name": "Nick Scott",
+          "position": "S",
           "status": "Questionable"
         }
       ],
@@ -2618,24 +2663,19 @@
       "opponent": "Cincinnati Bengals",
       "opponent_abbr": "CIN",
       "is_home": true,
-      "combined_prob": 0.3787667240694132,
-      "model_prob": 0.38,
-      "market_prob": 0.3775334481388264,
-      "moneyline": 154,
+      "combined_prob": 0.3888818827708704,
+      "model_prob": 0.387,
+      "market_prob": 0.39076376554174075,
+      "moneyline": 145,
       "own_injuries": [
-        {
-          "name": "Jamel Dean",
-          "position": "CB",
-          "status": "Questionable"
-        },
-        {
-          "name": "Joey Porter Jr.",
-          "position": "CB",
-          "status": "Questionable"
-        },
         {
           "name": "Michael Pittman Jr.",
           "position": "WR",
+          "status": "Questionable"
+        },
+        {
+          "name": "Rico Dowdle",
+          "position": "RB",
           "status": "Questionable"
         },
         {
@@ -2644,17 +2684,17 @@
           "status": "Questionable"
         },
         {
-          "name": "Rico Dowdle",
-          "position": "RB",
+          "name": "Gennings Dunker",
+          "position": "G",
+          "status": "Questionable"
+        },
+        {
+          "name": "Jamel Dean",
+          "position": "CB",
           "status": "Questionable"
         }
       ],
       "opponent_injuries": [
-        {
-          "name": "Jonathan Allen",
-          "position": "DT",
-          "status": "Questionable"
-        },
         {
           "name": "Andrei Iosivas",
           "position": "WR",
@@ -2675,24 +2715,14 @@
       "opponent": "New Orleans Saints",
       "opponent_abbr": "NO",
       "is_home": false,
-      "combined_prob": 0.3677667240694132,
-      "model_prob": 0.358,
+      "combined_prob": 0.3737667240694132,
+      "model_prob": 0.37,
       "market_prob": 0.3775334481388264,
       "moneyline": 154,
       "own_injuries": [
         {
-          "name": "Treydan Stukes",
-          "position": "S",
-          "status": "Questionable"
-        },
-        {
-          "name": "Darien Porter",
-          "position": "CB",
-          "status": "Questionable"
-        },
-        {
-          "name": "Nakobe Dean",
-          "position": "LB",
+          "name": "Kwity Paye",
+          "position": "DE",
           "status": "Questionable"
         },
         {
@@ -2701,34 +2731,106 @@
           "status": "Questionable"
         },
         {
-          "name": "Folorunso Fatukasi",
-          "position": "DT",
+          "name": "Treydan Stukes",
+          "position": "S",
+          "status": "Questionable"
+        },
+        {
+          "name": "Aidan O'Connell",
+          "position": "QB",
           "status": "Questionable"
         }
       ],
       "opponent_injuries": [
+        {
+          "name": "Kendre Miller",
+          "position": "RB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Travis Etienne Jr.",
+          "position": "RB",
+          "status": "Questionable"
+        },
         {
           "name": "Christen Miller",
           "position": "DT",
           "status": "Questionable"
         },
         {
-          "name": "Chase Young",
-          "position": "DE",
-          "status": "Questionable"
-        },
-        {
-          "name": "Jonas Sanker",
-          "position": "S",
-          "status": "Questionable"
-        },
-        {
-          "name": "Nathan Shepherd",
-          "position": "DT",
+          "name": "Barion Brown",
+          "position": "WR",
           "status": "Questionable"
         }
       ],
       "game_date": "2026-09-27T20:25Z"
+    },
+    {
+      "team": "Atlanta Falcons",
+      "abbr": "ATL",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+      "opponent": "Green Bay Packers",
+      "opponent_abbr": "GB",
+      "is_home": false,
+      "combined_prob": 0.3249687530045188,
+      "model_prob": null,
+      "market_prob": 0.3249687530045188,
+      "moneyline": 195,
+      "own_injuries": [
+        {
+          "name": "Jack Strand",
+          "position": "QB",
+          "status": "Out"
+        },
+        {
+          "name": "Cooper Rush",
+          "position": "QB",
+          "status": "Out"
+        },
+        {
+          "name": "Robert Longerbeam",
+          "position": "CB",
+          "status": "Out"
+        },
+        {
+          "name": "Ethan Onianwa",
+          "position": "OT",
+          "status": "Out"
+        },
+        {
+          "name": "Malcolm DeWalt IV",
+          "position": "CB",
+          "status": "Out"
+        }
+      ],
+      "opponent_injuries": [
+        {
+          "name": "Edgerrin Cooper",
+          "position": "LB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Anthony Campbell",
+          "position": "DT",
+          "status": "Out"
+        },
+        {
+          "name": "Jayden Reed",
+          "position": "WR",
+          "status": "Out"
+        },
+        {
+          "name": "Zach Bako-Bewele",
+          "position": "OT",
+          "status": "Out"
+        },
+        {
+          "name": "Aaron Banks",
+          "position": "G",
+          "status": "Out"
+        }
+      ],
+      "game_date": "2026-09-25T00:15Z"
     },
     {
       "team": "Washington Commanders",
@@ -2737,14 +2839,14 @@
       "opponent": "Seattle Seahawks",
       "opponent_abbr": "SEA",
       "is_home": true,
-      "combined_prob": 0.2954654924514738,
-      "model_prob": 0.335,
-      "market_prob": 0.2559309849029475,
-      "moneyline": 275,
+      "combined_prob": 0.28760864745011083,
+      "model_prob": 0.32299999999999995,
+      "market_prob": 0.2522172949002217,
+      "moneyline": 280,
       "own_injuries": [
         {
-          "name": "Jeremy Reaves",
-          "position": "S",
+          "name": "Chig Okonkwo",
+          "position": "TE",
           "status": "Questionable"
         },
         {
@@ -2763,7 +2865,7 @@
           "status": "Questionable"
         },
         {
-          "name": "Tyler Owens",
+          "name": "Percy Butler",
           "position": "S",
           "status": "Questionable"
         }
@@ -2775,74 +2877,22 @@
           "status": "Questionable"
         },
         {
-          "name": "Ernest Jones IV",
-          "position": "LB",
+          "name": "Julian Love",
+          "position": "S",
           "status": "Questionable"
         },
         {
-          "name": "Cooper Kupp",
-          "position": "WR",
-          "status": "Questionable"
-        },
-        {
-          "name": "George Holani",
+          "name": "Jadarian Price",
           "position": "RB",
           "status": "Questionable"
+        },
+        {
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "status": "Out"
         }
       ],
       "game_date": "2026-09-27T17:00Z"
-    },
-    {
-      "team": "Atlanta Falcons",
-      "abbr": "ATL",
-      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
-      "opponent": "Green Bay Packers",
-      "opponent_abbr": "GB",
-      "is_home": false,
-      "combined_prob": 0.2862222222222222,
-      "model_prob": 0.253,
-      "market_prob": 0.3194444444444444,
-      "moneyline": 200,
-      "own_injuries": [
-        {
-          "name": "Samson Ebukam",
-          "position": "DE",
-          "status": "Out"
-        },
-        {
-          "name": "Billy Bowman Jr.",
-          "position": "CB",
-          "status": "Questionable"
-        }
-      ],
-      "opponent_injuries": [
-        {
-          "name": "Aaron Banks",
-          "position": "G",
-          "status": "Out"
-        },
-        {
-          "name": "Warren Brinson",
-          "position": "DT",
-          "status": "Out"
-        },
-        {
-          "name": "Javon Hargrave",
-          "position": "DT",
-          "status": "Questionable"
-        },
-        {
-          "name": "Jayden Reed",
-          "position": "WR",
-          "status": "Out"
-        },
-        {
-          "name": "Zach Bako-Bewele",
-          "position": "OT",
-          "status": "Out"
-        }
-      ],
-      "game_date": "2026-09-25T00:15Z"
     },
     {
       "team": "New York Jets",
@@ -2851,46 +2901,61 @@
       "opponent": "Detroit Lions",
       "opponent_abbr": "DET",
       "is_home": false,
-      "combined_prob": 0.26446037056098814,
-      "model_prob": 0.251,
-      "market_prob": 0.27792074112197634,
-      "moneyline": 245,
+      "combined_prob": 0.26601473922902497,
+      "model_prob": 0.25,
+      "market_prob": 0.2820294784580499,
+      "moneyline": 240,
       "own_injuries": [
+        {
+          "name": "Kiko Mauigoa",
+          "position": "LB",
+          "status": "Questionable"
+        },
         {
           "name": "Kene Nwangwu",
           "position": "RB",
           "status": "Questionable"
         },
         {
-          "name": "Minkah Fitzpatrick",
-          "position": "S",
+          "name": "Mason Taylor",
+          "position": "TE",
+          "status": "Doubtful"
+        },
+        {
+          "name": "Adonai Mitchell",
+          "position": "WR",
           "status": "Questionable"
         },
         {
-          "name": "Joseph Ossai",
-          "position": "DE",
+          "name": "Minkah Fitzpatrick",
+          "position": "S",
           "status": "Questionable"
         }
       ],
       "opponent_injuries": [
+        {
+          "name": "Ben Bartch",
+          "position": "G",
+          "status": "Questionable"
+        },
         {
           "name": "Tate Ratledge",
           "position": "G",
           "status": "Questionable"
         },
         {
-          "name": "Ahmed Hassanein",
-          "position": "DE",
+          "name": "Blake Miller",
+          "position": "OT",
+          "status": "Questionable"
+        },
+        {
+          "name": "Christian Mahogany",
+          "position": "G",
           "status": "Questionable"
         },
         {
           "name": "Thomas Harper",
           "position": "S",
-          "status": "Questionable"
-        },
-        {
-          "name": "Ben Bartch",
-          "position": "G",
           "status": "Questionable"
         }
       ],
@@ -2903,11 +2968,16 @@
       "opponent": "Buffalo Bills",
       "opponent_abbr": "BUF",
       "is_home": false,
-      "combined_prob": 0.23646549245147375,
+      "combined_prob": 0.23806419316843347,
       "model_prob": 0.217,
-      "market_prob": 0.2559309849029475,
-      "moneyline": 275,
+      "market_prob": 0.2591283863368669,
+      "moneyline": 270,
       "own_injuries": [
+        {
+          "name": "Brenen Thompson",
+          "position": "WR",
+          "status": "Questionable"
+        },
         {
           "name": "Dalvin Tomlinson",
           "position": "DT",
@@ -2919,18 +2989,13 @@
           "status": "Questionable"
         },
         {
-          "name": "Derwin James Jr.",
-          "position": "S",
-          "status": "Questionable"
-        },
-        {
-          "name": "Brenen Thompson",
-          "position": "WR",
-          "status": "Questionable"
-        },
-        {
           "name": "Tuli Tuipulotu",
           "position": "LB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Rodney Shelley",
+          "position": "CB",
           "status": "Questionable"
         }
       ],
@@ -2938,6 +3003,11 @@
         {
           "name": "Ed Oliver",
           "position": "DT",
+          "status": "Questionable"
+        },
+        {
+          "name": "DJ Moore",
+          "position": "WR",
           "status": "Questionable"
         },
         {
@@ -2954,76 +3024,9 @@
           "name": "Ar'maj Reed-Adams",
           "position": "G",
           "status": "Questionable"
-        },
-        {
-          "name": "Jordan Hancock",
-          "position": "CB",
-          "status": "Questionable"
         }
       ],
       "game_date": "2026-09-27T17:00Z"
-    },
-    {
-      "team": "Arizona Cardinals",
-      "abbr": "ARI",
-      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
-      "opponent": "San Francisco 49ers",
-      "opponent_abbr": "SF",
-      "is_home": false,
-      "combined_prob": 0.1590468497576737,
-      "model_prob": 0.1,
-      "market_prob": 0.21809369951534735,
-      "moneyline": 340,
-      "own_injuries": [
-        {
-          "name": "Max Melton",
-          "position": "CB",
-          "status": "Questionable"
-        },
-        {
-          "name": "Garrett Williams",
-          "position": "CB",
-          "status": "Questionable"
-        },
-        {
-          "name": "Dadrion Taylor-Demerson",
-          "position": "S",
-          "status": "Questionable"
-        },
-        {
-          "name": "Hjalte Froholdt",
-          "position": "C",
-          "status": "Questionable"
-        },
-        {
-          "name": "Roy Lopez",
-          "position": "DT",
-          "status": "Questionable"
-        }
-      ],
-      "opponent_injuries": [
-        {
-          "name": "Mike Evans",
-          "position": "WR",
-          "status": "Questionable"
-        },
-        {
-          "name": "Romello Height",
-          "position": "DE",
-          "status": "Questionable"
-        },
-        {
-          "name": "James Thompson Jr.",
-          "position": "DT",
-          "status": "Doubtful"
-        },
-        {
-          "name": "Demarcus Robinson",
-          "position": "WR",
-          "status": "Out"
-        }
-      ],
-      "game_date": "2026-09-27T20:05Z"
     },
     {
       "team": "Miami Dolphins",
@@ -3032,14 +3035,14 @@
       "opponent": "Kansas City Chiefs",
       "opponent_abbr": "KC",
       "is_home": true,
-      "combined_prob": 0.15717508417508416,
-      "model_prob": 0.146,
+      "combined_prob": 0.15667508417508416,
+      "model_prob": 0.145,
       "market_prob": 0.16835016835016833,
       "moneyline": 470,
       "own_injuries": [
         {
-          "name": "Robert Beal Jr.",
-          "position": "DE",
+          "name": "Jaylen Wright",
+          "position": "RB",
           "status": "Questionable"
         },
         {
@@ -3048,18 +3051,18 @@
           "status": "Questionable"
         },
         {
-          "name": "Jaylen Wright",
-          "position": "RB",
+          "name": "Caleb Douglas",
+          "position": "WR",
           "status": "Questionable"
         },
         {
-          "name": "Chop Robinson",
-          "position": "LB",
+          "name": "Chris Bell",
+          "position": "WR",
           "status": "Questionable"
         },
         {
-          "name": "JuJu Brents",
-          "position": "CB",
+          "name": "Robert Beal Jr.",
+          "position": "DE",
           "status": "Questionable"
         }
       ],
@@ -3075,20 +3078,139 @@
           "status": "Questionable"
         },
         {
-          "name": "Felix Anudike-Uzomah",
-          "position": "DE",
-          "status": "Questionable"
-        },
-        {
           "name": "Omarr Norman-Lott",
           "position": "DT",
           "status": "Out"
         }
       ],
       "game_date": "2026-09-27T17:00Z"
+    },
+    {
+      "team": "Arizona Cardinals",
+      "abbr": "ARI",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+      "opponent": "San Francisco 49ers",
+      "opponent_abbr": "SF",
+      "is_home": false,
+      "combined_prob": 0.15662824207492795,
+      "model_prob": 0.1,
+      "market_prob": 0.2132564841498559,
+      "moneyline": 350,
+      "own_injuries": [
+        {
+          "name": "Max Melton",
+          "position": "CB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Dadrion Taylor-Demerson",
+          "position": "S",
+          "status": "Questionable"
+        },
+        {
+          "name": "Garrett Williams",
+          "position": "CB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Hjalte Froholdt",
+          "position": "C",
+          "status": "Questionable"
+        },
+        {
+          "name": "Roy Lopez",
+          "position": "DT",
+          "status": "Questionable"
+        }
+      ],
+      "opponent_injuries": [
+        {
+          "name": "Romello Height",
+          "position": "DE",
+          "status": "Questionable"
+        },
+        {
+          "name": "Nick Bosa",
+          "position": "DE",
+          "status": "Questionable"
+        },
+        {
+          "name": "Mike Evans",
+          "position": "WR",
+          "status": "Questionable"
+        },
+        {
+          "name": "James Thompson Jr.",
+          "position": "DT",
+          "status": "Doubtful"
+        }
+      ],
+      "game_date": "2026-09-27T20:05Z"
     }
   ],
   "top3": [
+    {
+      "team": "San Francisco 49ers",
+      "abbr": "SF",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+      "opponent": "Arizona Cardinals",
+      "opponent_abbr": "ARI",
+      "is_home": true,
+      "combined_prob": 0.8428717579250721,
+      "model_prob": 0.899,
+      "market_prob": 0.7867435158501441,
+      "moneyline": -455,
+      "own_injuries": [
+        {
+          "name": "Romello Height",
+          "position": "DE",
+          "status": "Questionable"
+        },
+        {
+          "name": "Nick Bosa",
+          "position": "DE",
+          "status": "Questionable"
+        },
+        {
+          "name": "Mike Evans",
+          "position": "WR",
+          "status": "Questionable"
+        },
+        {
+          "name": "James Thompson Jr.",
+          "position": "DT",
+          "status": "Doubtful"
+        }
+      ],
+      "opponent_injuries": [
+        {
+          "name": "Max Melton",
+          "position": "CB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Dadrion Taylor-Demerson",
+          "position": "S",
+          "status": "Questionable"
+        },
+        {
+          "name": "Garrett Williams",
+          "position": "CB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Hjalte Froholdt",
+          "position": "C",
+          "status": "Questionable"
+        },
+        {
+          "name": "Roy Lopez",
+          "position": "DT",
+          "status": "Questionable"
+        }
+      ],
+      "game_date": "2026-09-27T20:05Z"
+    },
     {
       "team": "Kansas City Chiefs",
       "abbr": "KC",
@@ -3096,8 +3218,8 @@
       "opponent": "Miami Dolphins",
       "opponent_abbr": "MIA",
       "is_home": false,
-      "combined_prob": 0.8423249158249158,
-      "model_prob": 0.853,
+      "combined_prob": 0.8428249158249158,
+      "model_prob": 0.8540000000000001,
       "market_prob": 0.8316498316498315,
       "moneyline": -650,
       "own_injuries": [
@@ -3112,11 +3234,6 @@
           "status": "Questionable"
         },
         {
-          "name": "Felix Anudike-Uzomah",
-          "position": "DE",
-          "status": "Questionable"
-        },
-        {
           "name": "Omarr Norman-Lott",
           "position": "DT",
           "status": "Out"
@@ -3124,8 +3241,8 @@
       ],
       "opponent_injuries": [
         {
-          "name": "Robert Beal Jr.",
-          "position": "DE",
+          "name": "Jaylen Wright",
+          "position": "RB",
           "status": "Questionable"
         },
         {
@@ -3134,84 +3251,22 @@
           "status": "Questionable"
         },
         {
-          "name": "Jaylen Wright",
-          "position": "RB",
+          "name": "Caleb Douglas",
+          "position": "WR",
           "status": "Questionable"
         },
         {
-          "name": "Chop Robinson",
-          "position": "LB",
+          "name": "Chris Bell",
+          "position": "WR",
           "status": "Questionable"
         },
         {
-          "name": "JuJu Brents",
-          "position": "CB",
+          "name": "Robert Beal Jr.",
+          "position": "DE",
           "status": "Questionable"
         }
       ],
       "game_date": "2026-09-27T17:00Z"
-    },
-    {
-      "team": "San Francisco 49ers",
-      "abbr": "SF",
-      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
-      "opponent": "Arizona Cardinals",
-      "opponent_abbr": "ARI",
-      "is_home": true,
-      "combined_prob": 0.8404531502423264,
-      "model_prob": 0.899,
-      "market_prob": 0.7819063004846527,
-      "moneyline": -440,
-      "own_injuries": [
-        {
-          "name": "Mike Evans",
-          "position": "WR",
-          "status": "Questionable"
-        },
-        {
-          "name": "Romello Height",
-          "position": "DE",
-          "status": "Questionable"
-        },
-        {
-          "name": "James Thompson Jr.",
-          "position": "DT",
-          "status": "Doubtful"
-        },
-        {
-          "name": "Demarcus Robinson",
-          "position": "WR",
-          "status": "Out"
-        }
-      ],
-      "opponent_injuries": [
-        {
-          "name": "Max Melton",
-          "position": "CB",
-          "status": "Questionable"
-        },
-        {
-          "name": "Garrett Williams",
-          "position": "CB",
-          "status": "Questionable"
-        },
-        {
-          "name": "Dadrion Taylor-Demerson",
-          "position": "S",
-          "status": "Questionable"
-        },
-        {
-          "name": "Hjalte Froholdt",
-          "position": "C",
-          "status": "Questionable"
-        },
-        {
-          "name": "Roy Lopez",
-          "position": "DT",
-          "status": "Questionable"
-        }
-      ],
-      "game_date": "2026-09-27T20:05Z"
     },
     {
       "team": "Buffalo Bills",
@@ -3220,14 +3275,19 @@
       "opponent": "Los Angeles Chargers",
       "opponent_abbr": "LAC",
       "is_home": true,
-      "combined_prob": 0.7630345075485263,
-      "model_prob": 0.782,
-      "market_prob": 0.7440690150970525,
-      "moneyline": -345,
+      "combined_prob": 0.7609358068315665,
+      "model_prob": 0.7809999999999999,
+      "market_prob": 0.740871613663133,
+      "moneyline": -340,
       "own_injuries": [
         {
           "name": "Ed Oliver",
           "position": "DT",
+          "status": "Questionable"
+        },
+        {
+          "name": "DJ Moore",
+          "position": "WR",
           "status": "Questionable"
         },
         {
@@ -3244,14 +3304,14 @@
           "name": "Ar'maj Reed-Adams",
           "position": "G",
           "status": "Questionable"
-        },
-        {
-          "name": "Jordan Hancock",
-          "position": "CB",
-          "status": "Questionable"
         }
       ],
       "opponent_injuries": [
+        {
+          "name": "Brenen Thompson",
+          "position": "WR",
+          "status": "Questionable"
+        },
         {
           "name": "Dalvin Tomlinson",
           "position": "DT",
@@ -3263,18 +3323,13 @@
           "status": "Questionable"
         },
         {
-          "name": "Derwin James Jr.",
-          "position": "S",
-          "status": "Questionable"
-        },
-        {
-          "name": "Brenen Thompson",
-          "position": "WR",
-          "status": "Questionable"
-        },
-        {
           "name": "Tuli Tuipulotu",
           "position": "LB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Rodney Shelley",
+          "position": "CB",
           "status": "Questionable"
         }
       ],
