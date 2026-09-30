@@ -869,6 +869,146 @@
           }
         ]
       }
+    },
+    "4": {
+      "week_number": 4,
+      "season_type_num": 2,
+      "season_year": 2026,
+      "snapshot_at": "2026-09-30T13:18:15.858253+00:00",
+      "picks": [
+        {
+          "abbr": "BAL",
+          "team": "Baltimore Ravens",
+          "opponent_abbr": "TEN",
+          "is_home": true,
+          "combined_prob": 0.8422505643340858
+        },
+        {
+          "abbr": "MIN",
+          "team": "Minnesota Vikings",
+          "opponent_abbr": "MIA",
+          "is_home": true,
+          "combined_prob": 0.8313249158249157
+        },
+        {
+          "abbr": "SEA",
+          "team": "Seattle Seahawks",
+          "opponent_abbr": "LAC",
+          "is_home": true,
+          "combined_prob": 0.7505000000000001
+        },
+        {
+          "abbr": "BUF",
+          "team": "Buffalo Bills",
+          "opponent_abbr": "NE",
+          "is_home": true,
+          "combined_prob": 0.709275615130371
+        },
+        {
+          "abbr": "KC",
+          "team": "Kansas City Chiefs",
+          "opponent_abbr": "LV",
+          "is_home": false,
+          "combined_prob": 0.6818240620957309
+        },
+        {
+          "abbr": "SF",
+          "team": "San Francisco 49ers",
+          "opponent_abbr": "DEN",
+          "is_home": true,
+          "combined_prob": 0.6710298177802319
+        },
+        {
+          "abbr": "GB",
+          "team": "Green Bay Packers",
+          "opponent_abbr": "TB",
+          "is_home": false,
+          "combined_prob": 0.6519701718907988
+        },
+        {
+          "abbr": "LAR",
+          "team": "Los Angeles Rams",
+          "opponent_abbr": "PHI",
+          "is_home": false,
+          "combined_prob": 0.618184877079712
+        },
+        {
+          "abbr": "CHI",
+          "team": "Chicago Bears",
+          "opponent_abbr": "NYJ",
+          "is_home": true,
+          "combined_prob": 0.6171181172291297
+        },
+        {
+          "abbr": "DET",
+          "team": "Detroit Lions",
+          "opponent_abbr": "CAR",
+          "is_home": false,
+          "combined_prob": 0.6127191780821918
+        },
+        {
+          "abbr": "NO",
+          "team": "New Orleans Saints",
+          "opponent_abbr": "ATL",
+          "is_home": true,
+          "combined_prob": 0.599529817780232
+        },
+        {
+          "abbr": "IND",
+          "team": "Indianapolis Colts",
+          "opponent_abbr": "WSH",
+          "is_home": false,
+          "combined_prob": 0.5832332759305869
+        },
+        {
+          "abbr": "PIT",
+          "team": "Pittsburgh Steelers",
+          "opponent_abbr": "CLE",
+          "is_home": false,
+          "combined_prob": 0.5615298177802319
+        },
+        {
+          "abbr": "ARI",
+          "team": "Arizona Cardinals",
+          "opponent_abbr": "NYG",
+          "is_home": false,
+          "combined_prob": 0.5372337662337663
+        },
+        {
+          "abbr": "CIN",
+          "team": "Cincinnati Bengals",
+          "opponent_abbr": "JAX",
+          "is_home": true,
+          "combined_prob": 0.5110298177802319
+        },
+        {
+          "abbr": "HOU",
+          "team": "Houston Texans",
+          "opponent_abbr": "DAL",
+          "is_home": true,
+          "combined_prob": 0.5087460317460317
+        }
+      ],
+      "top3": [
+        {
+          "abbr": "BAL",
+          "team": "Baltimore Ravens",
+          "combined_prob": 0.8422505643340858
+        },
+        {
+          "abbr": "MIN",
+          "team": "Minnesota Vikings",
+          "combined_prob": 0.8313249158249157
+        },
+        {
+          "abbr": "SEA",
+          "team": "Seattle Seahawks",
+          "combined_prob": 0.7505000000000001
+        }
+      ],
+      "resolved": false,
+      "resolved_at": null,
+      "results": null
     }
   },
   "summary": {
