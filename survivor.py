@@ -122,7 +122,7 @@ def build_survivor_data():
         entries.sort(key=lambda e: e["week"])
 
         this_week_entry = next((e for e in entries if e["week"] == current_week), None)
-        this_week_prob = this_week_entry["combined_prob"] if this_week_entry else None
+        this_week_prob = this_week_entry.get("combined_prob") if this_week_entry else None
 
         future_entries = [
             e for e in entries
