@@ -212,7 +212,7 @@
 
 <script>
 const LOCK_USER = "admin";
-const LOCK_PASS = "nfl2026";
+const LOCK_PASS = "5dt4fbxf";
 const LOCK_STORAGE_KEY = "nfl_agent_authed";
 
 function showApp() {
@@ -222,7 +222,7 @@ function showApp() {
 }
 
 function initLock() {
-  if (localStorage.getItem(LOCK_STORAGE_KEY) === '1') {
+  if (localStorage.getItem(LOCK_STORAGE_KEY) === LOCK_PASS) {
     showApp();
     return;
   }
@@ -231,7 +231,7 @@ function initLock() {
     const user = document.getElementById('lock-user').value.trim();
     const pass = document.getElementById('lock-pass').value;
     if (user === LOCK_USER && pass === LOCK_PASS) {
-      localStorage.setItem(LOCK_STORAGE_KEY, '1');
+      localStorage.setItem(LOCK_STORAGE_KEY, LOCK_PASS);
       showApp();
     } else {
       document.getElementById('lock-error').textContent = 'Usuario o contraseña incorrectos';
