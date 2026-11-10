@@ -2354,19 +2354,166 @@
           "combined_prob": 0.8109334298118669
         }
       ],
-      "resolved": false,
-      "resolved_at": null,
-      "results": null
+      "resolved": true,
+      "resolved_at": "2026-11-10T20:20:41.988363+00:00",
+      "results": {
+        "favorites_correct": 14,
+        "favorites_total": 15,
+        "top3_hits": 3,
+        "top3_total": 3,
+        "picks_graded": [
+          {
+            "abbr": "SF",
+            "team": "San Francisco 49ers",
+            "opponent_abbr": "LV",
+            "is_home": true,
+            "combined_prob": 0.8201464646464647,
+            "won": true
+          },
+          {
+            "abbr": "KC",
+            "team": "Kansas City Chiefs",
+            "opponent_abbr": "NYJ",
+            "is_home": true,
+            "combined_prob": 0.8126675126903553,
+            "won": true
+          },
+          {
+            "abbr": "JAX",
+            "team": "Jacksonville Jaguars",
+            "opponent_abbr": "BAL",
+            "is_home": false,
+            "combined_prob": 0.8109334298118669,
+            "won": true
+          },
+          {
+            "abbr": "DET",
+            "team": "Detroit Lions",
+            "opponent_abbr": "MIA",
+            "is_home": false,
+            "combined_prob": 0.7623913525498891,
+            "won": true
+          },
+          {
+            "abbr": "SEA",
+            "team": "Seattle Seahawks",
+            "opponent_abbr": "ARI",
+            "is_home": true,
+            "combined_prob": 0.7259531502423264,
+            "won": true
+          },
+          {
+            "abbr": "LAR",
+            "team": "Los Angeles Rams",
+            "opponent_abbr": "WSH",
+            "is_home": false,
+            "combined_prob": 0.6955035105315948,
+            "won": true
+          },
+          {
+            "abbr": "CIN",
+            "team": "Cincinnati Bengals",
+            "opponent_abbr": "ATL",
+            "is_home": false,
+            "combined_prob": 0.6779963205233033,
+            "won": true
+          },
+          {
+            "abbr": "CHI",
+            "team": "Chicago Bears",
+            "opponent_abbr": "TB",
+            "is_home": true,
+            "combined_prob": 0.673485260770975,
+            "won": true
+          },
+          {
+            "abbr": "DAL",
+            "team": "Dallas Cowboys",
+            "opponent_abbr": "IND",
+            "is_home": false,
+            "combined_prob": 0.6462777777777777,
+            "won": true
+          },
+          {
+            "abbr": "HOU",
+            "team": "Houston Texans",
+            "opponent_abbr": "LAC",
+            "is_home": false,
+            "combined_prob": 0.6387376130978026,
+            "won": true
+          },
+          {
+            "abbr": "BUF",
+            "team": "Buffalo Bills",
+            "opponent_abbr": "MIN",
+            "is_home": false,
+            "combined_prob": 0.6262191780821917,
+            "won": true
+          },
+          {
+            "abbr": "NO",
+            "team": "New Orleans Saints",
+            "opponent_abbr": "CLE",
+            "is_home": true,
+            "combined_prob": 0.621684877079712,
+            "won": true
+          },
+          {
+            "abbr": "DEN",
+            "team": "Denver Broncos",
+            "opponent_abbr": "CAR",
+            "is_home": false,
+            "combined_prob": 0.599529817780232,
+            "won": true
+          },
+          {
+            "abbr": "NE",
+            "team": "New England Patriots",
+            "opponent_abbr": "GB",
+            "is_home": true,
+            "combined_prob": 0.584378485471089,
+            "won": false
+          },
+          {
+            "abbr": "NYG",
+            "team": "New York Giants",
+            "opponent_abbr": "PHI",
+            "is_home": false,
+            "combined_prob": 0.561184877079712,
+            "won": true
+          }
+        ],
+        "top3_graded": [
+          {
+            "abbr": "SF",
+            "team": "San Francisco 49ers",
+            "combined_prob": 0.8201464646464647,
+            "won": true
+          },
+          {
+            "abbr": "KC",
+            "team": "Kansas City Chiefs",
+            "combined_prob": 0.8126675126903553,
+            "won": true
+          },
+          {
+            "abbr": "JAX",
+            "team": "Jacksonville Jaguars",
+            "combined_prob": 0.8109334298118669,
+            "won": true
+          }
+        ]
+      }
     }
   },
   "summary": {
-    "weeks_resolved": 8,
-    "favorites_correct": 73,
-    "favorites_total": 119,
-    "favorite_accuracy": 0.6134453781512605,
-    "top3_hits": 16,
-    "top3_total": 24,
-    "top3_accuracy": 0.6666666666666666,
+    "weeks_resolved": 9,
+    "favorites_correct": 87,
+    "favorites_total": 134,
+    "favorite_accuracy": 0.6492537313432836,
+    "top3_hits": 19,
+    "top3_total": 27,
+    "top3_accuracy": 0.7037037037037037,
     "weekly": [
       {
         "week_number": 1,
@@ -2422,6 +2569,13 @@
         "favorites_correct": 10,
         "favorites_total": 14,
         "top3_hits": 2,
+        "top3_total": 3
+      },
+      {
+        "week_number": 9,
+        "favorites_correct": 14,
+        "favorites_total": 15,
+        "top3_hits": 3,
         "top3_total": 3
       }
     ]
