@@ -1,86 +1,10 @@
 {
-  "generated_at": "2026-11-24T00:39:04.085377+00:00",
+  "generated_at": "2026-11-24T22:56:47.653986+00:00",
   "week_number": 11,
   "season_type": "reg",
   "season_type_num": 2,
   "season_year": 2026,
   "games": [
-    {
-      "event_id": "401873078",
-      "date": "2026-11-24T01:15Z",
-      "status": "11/23 - 8:15 PM EST",
-      "book": "DraftKings",
-      "spread_details": "CIN -6",
-      "home": {
-        "id": "28",
-        "name": "Washington Commanders",
-        "abbr": "WSH",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
-        "model_prob": 0.253,
-        "market_prob": 0.278578623779916,
-        "moneyline": 245,
-        "combined_prob": 0.265789311889958,
-        "key_injuries": [
-          {
-            "name": "Amik Robertson",
-            "position": "CB",
-            "status": "Out"
-          },
-          {
-            "name": "Athan Kaliakmanis",
-            "position": "QB",
-            "status": "Out"
-          },
-          {
-            "name": "Tanoa Togiai",
-            "position": "G",
-            "status": "Out"
-          },
-          {
-            "name": "Robert Henry Jr.",
-            "position": "RB",
-            "status": "Out"
-          },
-          {
-            "name": "Ricky Barber",
-            "position": "DT",
-            "status": "Out"
-          }
-        ]
-      },
-      "away": {
-        "id": "4",
-        "name": "Cincinnati Bengals",
-        "abbr": "CIN",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
-        "model_prob": 0.745,
-        "market_prob": 0.7214213762200841,
-        "moneyline": -301,
-        "combined_prob": 0.733210688110042,
-        "key_injuries": [
-          {
-            "name": "Kyle Dugger",
-            "position": "S",
-            "status": "Out"
-          },
-          {
-            "name": "Dalton Risner",
-            "position": "G",
-            "status": "Out"
-          },
-          {
-            "name": "Landon Robinson",
-            "position": "DT",
-            "status": "Out"
-          },
-          {
-            "name": "Cam Grandy",
-            "position": "TE",
-            "status": "Out"
-          }
-        ]
-      }
-    },
     {
       "event_id": "401873066",
       "date": "2026-11-20T01:15Z",
@@ -98,29 +22,29 @@
         "combined_prob": 0.8477384684281236,
         "key_injuries": [
           {
-            "name": "Woody Marks",
-            "position": "RB",
-            "status": "Out"
-          },
-          {
-            "name": "Chris Braswell",
-            "position": "DE",
-            "status": "Out"
-          },
-          {
             "name": "Wyatt Teller",
             "position": "G",
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "name": "Brevin Jordan",
             "position": "TE",
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "name": "Marvin Harrison Jr.",
             "position": "WR",
-            "status": "Out"
+            "status": "Questionable"
+          },
+          {
+            "name": "Danielle Hunter",
+            "position": "DE",
+            "status": "Questionable"
+          },
+          {
+            "name": "Woody Marks",
+            "position": "RB",
+            "status": "Questionable"
           }
         ]
       },
@@ -135,24 +59,24 @@
         "combined_prob": 0.1522615315718764,
         "key_injuries": [
           {
-            "name": "Seth McGowan",
-            "position": "RB",
-            "status": "Out"
+            "name": "Bernhard Raimann",
+            "position": "OT",
+            "status": "Questionable"
           },
           {
             "name": "Jerry Tillery",
             "position": "DT",
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "name": "Jalen Travis",
             "position": "OT",
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "name": "Charvarius Ward",
             "position": "CB",
-            "status": "Out"
+            "status": "Questionable"
           }
         ]
       }
@@ -174,29 +98,29 @@
         "combined_prob": 0.9066709088980803,
         "key_injuries": [
           {
-            "name": "Greg Rousseau",
+            "name": "Dalton Kincaid",
+            "position": "TE",
+            "status": "Questionable"
+          },
+          {
+            "name": "T.J. Sanders",
+            "position": "DT",
+            "status": "Questionable"
+          },
+          {
+            "name": "Dorian Williams",
             "position": "LB",
             "status": "Questionable"
           },
           {
-            "name": "Damar Hamlin",
-            "position": "S",
-            "status": "Questionable"
-          },
-          {
-            "name": "Spencer Brown",
-            "position": "OT",
+            "name": "Christian Benford",
+            "position": "CB",
             "status": "Questionable"
           },
           {
             "name": "O'Cyrus Torrence",
             "position": "G",
             "status": "Questionable"
-          },
-          {
-            "name": "Dalton Kincaid",
-            "position": "TE",
-            "status": "Out"
           }
         ]
       },
@@ -211,19 +135,24 @@
         "combined_prob": 0.0933290911019196,
         "key_injuries": [
           {
-            "name": "JuJu Brents",
-            "position": "CB",
+            "name": "Jaylin Simpson",
+            "position": "S",
+            "status": "Questionable"
+          },
+          {
+            "name": "Dante Trader Jr.",
+            "position": "S",
             "status": "Questionable"
           },
           {
             "name": "Jared Wayne",
             "position": "WR",
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "name": "Bradley Pinion",
             "position": "P",
-            "status": "Out"
+            "status": "Questionable"
           }
         ]
       }
@@ -245,9 +174,14 @@
         "combined_prob": 0.8411122144985105,
         "key_injuries": [
           {
+            "name": "Elijah Hicks",
+            "position": "S",
+            "status": "Out"
+          },
+          {
             "name": "Kyler Gordon",
             "position": "CB",
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "name": "Roschon Johnson",
@@ -267,29 +201,29 @@
         "combined_prob": 0.1588877855014896,
         "key_injuries": [
           {
-            "name": "Juwan Johnson",
-            "position": "TE",
-            "status": "Questionable"
-          },
-          {
             "name": "Asim Richards",
             "position": "OT",
-            "status": "Out"
+            "status": "Doubtful"
+          },
+          {
+            "name": "Pete Werner",
+            "position": "LB",
+            "status": "Questionable"
           },
           {
             "name": "Erik McCoy",
             "position": "C",
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "name": "Martin Emerson Jr.",
             "position": "CB",
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "name": "Taliese Fuaga",
             "position": "OT",
-            "status": "Out"
+            "status": "Questionable"
           }
         ]
       }
@@ -311,24 +245,29 @@
         "combined_prob": 0.7579089061884215,
         "key_injuries": [
           {
-            "name": "Jake Ferguson",
-            "position": "TE",
-            "status": "Out"
-          },
-          {
-            "name": "P.J. Locke",
-            "position": "S",
-            "status": "Out"
+            "name": "Dee Winters",
+            "position": "LB",
+            "status": "Questionable"
           },
           {
             "name": "Jonathan Mingo",
             "position": "WR",
-            "status": "Out"
+            "status": "Questionable"
           },
           {
-            "name": "Tyler Booker",
-            "position": "G",
-            "status": "Out"
+            "name": "P.J. Locke",
+            "position": "S",
+            "status": "Questionable"
+          },
+          {
+            "name": "Jake Ferguson",
+            "position": "TE",
+            "status": "Doubtful"
+          },
+          {
+            "name": "Jaishawn Barham",
+            "position": "LB",
+            "status": "Questionable"
           }
         ]
       },
@@ -342,6 +281,11 @@
         "moneyline": 297,
         "combined_prob": 0.24209109381157837,
         "key_injuries": [
+          {
+            "name": "Milo Eifler",
+            "position": "LB",
+            "status": "Questionable"
+          },
           {
             "name": "Dan Moore Jr.",
             "position": "OT",
@@ -382,14 +326,24 @@
         "combined_prob": 0.6593990903072883,
         "key_injuries": [
           {
-            "name": "Ennis Rakestraw Jr.",
-            "position": "CB",
+            "name": "Skyler Gill-Howard",
+            "position": "DT",
             "status": "Out"
           },
           {
-            "name": "D.J. Reed",
+            "name": "Ennis Rakestraw Jr.",
             "position": "CB",
-            "status": "Out"
+            "status": "Questionable"
+          },
+          {
+            "name": "DJ Wonnum",
+            "position": "LB",
+            "status": "Questionable"
+          },
+          {
+            "name": "Chuck Clark",
+            "position": "S",
+            "status": "Questionable"
           }
         ]
       },
@@ -404,8 +358,8 @@
         "combined_prob": 0.3406009096927118,
         "key_injuries": [
           {
-            "name": "Jacob Parrish",
-            "position": "CB",
+            "name": "Antoine Winfield Jr.",
+            "position": "S",
             "status": "Questionable"
           },
           {
@@ -414,12 +368,12 @@
             "status": "Questionable"
           },
           {
-            "name": "Antoine Winfield Jr.",
-            "position": "S",
-            "status": "Out"
+            "name": "Benjamin Morrison",
+            "position": "CB",
+            "status": "Questionable"
           },
           {
-            "name": "Benjamin Morrison",
+            "name": "Jacob Parrish",
             "position": "CB",
             "status": "Questionable"
           }
@@ -443,28 +397,23 @@
         "combined_prob": 0.8966942148760332,
         "key_injuries": [
           {
-            "name": "Noah Gray",
-            "position": "TE",
-            "status": "Questionable"
-          },
-          {
             "name": "Kenneth Walker III",
             "position": "RB",
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "name": "Trey Smith",
             "position": "G",
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "name": "Jaylon Moore",
             "position": "OT",
-            "status": "Out"
+            "status": "Questionable"
           },
           {
-            "name": "Ben VanSumeren",
-            "position": "FB",
+            "name": "Omarr Norman-Lott",
+            "position": "DT",
             "status": "Questionable"
           }
         ]
@@ -482,12 +431,12 @@
           {
             "name": "Jon Gaines II",
             "position": "G",
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "name": "Carson Beck",
             "position": "QB",
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "name": "Cody Simon",
@@ -514,6 +463,11 @@
         "combined_prob": 0.3584698932926829,
         "key_injuries": [
           {
+            "name": "Smael Mondon Jr.",
+            "position": "LB",
+            "status": "Questionable"
+          },
+          {
             "name": "Will Shipley",
             "position": "RB",
             "status": "Questionable"
@@ -532,11 +486,6 @@
             "name": "Arnold Ebiketie",
             "position": "LB",
             "status": "Questionable"
-          },
-          {
-            "name": "Dallas Goedert",
-            "position": "TE",
-            "status": "Questionable"
           }
         ]
       },
@@ -551,14 +500,19 @@
         "combined_prob": 0.6415301067073171,
         "key_injuries": [
           {
-            "name": "Alex Highsmith",
-            "position": "LB",
-            "status": "Doubtful"
+            "name": "Ben Skowronek",
+            "position": "WR",
+            "status": "Questionable"
           },
           {
             "name": "Nick Herbig",
             "position": "LB",
-            "status": "Out"
+            "status": "Questionable"
+          },
+          {
+            "name": "Alex Highsmith",
+            "position": "LB",
+            "status": "Doubtful"
           }
         ]
       }
@@ -582,7 +536,7 @@
           {
             "name": "Bobby Okereke",
             "position": "LB",
-            "status": "Out"
+            "status": "Questionable"
           }
         ]
       },
@@ -597,19 +551,19 @@
         "combined_prob": 0.448558885283451,
         "key_injuries": [
           {
-            "name": "Marlon Humphrey",
-            "position": "CB",
-            "status": "Out"
-          },
-          {
             "name": "Nnamdi Madubuike",
             "position": "DT",
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "name": "Jaylinn Hawkins",
             "position": "S",
-            "status": "Out"
+            "status": "Questionable"
+          },
+          {
+            "name": "Marlon Humphrey",
+            "position": "CB",
+            "status": "Questionable"
           },
           {
             "name": "Adisa Isaac",
@@ -638,26 +592,26 @@
           {
             "name": "Kendall Williamson",
             "position": "S",
-            "status": "Out"
+            "status": "Questionable"
+          },
+          {
+            "name": "Tarheeb Still",
+            "position": "CB",
+            "status": "Questionable"
+          },
+          {
+            "name": "Brenen Thompson",
+            "position": "WR",
+            "status": "Questionable"
           },
           {
             "name": "Daiyan Henley",
             "position": "LB",
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "name": "Justin Herbert",
             "position": "QB",
-            "status": "Questionable"
-          },
-          {
-            "name": "Akheem Mesidor",
-            "position": "LB",
-            "status": "Questionable"
-          },
-          {
-            "name": "Keaton Mitchell",
-            "position": "RB",
             "status": "Questionable"
           }
         ]
@@ -675,17 +629,17 @@
           {
             "name": "Isaiah Williams",
             "position": "WR",
-            "status": "Out"
-          },
-          {
-            "name": "Omar Cooper Jr.",
-            "position": "WR",
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "name": "Trevin Wallace",
             "position": "LB",
-            "status": "Out"
+            "status": "Questionable"
+          },
+          {
+            "name": "Omar Cooper Jr.",
+            "position": "WR",
+            "status": "Questionable"
           }
         ]
       }
@@ -709,7 +663,7 @@
           {
             "name": "Brandon Jones",
             "position": "S",
-            "status": "Out"
+            "status": "Questionable"
           }
         ]
       },
@@ -726,12 +680,12 @@
           {
             "name": "Tonka Hemingway",
             "position": "DT",
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "name": "Brock Bowers",
             "position": "TE",
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "name": "JJ Pegues",
@@ -766,13 +720,7 @@
         "market_prob": 0.3089848632134426,
         "moneyline": 211,
         "combined_prob": 0.3089848632134426,
-        "key_injuries": [
-          {
-            "name": "Greg Newsome II",
-            "position": "CB",
-            "status": "Out"
-          }
-        ]
+        "key_injuries": []
       },
       "away": {
         "id": "30",
@@ -785,24 +733,24 @@
         "combined_prob": 0.6910151367865575,
         "key_injuries": [
           {
-            "name": "Bhayshul Tuten",
-            "position": "RB",
-            "status": "Questionable"
-          },
-          {
             "name": "Danny Striggow",
             "position": "DE",
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "name": "Matt Dickerson",
             "position": "DE",
-            "status": "Out"
+            "status": "Questionable"
           },
           {
             "name": "Robert Hainsey",
             "position": "C",
-            "status": "Out"
+            "status": "Questionable"
+          },
+          {
+            "name": "Bhayshul Tuten",
+            "position": "RB",
+            "status": "Questionable"
           },
           {
             "name": "Walker Little",
@@ -829,6 +777,16 @@
         "combined_prob": 0.6386477179027017,
         "key_injuries": [
           {
+            "name": "Khalid Kareem",
+            "position": "DE",
+            "status": "Questionable"
+          },
+          {
+            "name": "Dre Greenlaw",
+            "position": "LB",
+            "status": "Questionable"
+          },
+          {
             "name": "Colton McKivitz",
             "position": "OT",
             "status": "Out"
@@ -837,16 +795,6 @@
             "name": "Deommodore Lenoir",
             "position": "CB",
             "status": "Questionable"
-          },
-          {
-            "name": "Dre Greenlaw",
-            "position": "LB",
-            "status": "Out"
-          },
-          {
-            "name": "Khalid Kareem",
-            "position": "DE",
-            "status": "Out"
           }
         ]
       },
@@ -861,24 +809,70 @@
         "combined_prob": 0.36135228209729836,
         "key_injuries": [
           {
-            "name": "Jordan Addison",
-            "position": "WR",
-            "status": "Out"
-          },
-          {
-            "name": "Kyler Murray",
-            "position": "QB",
-            "status": "Out"
+            "name": "Isaiah Rodgers",
+            "position": "CB",
+            "status": "Questionable"
           },
           {
             "name": "Jay Ward",
             "position": "S",
-            "status": "Out"
+            "status": "Questionable"
           },
           {
-            "name": "Isaiah Rodgers",
+            "name": "Kyler Murray",
+            "position": "QB",
+            "status": "Questionable"
+          },
+          {
+            "name": "Jordan Addison",
+            "position": "WR",
+            "status": "Doubtful"
+          }
+        ]
+      }
+    },
+    {
+      "event_id": "401873078",
+      "date": "2026-11-24T01:15Z",
+      "status": "Final",
+      "book": "DraftKings",
+      "spread_details": "CIN -6",
+      "home": {
+        "id": "28",
+        "name": "Washington Commanders",
+        "abbr": "WSH",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+        "model_prob": null,
+        "market_prob": 0.28523367220068746,
+        "moneyline": 237,
+        "combined_prob": 0.28523367220068746,
+        "key_injuries": [
+          {
+            "name": "Amik Robertson",
             "position": "CB",
-            "status": "Out"
+            "status": "Questionable"
+          }
+        ]
+      },
+      "away": {
+        "id": "4",
+        "name": "Cincinnati Bengals",
+        "abbr": "CIN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+        "model_prob": null,
+        "market_prob": 0.7147663277993125,
+        "moneyline": -290,
+        "combined_prob": 0.7147663277993125,
+        "key_injuries": [
+          {
+            "name": "Dalton Risner",
+            "position": "G",
+            "status": "Questionable"
+          },
+          {
+            "name": "Kyle Dugger",
+            "position": "S",
+            "status": "Questionable"
           }
         ]
       }
@@ -898,46 +892,51 @@
       "moneyline": -1660,
       "own_injuries": [
         {
-          "name": "Greg Rousseau",
+          "name": "Dalton Kincaid",
+          "position": "TE",
+          "status": "Questionable"
+        },
+        {
+          "name": "T.J. Sanders",
+          "position": "DT",
+          "status": "Questionable"
+        },
+        {
+          "name": "Dorian Williams",
           "position": "LB",
           "status": "Questionable"
         },
         {
-          "name": "Damar Hamlin",
-          "position": "S",
-          "status": "Questionable"
-        },
-        {
-          "name": "Spencer Brown",
-          "position": "OT",
+          "name": "Christian Benford",
+          "position": "CB",
           "status": "Questionable"
         },
         {
           "name": "O'Cyrus Torrence",
           "position": "G",
           "status": "Questionable"
-        },
-        {
-          "name": "Dalton Kincaid",
-          "position": "TE",
-          "status": "Out"
         }
       ],
       "opponent_injuries": [
         {
-          "name": "JuJu Brents",
-          "position": "CB",
+          "name": "Jaylin Simpson",
+          "position": "S",
+          "status": "Questionable"
+        },
+        {
+          "name": "Dante Trader Jr.",
+          "position": "S",
           "status": "Questionable"
         },
         {
           "name": "Jared Wayne",
           "position": "WR",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Bradley Pinion",
           "position": "P",
-          "status": "Out"
+          "status": "Questionable"
         }
       ],
       "game_date": "2026-11-22T18:00Z"
@@ -955,28 +954,23 @@
       "moneyline": -1400,
       "own_injuries": [
         {
-          "name": "Noah Gray",
-          "position": "TE",
-          "status": "Questionable"
-        },
-        {
           "name": "Kenneth Walker III",
           "position": "RB",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Trey Smith",
           "position": "G",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Jaylon Moore",
           "position": "OT",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
-          "name": "Ben VanSumeren",
-          "position": "FB",
+          "name": "Omarr Norman-Lott",
+          "position": "DT",
           "status": "Questionable"
         }
       ],
@@ -984,12 +978,12 @@
         {
           "name": "Jon Gaines II",
           "position": "G",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Carson Beck",
           "position": "QB",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Cody Simon",
@@ -1012,51 +1006,51 @@
       "moneyline": -750,
       "own_injuries": [
         {
-          "name": "Woody Marks",
-          "position": "RB",
-          "status": "Out"
-        },
-        {
-          "name": "Chris Braswell",
-          "position": "DE",
-          "status": "Out"
-        },
-        {
           "name": "Wyatt Teller",
           "position": "G",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Brevin Jordan",
           "position": "TE",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Marvin Harrison Jr.",
           "position": "WR",
-          "status": "Out"
+          "status": "Questionable"
+        },
+        {
+          "name": "Danielle Hunter",
+          "position": "DE",
+          "status": "Questionable"
+        },
+        {
+          "name": "Woody Marks",
+          "position": "RB",
+          "status": "Questionable"
         }
       ],
       "opponent_injuries": [
         {
-          "name": "Seth McGowan",
-          "position": "RB",
-          "status": "Out"
+          "name": "Bernhard Raimann",
+          "position": "OT",
+          "status": "Questionable"
         },
         {
           "name": "Jerry Tillery",
           "position": "DT",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Jalen Travis",
           "position": "OT",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Charvarius Ward",
           "position": "CB",
-          "status": "Out"
+          "status": "Questionable"
         }
       ],
       "game_date": "2026-11-20T01:15Z"
@@ -1074,9 +1068,14 @@
       "moneyline": -700,
       "own_injuries": [
         {
+          "name": "Elijah Hicks",
+          "position": "S",
+          "status": "Out"
+        },
+        {
           "name": "Kyler Gordon",
           "position": "CB",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Roschon Johnson",
@@ -1086,29 +1085,29 @@
       ],
       "opponent_injuries": [
         {
-          "name": "Juwan Johnson",
-          "position": "TE",
-          "status": "Questionable"
-        },
-        {
           "name": "Asim Richards",
           "position": "OT",
-          "status": "Out"
+          "status": "Doubtful"
+        },
+        {
+          "name": "Pete Werner",
+          "position": "LB",
+          "status": "Questionable"
         },
         {
           "name": "Erik McCoy",
           "position": "C",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Martin Emerson Jr.",
           "position": "CB",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Taliese Fuaga",
           "position": "OT",
-          "status": "Out"
+          "status": "Questionable"
         }
       ],
       "game_date": "2026-11-22T18:00Z"
@@ -1128,19 +1127,19 @@
         {
           "name": "Brandon Jones",
           "position": "S",
-          "status": "Out"
+          "status": "Questionable"
         }
       ],
       "opponent_injuries": [
         {
           "name": "Tonka Hemingway",
           "position": "DT",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Brock Bowers",
           "position": "TE",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "JJ Pegues",
@@ -1173,27 +1172,37 @@
       "moneyline": -373,
       "own_injuries": [
         {
-          "name": "Jake Ferguson",
-          "position": "TE",
-          "status": "Out"
-        },
-        {
-          "name": "P.J. Locke",
-          "position": "S",
-          "status": "Out"
+          "name": "Dee Winters",
+          "position": "LB",
+          "status": "Questionable"
         },
         {
           "name": "Jonathan Mingo",
           "position": "WR",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
-          "name": "Tyler Booker",
-          "position": "G",
-          "status": "Out"
+          "name": "P.J. Locke",
+          "position": "S",
+          "status": "Questionable"
+        },
+        {
+          "name": "Jake Ferguson",
+          "position": "TE",
+          "status": "Doubtful"
+        },
+        {
+          "name": "Jaishawn Barham",
+          "position": "LB",
+          "status": "Questionable"
         }
       ],
       "opponent_injuries": [
+        {
+          "name": "Milo Eifler",
+          "position": "LB",
+          "status": "Questionable"
+        },
         {
           "name": "Dan Moore Jr.",
           "position": "OT",
@@ -1224,57 +1233,27 @@
       "opponent": "Washington Commanders",
       "opponent_abbr": "WSH",
       "is_home": false,
-      "combined_prob": 0.733210688110042,
-      "model_prob": 0.745,
-      "market_prob": 0.7214213762200841,
-      "moneyline": -301,
+      "combined_prob": 0.7147663277993125,
+      "model_prob": null,
+      "market_prob": 0.7147663277993125,
+      "moneyline": -290,
       "own_injuries": [
-        {
-          "name": "Kyle Dugger",
-          "position": "S",
-          "status": "Out"
-        },
         {
           "name": "Dalton Risner",
           "position": "G",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
-          "name": "Landon Robinson",
-          "position": "DT",
-          "status": "Out"
-        },
-        {
-          "name": "Cam Grandy",
-          "position": "TE",
-          "status": "Out"
+          "name": "Kyle Dugger",
+          "position": "S",
+          "status": "Questionable"
         }
       ],
       "opponent_injuries": [
         {
           "name": "Amik Robertson",
           "position": "CB",
-          "status": "Out"
-        },
-        {
-          "name": "Athan Kaliakmanis",
-          "position": "QB",
-          "status": "Out"
-        },
-        {
-          "name": "Tanoa Togiai",
-          "position": "G",
-          "status": "Out"
-        },
-        {
-          "name": "Robert Henry Jr.",
-          "position": "RB",
-          "status": "Out"
-        },
-        {
-          "name": "Ricky Barber",
-          "position": "DT",
-          "status": "Out"
+          "status": "Questionable"
         }
       ],
       "game_date": "2026-11-24T01:15Z"
@@ -1292,24 +1271,24 @@
       "moneyline": -256,
       "own_injuries": [
         {
-          "name": "Bhayshul Tuten",
-          "position": "RB",
-          "status": "Questionable"
-        },
-        {
           "name": "Danny Striggow",
           "position": "DE",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Matt Dickerson",
           "position": "DE",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Robert Hainsey",
           "position": "C",
-          "status": "Out"
+          "status": "Questionable"
+        },
+        {
+          "name": "Bhayshul Tuten",
+          "position": "RB",
+          "status": "Questionable"
         },
         {
           "name": "Walker Little",
@@ -1317,13 +1296,7 @@
           "status": "Questionable"
         }
       ],
-      "opponent_injuries": [
-        {
-          "name": "Greg Newsome II",
-          "position": "CB",
-          "status": "Out"
-        }
-      ],
+      "opponent_injuries": [],
       "game_date": "2026-11-22T21:25Z"
     },
     {
@@ -1339,20 +1312,30 @@
       "moneyline": -219,
       "own_injuries": [
         {
-          "name": "Ennis Rakestraw Jr.",
-          "position": "CB",
+          "name": "Skyler Gill-Howard",
+          "position": "DT",
           "status": "Out"
         },
         {
-          "name": "D.J. Reed",
+          "name": "Ennis Rakestraw Jr.",
           "position": "CB",
-          "status": "Out"
+          "status": "Questionable"
+        },
+        {
+          "name": "DJ Wonnum",
+          "position": "LB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Chuck Clark",
+          "position": "S",
+          "status": "Questionable"
         }
       ],
       "opponent_injuries": [
         {
-          "name": "Jacob Parrish",
-          "position": "CB",
+          "name": "Antoine Winfield Jr.",
+          "position": "S",
           "status": "Questionable"
         },
         {
@@ -1361,12 +1344,12 @@
           "status": "Questionable"
         },
         {
-          "name": "Antoine Winfield Jr.",
-          "position": "S",
-          "status": "Out"
+          "name": "Benjamin Morrison",
+          "position": "CB",
+          "status": "Questionable"
         },
         {
-          "name": "Benjamin Morrison",
+          "name": "Jacob Parrish",
           "position": "CB",
           "status": "Questionable"
         }
@@ -1386,17 +1369,27 @@
       "moneyline": -201,
       "own_injuries": [
         {
-          "name": "Alex Highsmith",
-          "position": "LB",
-          "status": "Doubtful"
+          "name": "Ben Skowronek",
+          "position": "WR",
+          "status": "Questionable"
         },
         {
           "name": "Nick Herbig",
           "position": "LB",
-          "status": "Out"
+          "status": "Questionable"
+        },
+        {
+          "name": "Alex Highsmith",
+          "position": "LB",
+          "status": "Doubtful"
         }
       ],
       "opponent_injuries": [
+        {
+          "name": "Smael Mondon Jr.",
+          "position": "LB",
+          "status": "Questionable"
+        },
         {
           "name": "Will Shipley",
           "position": "RB",
@@ -1416,11 +1409,6 @@
           "name": "Arnold Ebiketie",
           "position": "LB",
           "status": "Questionable"
-        },
-        {
-          "name": "Dallas Goedert",
-          "position": "TE",
-          "status": "Questionable"
         }
       ],
       "game_date": "2026-11-22T18:00Z"
@@ -1438,6 +1426,16 @@
       "moneyline": -198,
       "own_injuries": [
         {
+          "name": "Khalid Kareem",
+          "position": "DE",
+          "status": "Questionable"
+        },
+        {
+          "name": "Dre Greenlaw",
+          "position": "LB",
+          "status": "Questionable"
+        },
+        {
           "name": "Colton McKivitz",
           "position": "OT",
           "status": "Out"
@@ -1446,38 +1444,28 @@
           "name": "Deommodore Lenoir",
           "position": "CB",
           "status": "Questionable"
-        },
-        {
-          "name": "Dre Greenlaw",
-          "position": "LB",
-          "status": "Out"
-        },
-        {
-          "name": "Khalid Kareem",
-          "position": "DE",
-          "status": "Out"
         }
       ],
       "opponent_injuries": [
         {
-          "name": "Jordan Addison",
-          "position": "WR",
-          "status": "Out"
-        },
-        {
-          "name": "Kyler Murray",
-          "position": "QB",
-          "status": "Out"
+          "name": "Isaiah Rodgers",
+          "position": "CB",
+          "status": "Questionable"
         },
         {
           "name": "Jay Ward",
           "position": "S",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
-          "name": "Isaiah Rodgers",
-          "position": "CB",
-          "status": "Out"
+          "name": "Kyler Murray",
+          "position": "QB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Jordan Addison",
+          "position": "WR",
+          "status": "Doubtful"
         }
       ],
       "game_date": "2026-11-23T01:20Z"
@@ -1497,26 +1485,26 @@
         {
           "name": "Kendall Williamson",
           "position": "S",
-          "status": "Out"
+          "status": "Questionable"
+        },
+        {
+          "name": "Tarheeb Still",
+          "position": "CB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Brenen Thompson",
+          "position": "WR",
+          "status": "Questionable"
         },
         {
           "name": "Daiyan Henley",
           "position": "LB",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Justin Herbert",
           "position": "QB",
-          "status": "Questionable"
-        },
-        {
-          "name": "Akheem Mesidor",
-          "position": "LB",
-          "status": "Questionable"
-        },
-        {
-          "name": "Keaton Mitchell",
-          "position": "RB",
           "status": "Questionable"
         }
       ],
@@ -1524,17 +1512,17 @@
         {
           "name": "Isaiah Williams",
           "position": "WR",
-          "status": "Out"
-        },
-        {
-          "name": "Omar Cooper Jr.",
-          "position": "WR",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Trevin Wallace",
           "position": "LB",
-          "status": "Out"
+          "status": "Questionable"
+        },
+        {
+          "name": "Omar Cooper Jr.",
+          "position": "WR",
+          "status": "Questionable"
         }
       ],
       "game_date": "2026-11-22T21:05Z"
@@ -1554,24 +1542,24 @@
         {
           "name": "Bobby Okereke",
           "position": "LB",
-          "status": "Out"
+          "status": "Questionable"
         }
       ],
       "opponent_injuries": [
         {
-          "name": "Marlon Humphrey",
-          "position": "CB",
-          "status": "Out"
-        },
-        {
           "name": "Nnamdi Madubuike",
           "position": "DT",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Jaylinn Hawkins",
           "position": "S",
-          "status": "Out"
+          "status": "Questionable"
+        },
+        {
+          "name": "Marlon Humphrey",
+          "position": "CB",
+          "status": "Questionable"
         },
         {
           "name": "Adisa Isaac",
@@ -1594,19 +1582,19 @@
       "moneyline": 114,
       "own_injuries": [
         {
-          "name": "Marlon Humphrey",
-          "position": "CB",
-          "status": "Out"
-        },
-        {
           "name": "Nnamdi Madubuike",
           "position": "DT",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Jaylinn Hawkins",
           "position": "S",
-          "status": "Out"
+          "status": "Questionable"
+        },
+        {
+          "name": "Marlon Humphrey",
+          "position": "CB",
+          "status": "Questionable"
         },
         {
           "name": "Adisa Isaac",
@@ -1618,7 +1606,7 @@
         {
           "name": "Bobby Okereke",
           "position": "LB",
-          "status": "Out"
+          "status": "Questionable"
         }
       ],
       "game_date": "2026-11-22T18:00Z"
@@ -1638,43 +1626,43 @@
         {
           "name": "Isaiah Williams",
           "position": "WR",
-          "status": "Out"
-        },
-        {
-          "name": "Omar Cooper Jr.",
-          "position": "WR",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Trevin Wallace",
           "position": "LB",
-          "status": "Out"
+          "status": "Questionable"
+        },
+        {
+          "name": "Omar Cooper Jr.",
+          "position": "WR",
+          "status": "Questionable"
         }
       ],
       "opponent_injuries": [
         {
           "name": "Kendall Williamson",
           "position": "S",
-          "status": "Out"
+          "status": "Questionable"
+        },
+        {
+          "name": "Tarheeb Still",
+          "position": "CB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Brenen Thompson",
+          "position": "WR",
+          "status": "Questionable"
         },
         {
           "name": "Daiyan Henley",
           "position": "LB",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Justin Herbert",
           "position": "QB",
-          "status": "Questionable"
-        },
-        {
-          "name": "Akheem Mesidor",
-          "position": "LB",
-          "status": "Questionable"
-        },
-        {
-          "name": "Keaton Mitchell",
-          "position": "RB",
           "status": "Questionable"
         }
       ],
@@ -1693,27 +1681,37 @@
       "moneyline": 166,
       "own_injuries": [
         {
-          "name": "Jordan Addison",
-          "position": "WR",
-          "status": "Out"
-        },
-        {
-          "name": "Kyler Murray",
-          "position": "QB",
-          "status": "Out"
+          "name": "Isaiah Rodgers",
+          "position": "CB",
+          "status": "Questionable"
         },
         {
           "name": "Jay Ward",
           "position": "S",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
-          "name": "Isaiah Rodgers",
-          "position": "CB",
-          "status": "Out"
+          "name": "Kyler Murray",
+          "position": "QB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Jordan Addison",
+          "position": "WR",
+          "status": "Doubtful"
         }
       ],
       "opponent_injuries": [
+        {
+          "name": "Khalid Kareem",
+          "position": "DE",
+          "status": "Questionable"
+        },
+        {
+          "name": "Dre Greenlaw",
+          "position": "LB",
+          "status": "Questionable"
+        },
         {
           "name": "Colton McKivitz",
           "position": "OT",
@@ -1723,16 +1721,6 @@
           "name": "Deommodore Lenoir",
           "position": "CB",
           "status": "Questionable"
-        },
-        {
-          "name": "Dre Greenlaw",
-          "position": "LB",
-          "status": "Out"
-        },
-        {
-          "name": "Khalid Kareem",
-          "position": "DE",
-          "status": "Out"
         }
       ],
       "game_date": "2026-11-23T01:20Z"
@@ -1749,6 +1737,11 @@
       "market_prob": 0.3584698932926829,
       "moneyline": 168,
       "own_injuries": [
+        {
+          "name": "Smael Mondon Jr.",
+          "position": "LB",
+          "status": "Questionable"
+        },
         {
           "name": "Will Shipley",
           "position": "RB",
@@ -1768,23 +1761,23 @@
           "name": "Arnold Ebiketie",
           "position": "LB",
           "status": "Questionable"
-        },
-        {
-          "name": "Dallas Goedert",
-          "position": "TE",
-          "status": "Questionable"
         }
       ],
       "opponent_injuries": [
         {
-          "name": "Alex Highsmith",
-          "position": "LB",
-          "status": "Doubtful"
+          "name": "Ben Skowronek",
+          "position": "WR",
+          "status": "Questionable"
         },
         {
           "name": "Nick Herbig",
           "position": "LB",
-          "status": "Out"
+          "status": "Questionable"
+        },
+        {
+          "name": "Alex Highsmith",
+          "position": "LB",
+          "status": "Doubtful"
         }
       ],
       "game_date": "2026-11-22T18:00Z"
@@ -1802,8 +1795,8 @@
       "moneyline": 182,
       "own_injuries": [
         {
-          "name": "Jacob Parrish",
-          "position": "CB",
+          "name": "Antoine Winfield Jr.",
+          "position": "S",
           "status": "Questionable"
         },
         {
@@ -1812,26 +1805,36 @@
           "status": "Questionable"
         },
         {
-          "name": "Antoine Winfield Jr.",
-          "position": "S",
-          "status": "Out"
+          "name": "Benjamin Morrison",
+          "position": "CB",
+          "status": "Questionable"
         },
         {
-          "name": "Benjamin Morrison",
+          "name": "Jacob Parrish",
           "position": "CB",
           "status": "Questionable"
         }
       ],
       "opponent_injuries": [
         {
-          "name": "Ennis Rakestraw Jr.",
-          "position": "CB",
+          "name": "Skyler Gill-Howard",
+          "position": "DT",
           "status": "Out"
         },
         {
-          "name": "D.J. Reed",
+          "name": "Ennis Rakestraw Jr.",
           "position": "CB",
-          "status": "Out"
+          "status": "Questionable"
+        },
+        {
+          "name": "DJ Wonnum",
+          "position": "LB",
+          "status": "Questionable"
+        },
+        {
+          "name": "Chuck Clark",
+          "position": "S",
+          "status": "Questionable"
         }
       ],
       "game_date": "2026-11-22T18:00Z"
@@ -1847,33 +1850,27 @@
       "model_prob": null,
       "market_prob": 0.3089848632134426,
       "moneyline": 211,
-      "own_injuries": [
-        {
-          "name": "Greg Newsome II",
-          "position": "CB",
-          "status": "Out"
-        }
-      ],
+      "own_injuries": [],
       "opponent_injuries": [
-        {
-          "name": "Bhayshul Tuten",
-          "position": "RB",
-          "status": "Questionable"
-        },
         {
           "name": "Danny Striggow",
           "position": "DE",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Matt Dickerson",
           "position": "DE",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Robert Hainsey",
           "position": "C",
-          "status": "Out"
+          "status": "Questionable"
+        },
+        {
+          "name": "Bhayshul Tuten",
+          "position": "RB",
+          "status": "Questionable"
         },
         {
           "name": "Walker Little",
@@ -1890,57 +1887,27 @@
       "opponent": "Cincinnati Bengals",
       "opponent_abbr": "CIN",
       "is_home": true,
-      "combined_prob": 0.265789311889958,
-      "model_prob": 0.253,
-      "market_prob": 0.278578623779916,
-      "moneyline": 245,
+      "combined_prob": 0.28523367220068746,
+      "model_prob": null,
+      "market_prob": 0.28523367220068746,
+      "moneyline": 237,
       "own_injuries": [
         {
           "name": "Amik Robertson",
           "position": "CB",
-          "status": "Out"
-        },
-        {
-          "name": "Athan Kaliakmanis",
-          "position": "QB",
-          "status": "Out"
-        },
-        {
-          "name": "Tanoa Togiai",
-          "position": "G",
-          "status": "Out"
-        },
-        {
-          "name": "Robert Henry Jr.",
-          "position": "RB",
-          "status": "Out"
-        },
-        {
-          "name": "Ricky Barber",
-          "position": "DT",
-          "status": "Out"
+          "status": "Questionable"
         }
       ],
       "opponent_injuries": [
         {
-          "name": "Kyle Dugger",
-          "position": "S",
-          "status": "Out"
-        },
-        {
           "name": "Dalton Risner",
           "position": "G",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
-          "name": "Landon Robinson",
-          "position": "DT",
-          "status": "Out"
-        },
-        {
-          "name": "Cam Grandy",
-          "position": "TE",
-          "status": "Out"
+          "name": "Kyle Dugger",
+          "position": "S",
+          "status": "Questionable"
         }
       ],
       "game_date": "2026-11-24T01:15Z"
@@ -1957,6 +1924,11 @@
       "market_prob": 0.24209109381157837,
       "moneyline": 297,
       "own_injuries": [
+        {
+          "name": "Milo Eifler",
+          "position": "LB",
+          "status": "Questionable"
+        },
         {
           "name": "Dan Moore Jr.",
           "position": "OT",
@@ -1980,24 +1952,29 @@
       ],
       "opponent_injuries": [
         {
-          "name": "Jake Ferguson",
-          "position": "TE",
-          "status": "Out"
-        },
-        {
-          "name": "P.J. Locke",
-          "position": "S",
-          "status": "Out"
+          "name": "Dee Winters",
+          "position": "LB",
+          "status": "Questionable"
         },
         {
           "name": "Jonathan Mingo",
           "position": "WR",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
-          "name": "Tyler Booker",
-          "position": "G",
-          "status": "Out"
+          "name": "P.J. Locke",
+          "position": "S",
+          "status": "Questionable"
+        },
+        {
+          "name": "Jake Ferguson",
+          "position": "TE",
+          "status": "Doubtful"
+        },
+        {
+          "name": "Jaishawn Barham",
+          "position": "LB",
+          "status": "Questionable"
         }
       ],
       "game_date": "2026-11-22T18:00Z"
@@ -2017,12 +1994,12 @@
         {
           "name": "Tonka Hemingway",
           "position": "DT",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Brock Bowers",
           "position": "TE",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "JJ Pegues",
@@ -2044,7 +2021,7 @@
         {
           "name": "Brandon Jones",
           "position": "S",
-          "status": "Out"
+          "status": "Questionable"
         }
       ],
       "game_date": "2026-11-22T21:25Z"
@@ -2062,36 +2039,41 @@
       "moneyline": 505,
       "own_injuries": [
         {
-          "name": "Juwan Johnson",
-          "position": "TE",
-          "status": "Questionable"
-        },
-        {
           "name": "Asim Richards",
           "position": "OT",
-          "status": "Out"
+          "status": "Doubtful"
+        },
+        {
+          "name": "Pete Werner",
+          "position": "LB",
+          "status": "Questionable"
         },
         {
           "name": "Erik McCoy",
           "position": "C",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Martin Emerson Jr.",
           "position": "CB",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Taliese Fuaga",
           "position": "OT",
-          "status": "Out"
+          "status": "Questionable"
         }
       ],
       "opponent_injuries": [
         {
+          "name": "Elijah Hicks",
+          "position": "S",
+          "status": "Out"
+        },
+        {
           "name": "Kyler Gordon",
           "position": "CB",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Roschon Johnson",
@@ -2114,51 +2096,51 @@
       "moneyline": 531,
       "own_injuries": [
         {
-          "name": "Seth McGowan",
-          "position": "RB",
-          "status": "Out"
+          "name": "Bernhard Raimann",
+          "position": "OT",
+          "status": "Questionable"
         },
         {
           "name": "Jerry Tillery",
           "position": "DT",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Jalen Travis",
           "position": "OT",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Charvarius Ward",
           "position": "CB",
-          "status": "Out"
+          "status": "Questionable"
         }
       ],
       "opponent_injuries": [
         {
-          "name": "Woody Marks",
-          "position": "RB",
-          "status": "Out"
-        },
-        {
-          "name": "Chris Braswell",
-          "position": "DE",
-          "status": "Out"
-        },
-        {
           "name": "Wyatt Teller",
           "position": "G",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Brevin Jordan",
           "position": "TE",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Marvin Harrison Jr.",
           "position": "WR",
-          "status": "Out"
+          "status": "Questionable"
+        },
+        {
+          "name": "Danielle Hunter",
+          "position": "DE",
+          "status": "Questionable"
+        },
+        {
+          "name": "Woody Marks",
+          "position": "RB",
+          "status": "Questionable"
         }
       ],
       "game_date": "2026-11-20T01:15Z"
@@ -2178,12 +2160,12 @@
         {
           "name": "Jon Gaines II",
           "position": "G",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Carson Beck",
           "position": "QB",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Cody Simon",
@@ -2193,28 +2175,23 @@
       ],
       "opponent_injuries": [
         {
-          "name": "Noah Gray",
-          "position": "TE",
-          "status": "Questionable"
-        },
-        {
           "name": "Kenneth Walker III",
           "position": "RB",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Trey Smith",
           "position": "G",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Jaylon Moore",
           "position": "OT",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
-          "name": "Ben VanSumeren",
-          "position": "FB",
+          "name": "Omarr Norman-Lott",
+          "position": "DT",
           "status": "Questionable"
         }
       ],
@@ -2233,46 +2210,51 @@
       "moneyline": 930,
       "own_injuries": [
         {
-          "name": "JuJu Brents",
-          "position": "CB",
+          "name": "Jaylin Simpson",
+          "position": "S",
+          "status": "Questionable"
+        },
+        {
+          "name": "Dante Trader Jr.",
+          "position": "S",
           "status": "Questionable"
         },
         {
           "name": "Jared Wayne",
           "position": "WR",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Bradley Pinion",
           "position": "P",
-          "status": "Out"
+          "status": "Questionable"
         }
       ],
       "opponent_injuries": [
         {
-          "name": "Greg Rousseau",
+          "name": "Dalton Kincaid",
+          "position": "TE",
+          "status": "Questionable"
+        },
+        {
+          "name": "T.J. Sanders",
+          "position": "DT",
+          "status": "Questionable"
+        },
+        {
+          "name": "Dorian Williams",
           "position": "LB",
           "status": "Questionable"
         },
         {
-          "name": "Damar Hamlin",
-          "position": "S",
-          "status": "Questionable"
-        },
-        {
-          "name": "Spencer Brown",
-          "position": "OT",
+          "name": "Christian Benford",
+          "position": "CB",
           "status": "Questionable"
         },
         {
           "name": "O'Cyrus Torrence",
           "position": "G",
           "status": "Questionable"
-        },
-        {
-          "name": "Dalton Kincaid",
-          "position": "TE",
-          "status": "Out"
         }
       ],
       "game_date": "2026-11-22T18:00Z"
@@ -2292,46 +2274,51 @@
       "moneyline": -1660,
       "own_injuries": [
         {
-          "name": "Greg Rousseau",
+          "name": "Dalton Kincaid",
+          "position": "TE",
+          "status": "Questionable"
+        },
+        {
+          "name": "T.J. Sanders",
+          "position": "DT",
+          "status": "Questionable"
+        },
+        {
+          "name": "Dorian Williams",
           "position": "LB",
           "status": "Questionable"
         },
         {
-          "name": "Damar Hamlin",
-          "position": "S",
-          "status": "Questionable"
-        },
-        {
-          "name": "Spencer Brown",
-          "position": "OT",
+          "name": "Christian Benford",
+          "position": "CB",
           "status": "Questionable"
         },
         {
           "name": "O'Cyrus Torrence",
           "position": "G",
           "status": "Questionable"
-        },
-        {
-          "name": "Dalton Kincaid",
-          "position": "TE",
-          "status": "Out"
         }
       ],
       "opponent_injuries": [
         {
-          "name": "JuJu Brents",
-          "position": "CB",
+          "name": "Jaylin Simpson",
+          "position": "S",
+          "status": "Questionable"
+        },
+        {
+          "name": "Dante Trader Jr.",
+          "position": "S",
           "status": "Questionable"
         },
         {
           "name": "Jared Wayne",
           "position": "WR",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Bradley Pinion",
           "position": "P",
-          "status": "Out"
+          "status": "Questionable"
         }
       ],
       "game_date": "2026-11-22T18:00Z"
@@ -2349,28 +2336,23 @@
       "moneyline": -1400,
       "own_injuries": [
         {
-          "name": "Noah Gray",
-          "position": "TE",
-          "status": "Questionable"
-        },
-        {
           "name": "Kenneth Walker III",
           "position": "RB",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Trey Smith",
           "position": "G",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Jaylon Moore",
           "position": "OT",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
-          "name": "Ben VanSumeren",
-          "position": "FB",
+          "name": "Omarr Norman-Lott",
+          "position": "DT",
           "status": "Questionable"
         }
       ],
@@ -2378,12 +2360,12 @@
         {
           "name": "Jon Gaines II",
           "position": "G",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Carson Beck",
           "position": "QB",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Cody Simon",
@@ -2406,51 +2388,51 @@
       "moneyline": -750,
       "own_injuries": [
         {
-          "name": "Woody Marks",
-          "position": "RB",
-          "status": "Out"
-        },
-        {
-          "name": "Chris Braswell",
-          "position": "DE",
-          "status": "Out"
-        },
-        {
           "name": "Wyatt Teller",
           "position": "G",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Brevin Jordan",
           "position": "TE",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Marvin Harrison Jr.",
           "position": "WR",
-          "status": "Out"
+          "status": "Questionable"
+        },
+        {
+          "name": "Danielle Hunter",
+          "position": "DE",
+          "status": "Questionable"
+        },
+        {
+          "name": "Woody Marks",
+          "position": "RB",
+          "status": "Questionable"
         }
       ],
       "opponent_injuries": [
         {
-          "name": "Seth McGowan",
-          "position": "RB",
-          "status": "Out"
+          "name": "Bernhard Raimann",
+          "position": "OT",
+          "status": "Questionable"
         },
         {
           "name": "Jerry Tillery",
           "position": "DT",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Jalen Travis",
           "position": "OT",
-          "status": "Out"
+          "status": "Questionable"
         },
         {
           "name": "Charvarius Ward",
           "position": "CB",
-          "status": "Out"
+          "status": "Questionable"
         }
       ],
       "game_date": "2026-11-20T01:15Z"
